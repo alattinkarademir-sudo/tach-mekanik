@@ -1,0 +1,168 @@
+{
+  "menu": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "gallery": "Galeri",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+
+  "HeroSlider": {
+    "title": "TACH MEKANİK",
+    "subtitle": "Endüstriyel ve Yapısal Mekanik Sistemler",
+    "button": "Hizmetlerimiz"
+  },
+
+  "Hero": {
+    "year": "1987'DEN GÜNÜMÜZE",
+    "title": "Profesyonel",
+    "highlight": "Mekanik Tesisat Çözümleri",
+    "description": "Yangın söndürme, havalandırma, sıhhi tesisat, ısıtma-soğutma, VRF, medikal gaz sistemleri, altyapı ve endüstriyel mekanik tesisat alanlarında güvenilir, kaliteli ve profesyonel çözümler sunuyoruz.",
+    "services": "Hizmetlerimiz",
+    "contact": "İletişim"
+  },
+
+  "Gallery": {
+  "title": "Galeri",
+  "subtitle": "TACH MEKANİK Proje Uygulamaları",
+
+  "fire": "Yangın Söndürme Sistemleri",
+  "sanitary": "Sıhhi Tesisat Sistemleri",
+  "ventilation": "Havalandırma Sistemleri",
+  "hvac": "İklimlendirme Sistemleri",
+  "medical": "Medikal Gaz Sistemleri",
+  "booster": "Hidrofor Sistemleri",
+  "landscape": "Peyzaj Sulama Sistemleri",
+  "treatment": "Arıtma Sistemleri",
+  "infrastructure": "Alt Yapı Sistemleri",
+  "pool": "Havuz Sistemleri"
+},
+
+  "Services": {
+    "brand": "TACH MEKANİK",
+    "title": "Hizmetlerimiz",
+    "subtitle": "Mekanik tesisat projelerinde tasarımdan uygulamaya kadar tüm süreçlerde profesyonel çözümler sunuyoruz.",
+    "items": {
+      "project": {
+        "title": "Projelendirme",
+        "description": "Mekanik tesisat projelerinin ulusal ve uluslararası standartlara uygun olarak hazırlanması."
+      },
+      "exploration": {
+        "title": "Keşif Çıkarma",
+        "description": "Detaylı metraj, maliyet analizi ve uygulama öncesi keşif hizmetleri."
+      },
+      "plumbing": {
+        "title": "Sıhhi Tesisat Sistemleri",
+        "description": "Temiz su, atık su ve yağmur suyu tesisatlarının projelendirilmesi ve uygulanması."
+      },
+      "fire": {
+        "title": "Yangın Söndürme Sistemleri",
+        "description": "Sprinkler, yangın dolabı ve hidrant sistemlerinin kurulumu."
+      },
+      "ventilation": {
+        "title": "Havalandırma Sistemleri",
+        "description": "Endüstriyel ve ticari yapılara özel havalandırma çözümleri."
+      },
+      "hvac": {
+        "title": "Isıtma & Soğutma Sistemleri",
+        "description": "Enerji verimli iklimlendirme ve HVAC uygulamaları."
+      },
+      "vrf": {
+        "title": "VRF Sistemleri",
+        "description": "Modern binalar için yüksek verimli VRF klima sistemleri."
+      },
+      "medical": {
+        "title": "Medikal Gaz Sistemleri",
+        "description": "Hastaneler ve sağlık tesisleri için medikal gaz altyapıları."
+      },
+      "pool": {
+        "title": "Havuz Sistemleri",
+        "description": "Filtrasyon, sirkülasyon ve mekanik havuz sistemleri kurulumu."
+      },
+      "landscape": {
+        "title": "Peyzaj Sulama Sistemleri",
+        "description": "Otomatik sulama sistemleri ve çevre düzenleme altyapıları."
+      },
+      "treatment": {
+        "title": "Arıtma Sistemleri",
+        "description": "Su arıtma ve atık su arıtma sistemlerinin kurulumu."
+      },
+      "infrastructure": {
+        "title": "Alt Yapı Sistemleri",
+        "description": "Altyapı mekanik tesisat uygulamaları ve mühendislik çözümleri."
+      }
+    }
+  },
+"AboutPage": {
+  "hero": {
+    "title": "Hakkımızda",
+    "subtitle": "1987 yılından bu yana mekanik tesisat sektöründe güven, kalite ve mühendisliği bir araya getiriyoruz."
+  },
+
+  "intro": {
+    "year": "1987'DEN GÜNÜMÜZE",
+    "title": "Tecrübenin Gücüyle Geleceği İnşa Ediyoruz",
+    "text1": "TACH Mekanik'in temelleri, 1987 yılında mekanik tesisat sektöründe edinilen bilgi, tecrübe ve mühendislik anlayışı üzerine kurulmuştur. Kurulduğumuz ilk günden bu yana kalite, güvenilirlik ve müşteri memnuniyetini temel ilke edinerek; konutlardan endüstriyel tesislere, otellerden sağlık yapılarına, eğitim kurumlarından ticari projelere kadar birçok başarılı işe imza attık.",
+    "text2": "Sürekli gelişen teknolojiyi yakından takip ediyor, mekanik tesisat sistemlerinde uluslararası standartlara uygun, enerji verimliliğini ön planda tutan modern çözümler geliştiriyoruz. Her projeye aynı titizlikle yaklaşarak estetik, güvenlik, sürdürülebilirlik ve uzun ömürlü kullanım ilkelerini bir arada sunuyoruz.",
+    "text3": "Bugün 39 yılı aşkın sektör deneyimimizle yalnızca mekanik tesisat uygulayan bir firma değil; projelerine değer katan, mühendislik bakış açısıyla çözüm üreten güvenilir bir iş ortağı olmanın haklı gururunu yaşıyoruz."
+  },
+
+  "stats": {
+    "experience": "Yıllık Deneyim",
+    "projects": "Tamamlanan Proje",
+    "satisfaction": "Müşteri Memnuniyeti",
+    "support": "Teknik Destek"
+  },
+
+  "mission": {
+    "title": "Misyonumuz",
+    "text": "Mekanik tesisat alanında güvenilir, kaliteli ve sürdürülebilir çözümler sunarak müşterilerimizin beklentilerini en üst seviyede karşılamak; mühendislik ilkelerinden ödün vermeden her projeye değer katmak."
+  },
+
+  "vision": {
+    "title": "Vizyonumuz",
+    "text": "Yenilikçi teknolojileri takip eden, enerji verimliliğini esas alan, uluslararası standartlarda projeler üreten ve sektöründe güvenilirliğiyle örnek gösterilen lider firmalardan biri olmak."
+  },
+
+  "expertise": {
+    "title": "Uzmanlık Alanlarımız",
+
+    "items": {
+      "project": "Mekanik Tesisat Projelendirme",
+      "survey": "Keşif ve Maliyet Analizi",
+      "plumbing": "Sıhhi Tesisat Sistemleri",
+      "fire": "Yangın Söndürme Sistemleri",
+      "hvac": "HVAC Sistemleri",
+      "heating": "Isıtma ve Soğutma Sistemleri",
+      "ventilation": "Havalandırma Sistemleri",
+      "gas": "Doğal Gaz Tesisatları",
+      "consulting": "Teknik Danışmanlık"
+    }
+  },
+
+  "why": {
+    "title": "Neden TACH Mekanik?",
+    "text": "Yaklaşık kırk yıllık sektör tecrübemiz, uzman mühendis kadromuz, kaliteli malzeme anlayışımız ve zamanında teslim prensibimizle müşterilerimize uzun ömürlü mekanik tesisat çözümleri sunuyoruz. Her projeye ilk günkü heyecanımızla yaklaşırken güvenilirlik ve müşteri memnuniyetini en önemli değerimiz olarak görüyoruz."
+  }
+},
+  "About": {
+    "brand": "TACH MEKANİK",
+    "title": "Hakkımızda",
+    "heading": "1987'den Günümüze Güvenilir Mekanik Çözümler",
+    "text1": "TACH Mekanik, endüstriyel ve ticari yapılara yönelik mekanik tesisat sistemlerinde uzmanlaşmış, kaliteli ve güvenilir hizmet sunan bir mühendislik firmasıdır.",
+    "text2": "Yangın söndürme, havalandırma, sıhhi tesisat, HVAC, VRF, medikal gaz ve altyapı sistemlerinde proje, uygulama ve bakım hizmetleriyle müşterilerine anahtar teslim çözümler sunmaktadır.",
+    "experience": "Yıllık Deneyim",
+    "projects": "Tamamlanan Proje"
+  },
+
+  "Contact": {
+    "brand": "TACH MEKANİK",
+    "title": "İletişim",
+    "description": "Projeleriniz için bizimle iletişime geçin. Uzman ekibimiz en kısa sürede size dönüş sağlayacaktır.",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "address": "Adres"
+    
+  }
+}

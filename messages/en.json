@@ -1,0 +1,229 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "gallery": "Gallery",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "HeroSlider": {
+    "title": "TACH MECHANICAL",
+    "subtitle": "Industrial and Structural Mechanical Systems",
+    "button": "Our Services"
+  },
+
+  "Hero": {
+    "year": "SINCE 1987",
+    "title": "Professional",
+    "highlight": "Mechanical Installation Solutions",
+    "description": "We provide reliable, high-quality and professional solutions in fire protection, ventilation, plumbing, heating & cooling, VRF, medical gas systems, infrastructure and industrial mechanical installations.",
+    "services": "Our Services",
+    "contact": "Contact"
+  },
+
+  "Gallery": {
+  "title": "Gallery",
+  "subtitle": "TACH MECHANICAL Project Applications",
+
+  "fire": "Fire Protection Systems",
+  "sanitary": "Plumbing Systems",
+  "ventilation": "Ventilation Systems",
+  "hvac": "HVAC Systems",
+  "medical": "Medical Gas Systems",
+  "booster": "Booster Pump Systems",
+  "landscape": "Landscape Irrigation Systems",
+  "treatment": "Water Treatment Systems",
+  "infrastructure": "Infrastructure Systems",
+  "pool": "Swimming Pool Systems"
+},
+
+  "Services": {
+    "brand": "TACH MECHANICAL",
+    "title": "Our Services",
+    "subtitle": "We provide professional mechanical installation solutions from design to implementation for every stage of your projects.",
+
+    "items": {
+
+      "project": {
+        "title": "Mechanical Design",
+        "description": "Preparation of mechanical installation projects in accordance with national and international standards."
+      },
+
+      "exploration": {
+        "title": "Quantity Survey",
+        "description": "Detailed quantity take-off, cost analysis and pre-construction surveying services."
+      },
+
+      "plumbing": {
+        "title": "Plumbing Systems",
+        "description": "Design and installation of clean water, wastewater and rainwater systems."
+      },
+
+      "fire": {
+        "title": "Fire Protection Systems",
+        "description": "Installation of sprinkler, fire cabinet and hydrant systems."
+      },
+
+      "ventilation": {
+        "title": "Ventilation Systems",
+        "description": "Custom ventilation solutions for industrial and commercial buildings."
+      },
+
+      "hvac": {
+        "title": "Heating & Cooling Systems",
+        "description": "Energy-efficient HVAC and climate control solutions."
+      },
+
+      "vrf": {
+        "title": "VRF Systems",
+        "description": "High-efficiency VRF air conditioning systems for modern buildings."
+      },
+
+      "medical": {
+        "title": "Medical Gas Systems",
+        "description": "Medical gas infrastructure solutions for hospitals and healthcare facilities."
+      },
+
+      "pool": {
+        "title": "Swimming Pool Systems",
+        "description": "Installation of filtration, circulation and mechanical pool systems."
+      },
+
+      "landscape": {
+        "title": "Landscape Irrigation Systems",
+        "description": "Automatic irrigation systems and landscaping infrastructure."
+      },
+
+      "treatment": {
+        "title": "Water Treatment Systems",
+        "description": "Installation of water purification and wastewater treatment systems."
+      },
+
+      "infrastructure": {
+        "title": "Infrastructure Systems",
+        "description": "Mechanical infrastructure applications and engineering solutions."
+      }
+
+    }
+  },
+
+  "About": {
+    "brand": "TACH MECHANICAL",
+    "title": "About Us",
+    "heading": "Reliable Mechanical Solutions Since 1987",
+    "text1": "TACH Mechanical is an engineering company specialized in mechanical installation systems for industrial and commercial buildings, providing reliable and high-quality services.",
+    "text2": "We offer turnkey solutions in fire protection, ventilation, plumbing, HVAC, VRF, medical gas and infrastructure systems through design, implementation and maintenance services.",
+    "experience": "Years of Experience",
+    "projects": "Completed Projects"
+  },
+    "AboutPage": {
+    "hero": {
+      "title": "About Us",
+      "subtitle": "Since 1987, we have been combining trust, quality and engineering excellence in the mechanical installation industry."
+    },
+
+    "intro": {
+      "year": "SINCE 1987",
+      "title": "Building the Future with Experience",
+      "text1": "TACH Mechanical was founded on the knowledge, experience and engineering expertise gained in the mechanical installation sector since 1987. From the very beginning, we have adopted quality, reliability and customer satisfaction as our core principles, successfully completing projects ranging from residential buildings and industrial facilities to hotels, hospitals, educational institutions and commercial developments.",
+      "text2": "By closely following technological advancements, we develop modern mechanical installation solutions that comply with international standards while prioritizing energy efficiency. Every project is carried out with the same level of precision, combining aesthetics, safety, sustainability and long-lasting performance.",
+      "text3": "Today, with more than 39 years of industry experience, we are proud to be more than just a mechanical installation contractor. We are a trusted engineering partner that delivers value-driven, innovative and reliable solutions for every project."
+    },
+
+    "stats": {
+      "experience": "Years of Experience",
+      "projects": "Completed Projects",
+      "satisfaction": "Customer Satisfaction",
+      "support": "Technical Support"
+    },
+
+    "mission": {
+      "title": "Our Mission",
+      "text": "To deliver reliable, high-quality and sustainable mechanical installation solutions while exceeding customer expectations and adding value to every project through professional engineering principles."
+    },
+
+    "vision": {
+      "title": "Our Vision",
+      "text": "To become one of the leading engineering companies recognized for reliability, innovation and internationally compliant mechanical installation solutions focused on energy efficiency."
+    },
+
+    "expertise": {
+      "title": "Our Expertise",
+
+      "items": {
+        "project": "Mechanical Installation Design",
+        "survey": "Quantity Survey & Cost Analysis",
+        "plumbing": "Plumbing Systems",
+        "fire": "Fire Protection Systems",
+        "hvac": "HVAC Systems",
+        "heating": "Heating & Cooling Systems",
+        "ventilation": "Ventilation Systems",
+        "gas": "Natural Gas Systems",
+        "consulting": "Technical Consultancy"
+      }
+    },
+
+    "why": {
+      "title": "Why TACH Mechanical?",
+      "text": "With nearly four decades of industry experience, a highly qualified engineering team, premium-quality materials and an on-time delivery approach, we provide durable and reliable mechanical installation solutions. Customer satisfaction, trust and engineering excellence remain the foundation of every project we undertake."
+    }
+  },
+
+  "ProjectsPage": {
+    "title": "Our Projects",
+    "subtitle": "Since 1987, we have successfully delivered reliable mechanical installation solutions for industrial facilities, hospitals, hotels, commercial buildings and many other prestigious projects.",
+
+    "items": {
+      "industrial": {
+        "title": "Industrial Facilities",
+        "description": "Mechanical installation solutions for factories, production plants and industrial buildings."
+      },
+
+      "hospital": {
+        "title": "Hospitals",
+        "description": "HVAC, medical gas and plumbing systems for hospitals and healthcare facilities."
+      },
+
+      "hotel": {
+        "title": "Hotels",
+        "description": "Comfort-oriented, energy-efficient and sustainable mechanical solutions."
+      },
+
+      "business": {
+        "title": "Business Centers",
+        "description": "Mechanical installation systems for office buildings and commercial complexes."
+      },
+
+      "shopping": {
+        "title": "Shopping Centers",
+        "description": "High-capacity ventilation, fire protection and climate control systems."
+      },
+
+      "airport": {
+        "title": "Airports",
+        "description": "Mechanical engineering solutions for airport terminals and supporting facilities."
+      },
+
+      "education": {
+        "title": "Educational Buildings",
+        "description": "Modern mechanical systems for schools, universities and educational campuses."
+      },
+
+      "housing": {
+        "title": "Residential Projects",
+        "description": "Reliable mechanical infrastructure solutions for residential developments."
+      }
+    }
+  },
+
+  "Contact": {
+    "brand": "TACH MECHANICAL",
+    "title": "Contact",
+    "description": "Get in touch with us for your projects. Our experienced team will respond to your request as soon as possible.",
+    "phone": "Phone",
+    "email": "E-mail",
+    "address": "Address"
+  }
+}
