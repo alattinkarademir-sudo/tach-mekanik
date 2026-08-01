@@ -23,7 +23,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
 
           <div className="rounded-2xl border border-cyan-500/20 bg-zinc-900 p-8">
             <h3 className="text-2xl font-bold mb-6">
@@ -54,6 +54,20 @@ export default function Contact() {
               Yenşehir / Mersin / TÜRKİYE
             </p>
           </div>
+          <div className="rounded-2xl border border-cyan-500/20 bg-zinc-900 p-8">
+  <h3 className="text-2xl font-bold mb-6">
+    🌐 {t("website")}
+  </h3>
+
+  <a
+    href="https://www.tachmekanik.com.tr"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-300 text-lg hover:text-cyan-400 transition"
+  >
+    www.tachmekanik.com.tr
+  </a>
+</div>
 
         </div>
 

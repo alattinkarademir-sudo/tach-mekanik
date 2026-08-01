@@ -162,7 +162,8 @@
     "description": "Projeleriniz için bizimle iletişime geçin. Uzman ekibimiz en kısa sürede size dönüş sağlayacaktır.",
     "phone": "Telefon",
     "email": "E-posta",
-    "address": "Adres"
+    "address": "Adres",
+    "website": "Web Sitemiz"
     
   }
 }

@@ -224,6 +224,7 @@
     "description": "Get in touch with us for your projects. Our experienced team will respond to your request as soon as possible.",
     "phone": "Phone",
     "email": "E-mail",
-    "address": "Address"
+    "address": "Address",
+    "website": "Website"
   }
 }
