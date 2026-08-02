@@ -65,7 +65,7 @@ export default function Contact() {
     rel="noopener noreferrer"
     className="text-gray-300 text-lg hover:text-cyan-400 transition"
   >
-    www.tachmekanik.com.tr
+    www.tachmekanik.com.
   </a>
 </div>
 
