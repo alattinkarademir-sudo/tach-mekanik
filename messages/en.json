@@ -48,7 +48,7 @@
 
       "project": {
         "title": "Mechanical Design",
-        "description": "Preparation of mechanical installation projects in accordance with national and international standards."
+        "description": "At TACH MECHANICAL, we provide professional mechanical design solutions based on engineering principles, international standards and modern design approaches. We perform requirement analysis, site evaluations, technical assessments and detailed engineering calculations to create the most suitable system designs for each project. We develop reliable, energy-efficient and long-lasting solutions for plumbing systems, HVAC, fire protection, ventilation, industrial mechanical installations and specialized systems."
       },
 
       "exploration": {
@@ -226,5 +226,6 @@
     "email": "E-mail",
     "address": "Address",
     "website": "Website"
+  
   }
 }
