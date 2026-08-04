@@ -51,7 +51,7 @@ export default function Services() {
                 flex flex-col
                 rounded-2xl
                 border border-cyan-500/20
-                bg-white/5
+                bg-white
                 p-8
                 min-h-[320px]
                 transition-all
