@@ -68,42 +68,42 @@
 
       "ventilation": {
         "title": "Ventilation Systems",
-        "description": "Custom ventilation solutions for industrial and commercial buildings."
+        "description": "As TACH Mekanik, we design and implement high-performance ventilation systems for industrial facilities, hospitals, hotels, shopping malls, offices, and residential projects. With our expert engineering approach, we provide solutions that maximize fresh air circulation, indoor air quality, and energy efficiency. We create safe and comfortable environments with fresh air supply systems, exhaust systems, smoke extraction solutions, car park ventilation, heat recovery ventilation systems, and customized mechanical solutions for special projects. We professionally manage all processes including survey, engineering design, installation, testing, and commissioning to deliver long-lasting and efficient ventilation systems."
       },
 
       "hvac": {
         "title": "Heating & Cooling Systems",
-        "description": "Energy-efficient HVAC and climate control solutions."
+        "description": "As TACH Mekanik, we provide high-efficiency heating and cooling system solutions for residential projects, villas, hotels, hospitals, shopping malls, offices, and industrial facilities. We design and implement comfortable, energy-efficient climate control solutions including central heating systems, air conditioning systems, chillers, fan coil applications, boilers, heat pumps, and modern HVAC technologies according to project requirements. Our experienced engineering team professionally manages all processes including site surveys, capacity calculations, system design, equipment selection, installation, commissioning, and technical support. With the use of quality equipment, accurate engineering calculations, and precise installation methods, we create reliable, long-lasting mechanical systems that reduce operating costs and provide maximum comfort."
       },
 
       "vrf": {
         "title": "VRF Systems",
-        "description": "High-efficiency VRF air conditioning systems for modern buildings."
+        "description": "Компания TACH Mekanik предлагает высокоэффективные решения в области систем отопления и охлаждения для жилых проектов, вилл, отелей, больниц, торговых центров, офисов и промышленных объектов. Мы проектируем и реализуем современные системы климатизации, включая центральное отопление, кондиционирование воздуха, чиллерные системы, фанкойлы, котельные установки, тепловые насосы и другие HVAC-технологии, адаптированные под требования каждого проекта. Наша опытная инженерная команда профессионально выполняет все этапы работ: обследование объекта, расчёты мощности, проектирование, подбор оборудования, монтаж, ввод в эксплуатацию и техническое сопровождение. Используя качественное оборудование, точные инженерные расчёты и современные методы монтажа, мы создаём надёжные, долговечные и энергоэффективные механические системы, обеспечивающие высокий уровень комфорта."
       },
 
       "medical": {
         "title": "Medical Gas Systems",
-        "description": "Medical gas infrastructure solutions for hospitals and healthcare facilities."
+        "description": "As TACH Mekanik, we design and implement medical gas systems in accordance with international standards for hospitals, healthcare centers, clinics, and medical facilities. We provide safe, continuous, and high-performance solutions for medical gas infrastructures including oxygen, medical air, vacuum, nitrous oxide, carbon dioxide, and other medical gases. Our expert engineering team manages the entire process including project planning, system design, pipeline installation, control panels, alarm systems, terminal units, testing, and commissioning. By prioritizing patient safety, system reliability, and hygiene standards, we deliver professional medical gas solutions with high-quality materials and precise installation methods. TACH Mekanik provides reliable mechanical infrastructure solutions for healthcare facilities from design to completion."
       },
 
       "pool": {
         "title": "Swimming Pool Systems",
-        "description": "Installation of filtration, circulation and mechanical pool systems."
+        "description": "As TACH Mekanik, we design and implement modern pool mechanical systems for villas, hotels, residential complexes, sports facilities, and private projects. We provide professional solutions including pool filtration systems, circulation pumps, balance tanks, automation systems, water treatment solutions, and auxiliary mechanical equipment. According to the purpose and architectural features of each project, we develop energy-efficient, hygienic, and long-lasting system solutions. Our expert team professionally manages all processes including site surveys, hydraulic calculations, equipment selection, installation, testing, and commissioning. With high-quality materials and precise engineering applications, we ensure that pool systems operate continuously with clean, safe, and comfortable water conditions."
       },
 
       "landscape": {
         "title": "Landscape Irrigation Systems",
-        "description": "Automatic irrigation systems and landscaping infrastructure."
+        "description": "As TACH Mekanik, we design and implement modern landscape irrigation systems for residential projects, villas, hotels, residential complexes, parks, gardens, and commercial areas. We provide efficient automatic irrigation solutions including drip irrigation systems, sprinkler systems, pump groups, and smart control systems to ensure the effective and sustainable use of water resources. By considering the characteristics of the landscape, soil structure, and plant requirements, we develop energy-efficient and long-lasting irrigation solutions. Our professional team manages all processes including site surveys, system design, equipment selection, installation, testing, and commissioning. With high-quality materials and precise engineering solutions, we ensure the healthy maintenance of green areas and provide reliable, environmentally friendly, and cost-effective landscape irrigation systems."
       },
 
       "treatment": {
         "title": "Water Treatment Systems",
-        "description": "Installation of water purification and wastewater treatment systems."
+        "description": "As TACH Mekanik, we provide professional water treatment and wastewater treatment solutions for residential projects, villas, hotels, industrial facilities, and commercial buildings. We design and implement drinking water treatment systems, process water solutions, wastewater treatment systems, greywater recycling systems, and advanced filtration solutions according to project requirements. Our experienced engineering team professionally manages all processes including water analysis, capacity calculations, system design, equipment selection, installation, testing, and commissioning. By using energy-efficient technologies, high-quality equipment, and modern engineering methods, we create sustainable, reliable, and long-lasting treatment systems that contribute to efficient water resource management. TACH Mekanik provides comprehensive water treatment solutions with a professional approach at every stage of the project."
       },
 
       "infrastructure": {
         "title": "Infrastructure Systems",
-        "description": "Mechanical infrastructure applications and engineering solutions."
+       "description": "As TACH Mekanik, we provide reliable mechanical infrastructure solutions for residential projects, villas, hotels, residential complexes, commercial buildings, and large-scale construction projects. We design and implement clean water supply systems, wastewater systems, stormwater drainage infrastructure, building connection lines, and mechanical infrastructure applications according to project requirements. Our experienced engineering team professionally manages all processes including site surveys, hydraulic calculations, system design, material selection, installation, testing, and commissioning. With accurate engineering calculations, high-quality materials, and modern installation techniques, we create long-lasting, safe, and efficient infrastructure systems. TACH Mekanik is your reliable solution partner for mechanical infrastructure projects from the initial design stage to final completion."
       }
 
     }

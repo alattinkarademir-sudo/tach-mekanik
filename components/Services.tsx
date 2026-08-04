@@ -66,11 +66,11 @@ export default function Services() {
                 {service.icon}
               </div>
 
-              <h3 className="text-lg font-bold leading-6 min-h-[60px]">
+              <h3 className="text-lg font-bold text-gray-900 leading-6 min-h-[60px]">
                 {t(`items.${service.key}.title`)}
               </h3>
 
-              <p className="mt-4 text-sm text-gray-400 leading-6 flex-1">
+              <p className="mt-4 text-sm text-gray-600 leading-6 flex-1">
                 {t(`items.${service.key}.description`)}
               </p>
             </div>
