@@ -60,7 +60,7 @@ export default function Contact() {
   </h3>
 
   <a
-    href="https://www.tachmekanik.com.tr"
+    href="https://www.tachmekanik.com"
     target="_blank"
     rel="noopener noreferrer"
     className="text-gray-300 text-lg hover:text-cyan-400 transition"
