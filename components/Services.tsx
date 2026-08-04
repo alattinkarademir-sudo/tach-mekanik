@@ -48,12 +48,12 @@ export default function Services() {
             <div
               key={service.key}
               className="
-                flex flex-col
+                flex flex-row items-start gap-5
                 rounded-2xl
                 border border-cyan-500/20
                 bg-white
                 p-8
-                min-h-[320px]
+                min-h-[180px]
                 transition-all
                 duration-300
                 hover:-translate-y-2
@@ -62,7 +62,7 @@ export default function Services() {
                 hover:shadow-xl
               "
             >
-              <div className="text-5xl mb-6">
+              <div className="text-4xl shrink-0">
                 {service.icon}
               </div>
 
