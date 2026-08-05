@@ -41,7 +41,7 @@ export default function Contact() {
             </h3>
 
             <p className="text-gray-300 text-lg break-all">
-              mailto:info@tachmekanik.com
+              info@tachmekanik.com
             </p>
           </div>
 

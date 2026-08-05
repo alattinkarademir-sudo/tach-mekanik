@@ -54,7 +54,7 @@ export default function About() {
 
               <div className="rounded-xl bg-zinc-900 border border-cyan-500/20 p-6">
                 <h4 className="text-4xl font-bold text-orange-400">
-                  500+
+                  200+
                 </h4>
                 <p className="mt-2 text-gray-400">
                   {t("projects")}
