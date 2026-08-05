@@ -17,12 +17,12 @@ export default function HizmetlerPage() {
     { icon: "🏊", key: "pool" },
     { icon: "🌿", key: "landscape" },
     { icon: "💧", key: "treatment" },
-    { icon: "🚧", key: "infrastructure" }
+    { icon: "🚧", key: "infrastructure" },
   ];
 
   return (
     <main className="pt-36 bg-[#05070D] min-h-screen text-white">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="mx-auto max-w-7xl px-6">
 
         <div className="text-center mb-16">
 
@@ -30,37 +30,62 @@ export default function HizmetlerPage() {
             {t("brand")}
           </p>
 
-          <h1 className="mt-4 text-5xl font-bold">
+          <h1 className="mt-4 text-4xl md:text-5xl font-bold">
             {t("title")}
           </h1>
 
-          <p className="mt-6 text-gray-400 max-w-3xl mx-auto leading-8">
+          <p className="mt-6 max-w-3xl mx-auto text-gray-400 leading-8">
             {t("subtitle")}
           </p>
 
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+        <div className="grid gap-6 md:grid-cols-2">
 
           {services.map((service) => (
             <div
               key={service.key}
-              className="rounded-2xl border border-cyan-500/20 bg-white/5 p-8 hover:border-orange-400 hover:-translate-y-2 transition duration-300"
+              className="
+                flex
+                items-start
+                gap-5
+                rounded-2xl
+                border
+                border-gray-200
+                bg-white
+                p-6
+                min-h-[220px]
+                shadow-md
+                transition-all
+                duration-300
+                hover:-translate-y-1
+                hover:shadow-xl
+                hover:border-cyan-400
+              "
             >
-              <div className="text-5xl mb-6">
+
+              <div className="text-4xl shrink-0 pt-1">
                 {service.icon}
               </div>
 
-              <h2 className="text-2xl font-bold mb-4">
-                {t(`items.${service.key}.title`)}
-              </h2>
 
-              <p className="text-gray-400 leading-7">
-                {t(`items.${service.key}.description`)}
-              </p>
+              <div className="flex-1">
+
+                <h2 className="text-lg font-bold text-gray-900 leading-6">
+                  {t(`items.${service.key}.title`)}
+                </h2>
+
+                <p className="mt-3 text-sm text-gray-600 leading-6">
+                  {t(`items.${service.key}.description`)}
+                </p>
+
+              </div>
+
             </div>
           ))}
-                  </div>
+
+        </div>
 
       </div>
     </main>
