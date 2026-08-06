@@ -7,13 +7,24 @@ const images = [
   "/slides/hero1.png",
   "/slides/hero2.png",
   "/slides/hero3.png",
-  "/slides/hero11.png",
+  "/slides/hero4.png",
   "/slides/hero5.png",
   "/slides/hero6.png",
   "/slides/hero7.png",
   "/slides/hero8.png",
   "/slides/hero9.png",
   "/slides/hero10.png",
+  "/slides/hero11.png",
+  "/slides/hero12.png",
+  "/slides/hero13.png",
+  "/slides/hero14.png",
+  "/slides/hero15.png",
+  "/slides/hero16.png",
+  "/slides/hero17.png",
+  "/slides/hero18.png",
+  "/slides/hero19.png",
+  "/slides/hero20.png",
+
 ];
 
 export default function HeroSlider() {
@@ -36,7 +47,7 @@ export default function HeroSlider() {
         className="absolute inset-0 w-full h-full object-cover object-[center_25%]"
       />
 
-      <div className="absolute inset-0 bg-black/45"></div>
+      <div className="absolute inset-0 bg-[#054A8C]/45"></div>
 
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
