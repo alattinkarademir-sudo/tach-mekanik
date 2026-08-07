@@ -44,7 +44,7 @@ export default function HeroSlider() {
       <img
         src={images[current]}
         alt={`Slide ${current + 1}`}
-       className="absolute inset-0 w-full h-full object-cover object-[center_25%] scale-[0.97]"
+      className="absolute inset-0 w-full h-full object-cover object-[center_25%]"
       />
 
       <div className="absolute inset-0 bg-black/40"></div>
