@@ -21,41 +21,41 @@ export default function Services() {
   ];
 
   return (
-    <section
-      id="services"
-      className="bg-[#05070D] py-24 text-white"
-    >
-      <div className="mx-auto max-w-7xl px-6">
+  <section className="pt-0 pb-24 bg-[#242424]">
+
+    <div className="text-center mb-16">
+      
 
         <div className="text-center mb-16">
           <p className="text-cyan-400 uppercase tracking-[0.35em] font-semibold">
             {t("brand")}
           </p>
 
-          <h2 className="mt-4 text-4xl md:text-5xl font-bold">
+          <h2 className="mt-4 text-4xl md:text-5xl font-bold text-white">
             {t("title")}
           </h2>
 
-          <p className="mt-6 max-w-3xl mx-auto text-gray-400 leading-8">
+          <p className="mt-6 max-w-3xl mx-auto text-gray-300 text-lg md:text-xl leading-8">
             {t("subtitle")}
           </p>
         </div>
 
 
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid grid-cols-2 gap-6 max-w-[1950px] mx-auto">
 
           {services.map((service) => (
             <div
               key={service.key}
               className="
-                flex
+                flexs
                 items-start
                 gap-5
                 rounded-2xl
                 border
                 border-gray-200
                 bg-white
-                p-6
+                px-10
+                py-7
                 min-h-[220px]
                 shadow-md
                 transition-all
@@ -72,11 +72,11 @@ export default function Services() {
 
               <div className="flex-1">
 
-                <h3 className="text-lg font-bold text-gray-900 leading-6">
+                <h3 className="text-xl font-bold text-gray-900 leading-7">
                   {t(`items.${service.key}.title`)}
                 </h3>
 
-                <p className="mt-3 text-sm text-gray-600 leading-6">
+                <p className="mt-3 text-base text-gray-600 leading-7">
                   {t(`items.${service.key}.description`)}
                 </p>
 

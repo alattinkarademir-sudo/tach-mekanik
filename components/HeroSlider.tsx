@@ -48,7 +48,6 @@ export default function HeroSlider() {
       />
 
       <div className="absolute inset-0 bg-black/40"></div>
-
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
           {t("title")}

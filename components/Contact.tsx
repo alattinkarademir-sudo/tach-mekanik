@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="bg-black py-24 text-white"
+      className="bg-[#242424] py-24 text-white"
     >
       <div className="mx-auto max-w-7xl px-6">
 
@@ -18,44 +18,44 @@ export default function Contact() {
             {t("title")}
           </h2>
 
-          <p className="mt-6 text-gray-400 max-w-2xl mx-auto">
+          <p className="mt-6 text-gray-200 max-w-2xl mx-auto">
             {t("description")}
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
 
-          <div className="rounded-2xl border border-cyan-500/20 bg-zinc-900 p-8">
-            <h3 className="text-2xl font-bold mb-6">
+          <div className="rounded-2xl border border-cyan-500/20 bg-[#F5F5F5] p-8">
+            <h3 className="text-2xl font-bold mb-6 text-gray-900">
               📞 {t("phone")}
             </h3>
 
-            <p className="text-gray-300 text-lg">
+            <p className="text-gray-700 text-lg break-all">
               +90 553 235 93 33
             </p>
           </div>
 
-          <div className="rounded-2xl border border-cyan-500/20 bg-zinc-900 p-8">
-            <h3 className="text-2xl font-bold mb-6">
+          <div className="rounded-2xl border border-cyan-500/20 bg-[#F5F5F5] p-8">
+            <h3 className="text-2xl font-bold mb-6 text-gray-900">
               ✉️ {t("email")}
             </h3>
 
-            <p className="text-gray-300 text-lg break-all">
+            <p className="text-gray-700 text-lg break-all">
               info@tachmekanik.com
             </p>
           </div>
 
-          <div className="rounded-2xl border border-cyan-500/20 bg-zinc-900 p-8">
-            <h3 className="text-2xl font-bold mb-6">
+          <div className="rounded-2xl border border-cyan-500/20 bg-[#F5F5F5] p-8">
+            <h3 className="text-2xl font-bold mb-6 text-gray-900">
               📍 {t("address")}
             </h3>
 
-            <p className="text-gray-300 text-lg">
+            <p className="text-gray-700 text-lg break-all">
               Yenşehir / Mersin / TÜRKİYE
             </p>
           </div>
-          <div className="rounded-2xl border border-cyan-500/20 bg-zinc-900 p-8">
-  <h3 className="text-2xl font-bold mb-6">
+          <div className="rounded-2xl border border-cyan-500/20 bg-[#F5F5F5] p-8">
+  <h3 className="text-2xl font-bold mb-6 text-gray-900">
     🌐 {t("website")}
   </h3>
 
@@ -63,7 +63,7 @@ export default function Contact() {
     href="https://www.tachmekanik.com"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-gray-300 text-lg hover:text-cyan-400 transition"
+    className="text-gray-700 text-lg hover:text-cyan-400 transition"
   >
     www.tachmekanik.com
   </a>

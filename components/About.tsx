@@ -4,7 +4,7 @@ export default function About() {
 
 
   return (
-    <section id="about" className="bg-black py-24 text-white">
+    <section className="py-24 bg-[#242424]">
       <div className="mx-auto max-w-7xl px-6">
 
         <div className="text-center mb-16">
@@ -12,7 +12,7 @@ export default function About() {
             {t("brand")}
           </p>
 
-          <h2 className="mt-4 text-4xl md:text-5xl font-bold">
+          <h2 className="mt-4 text-4xl md:text-5xl font-bold text-white">
             {t("title")}
           </h2>
         </div>
@@ -29,7 +29,7 @@ export default function About() {
 
           <div>
 
-            <h3 className="text-3xl font-bold mb-8">
+            <h3 className="text-3xl font-bold mb-8 text-white">
               {t("heading")}
             </h3>
 
