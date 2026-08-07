@@ -1,8 +1,8 @@
 import HeroSlider from "@/components/HeroSlider";
 import About from "@/components/About";
 import Services from "@/components/Services";
-import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
+
 
 export default function HomePage() {
   return (
@@ -10,7 +10,6 @@ export default function HomePage() {
       <HeroSlider />
       <About />
       <Services />
-      <Gallery />
       <Contact />
     </main>
   );

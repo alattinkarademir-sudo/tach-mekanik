@@ -17,29 +17,18 @@ export default function About() {
           </h2>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-14 items-center">
+        <div className="max-w-5xl mx-auto">
 
-          <div>
-            <img
-              src="/about/about.jpg"
-              alt="TACH Mekanik"
-              className="rounded-2xl w-full h-[500px] object-cover"
-            />
-          </div>
-
+         
           <div>
 
-            <h3 className="text-3xl font-bold mb-8 text-white">
+           <h3 className="text-3xl font-bold mb-8 text-white text-center">
               {t("heading")}
             </h3>
 
-            <p className="text-gray-300 leading-8 mb-6">
+           <p className="text-gray-300 leading-8 mb-6 text-center">
               {t("text1")}
-            </p>
-
-            <p className="text-gray-300 leading-8 mb-10">
-              {t("text2")}
-            </p>
+          </p>
 
             <div className="grid grid-cols-2 gap-6">
 

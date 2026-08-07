@@ -40,18 +40,19 @@ export default function Navbar() {
             {t("services")}
           </Link>
 
-          <Link href={`/${locale}/#gallery`} className="hover:text-cyan-400 transition">
+          <Link href={`/${locale}/galeri`} className="hover:text-cyan-400 transition">
             {t("gallery")}
           </Link>
+           
 
           <Link href={`/${locale}/projeler`} className="hover:text-cyan-400 transition">
             {t("projects")}
           </Link>
 
-          <Link href={`/${locale}/#contact`} className="hover:text-cyan-400 transition">
-            {t("contact")}
+          <Link href={`/${locale}/iletisim`} className="hover:text-cyan-400 transition">
+           {t("contact")}
           </Link>
-
+            
         </nav>
 
         {/* Sağ Bölüm */}
@@ -133,7 +134,7 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href={`/${locale}/#gallery`}
+              href={`/${locale}/galeri`}
               onClick={() => setMobileMenuOpen(false)}
               className="px-6 py-4 text-white hover:bg-cyan-500/20 transition"
             >
@@ -149,7 +150,7 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href={`/${locale}/#contact`}
+              href={`/${locale}/iletisim`}
               onClick={() => setMobileMenuOpen(false)}
               className="px-6 py-4 text-white hover:bg-cyan-500/20 transition"
             >

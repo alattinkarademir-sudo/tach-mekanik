@@ -35,7 +35,7 @@ export default function Services() {
             {t("title")}
           </h2>
 
-          <p className="mt-6 max-w-3xl mx-auto text-gray-300 text-lg md:text-xl leading-8">
+          <p className="mt-6 max-w-3xl mx-auto text-gray-300 text-lg md:text-xl leading-2">
             {t("subtitle")}
           </p>
         </div>
