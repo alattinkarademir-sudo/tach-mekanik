@@ -40,9 +40,12 @@ export default function Contact() {
               ✉️ {t("email")}
             </h3>
 
-            <p className="text-gray-700 text-lg break-all">
-              info@tachmekanik.com
-            </p>
+            <a
+  href="mailto:info@tachmekanik.com"
+  className="text-gray-700 text-lg break-all hover:text-cyan-600 transition-colors"
+>
+  info@tachmekanik.com
+</a>
           </div>
 
           <div className="rounded-2xl border border-cyan-500/20 bg-[#F5F5F5] p-8">
