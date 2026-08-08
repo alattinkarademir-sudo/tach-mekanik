@@ -7,159 +7,421 @@ import { useLocale, useTranslations } from "next-intl";
 export default function Navbar() {
   const t = useTranslations("menu");
   const locale = useLocale();
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  return (
-    <header className="fixed top-0 left-0 right-0 z-[9999] bg-black/95 backdrop-blur-md border-b border-cyan-500/20">
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
 
-      {/* Üst Menü */}
-      <div className="w-full max-w-screen-2xl mx-auto flex items-center justify-between px-3 sm:px-4 md:px-8 lg:px-10 h-20 md:h-26">
+  return (
+    <header className="fixed left-0 top-0 z-50 w-full border-b border-white/10 bg-black/80 backdrop-blur-xl">
+
+      {/* ÜST NAVBAR */}
+      <div className="mx-auto flex h-16 max-w-screen-2xl items-center justify-between px-4 sm:h-20 sm:px-5 lg:h-24 lg:px-10">
 
         {/* LOGO */}
-        <Link href={`/${locale}`} className="flex items-center">
+        <Link
+          href={`/${locale}`}
+          onClick={closeMobileMenu}
+          className="flex shrink-0 items-center"
+        >
           <img
             src="/logo.png"
             alt="TACH MEKANİK"
-            className="h-16 md:h-20 lg:h-24 w-auto max-w-full object-contain"
+            className="h-11 w-auto object-contain sm:h-14 lg:h-[76px]"
             draggable={false}
           />
         </Link>
 
-        {/* Masaüstü Menü */}
-        <nav className="hidden lg:flex items-center gap-8 text-white font-medium">
+        {/* MASAÜSTÜ MENÜ */}
+        <nav className="hidden items-center gap-5 lg:flex xl:gap-8">
 
-          <Link href={`/${locale}`} className="hover:text-cyan-400 transition">
+          <Link
+            href={`/${locale}`}
+            className="whitespace-nowrap py-3 text-sm font-semibold text-white transition hover:text-cyan-400"
+          >
             {t("home")}
           </Link>
 
-          <Link href={`/${locale}/hakkimizda`} className="hover:text-cyan-400 transition">
+          <Link
+            href={`/${locale}/hakkimizda`}
+            className="whitespace-nowrap py-3 text-sm font-semibold text-white transition hover:text-cyan-400"
+          >
             {t("about")}
           </Link>
 
-          <Link href={`/${locale}/hizmetler`} className="hover:text-cyan-400 transition">
-            {t("services")}
-          </Link>
+          {/* HİZMETLER */}
+          <div className="group relative">
 
-          <Link href={`/${locale}/galeri`} className="hover:text-cyan-400 transition">
+            <Link
+              href={`/${locale}/hizmetler`}
+              className="flex items-center gap-1 whitespace-nowrap py-3 text-sm font-semibold text-white transition hover:text-cyan-400"
+            >
+              {t("services")}
+
+              <span className="text-xs transition-transform duration-300 group-hover:rotate-180">
+                ▾
+              </span>
+            </Link>
+
+            {/* HİZMETLER ALT MENÜSÜ */}
+            <div className="invisible absolute left-1/2 top-full z-50 mt-3 w-80 -translate-x-1/2 translate-y-2 rounded-xl border border-cyan-400/20 bg-black/95 p-2 opacity-0 shadow-2xl backdrop-blur-xl transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+
+              <Link
+                href={`/${locale}/projelendirme`}
+                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Projelendirme
+              </Link>
+
+              <Link
+                href={`/${locale}/kesif`}
+                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Keşif
+              </Link>
+
+              <Link
+                href={`/${locale}/sihhi-tesisat`}
+                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Sıhhi Tesisat
+              </Link>
+
+              <Link
+                href={`/${locale}/yangin-tesisat`}
+                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Yangın Tesisat
+              </Link>
+
+              <Link
+                href={`/${locale}/havalandirma-sistemleri`}
+                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Havalandırma
+              </Link>
+
+              <Link
+                href={`/${locale}/isitma-sogutma-sistemleri`}
+                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Isıtma Soğutma
+              </Link>
+
+              <Link
+                href={`/${locale}/vrf-sistemleri`}
+                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                VRF Sistemleri
+              </Link>
+
+              <Link
+                href={`/${locale}/medikal-gaz-sistemleri`}
+                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Medikal Gaz
+              </Link>
+
+              <Link
+                href={`/${locale}/yuzme-havuz-sistemleri`}
+                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Havuz Sistemleri
+              </Link>
+
+              <Link
+                href={`/${locale}/peyzaj-sulama-sistemleri`}
+                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Peyzaj
+              </Link>
+
+              <Link
+                href={`/${locale}/aritma-sistemleri`}
+                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Arıtma
+              </Link>
+
+              <Link
+                href={`/${locale}/altyapi-sistemleri`}
+                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Altyapı
+              </Link>
+
+            </div>
+          </div>
+
+          <Link
+            href={`/${locale}/galeri`}
+            className="whitespace-nowrap py-2 text-sm font-semibold text-white transition hover:text-cyan-400"
+          >
             {t("gallery")}
           </Link>
-           
 
-          <Link href={`/${locale}/projeler`} className="hover:text-cyan-400 transition">
+          <Link
+            href={`/${locale}/projeler`}
+            className="whitespace-nowrap py-2 text-sm font-semibold text-white transition hover:text-cyan-400"
+          >
             {t("projects")}
           </Link>
 
-          <Link href={`/${locale}/iletisim`} className="hover:text-cyan-400 transition">
-           {t("contact")}
+          <Link
+            href={`/${locale}/iletisim`}
+            className="whitespace-nowrap rounded-lg border border-cyan-400/40 px-4 py-2 text-sm font-semibold text-white transition hover:border-cyan-400 hover:bg-cyan-400/10 hover:text-cyan-300"
+          >
+            {t("contact")}
           </Link>
-            
+
         </nav>
 
-        {/* Sağ Bölüm */}
-        <div className="flex items-center gap-3">
+        {/* SAĞ TARAF */}
+        <div className="flex items-center gap-2 sm:gap-3 lg:gap-5">
 
-          {/* Mobil Menü Butonu */}
-          <button
-  onClick={() => {
-    console.log("Tiklandi");
-    setMobileMenuOpen((prev) => !prev);
-  }}
-  className="block lg:hidden p-2 text-white text-4xl z-50"
->
-  {mobileMenuOpen ? "✕" : "☰"}
-</button>
+          {/* DİLLER */}
+          <div className="flex items-center gap-1 sm:gap-2">
 
-          {/* Dil */}
-          <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
-
-            <Link href="/tr" className="flex items-center gap-1 hover:opacity-80 transition">
+            <Link
+              href="/tr"
+              className={`flex items-center gap-1 rounded-md px-1 py-1 transition sm:px-1.5 ${
+                locale === "tr"
+                  ? "bg-white/10 opacity-100"
+                  : "opacity-70 hover:opacity-100"
+              }`}
+            >
               <img
                 src="/flags/tr.png"
                 alt="Türkçe"
-                className="w-4 h-4 sm:w-5 sm:h-5 rounded-full"
+                className="h-5 w-5 rounded-full object-cover"
               />
-              <span className="hidden sm:inline text-white text-sm">TR</span>
+
+              <span className="hidden text-xs font-semibold text-white sm:inline">
+                TR
+              </span>
             </Link>
 
-            <Link href="/en" className="flex items-center gap-1 hover:opacity-80 transition">
+            <Link
+              href="/en"
+              className={`flex items-center gap-1 rounded-md px-1 py-1 transition sm:px-1.5 ${
+                locale === "en"
+                  ? "bg-white/10 opacity-100"
+                  : "opacity-70 hover:opacity-100"
+              }`}
+            >
               <img
                 src="/flags/en.png"
                 alt="English"
-                className="w-4 h-4 sm:w-5 sm:h-5 rounded-full"
+                className="h-5 w-5 rounded-full object-cover"
               />
-              <span className="hidden sm:inline text-white text-sm">EN</span>
+
+              <span className="hidden text-xs font-semibold text-white sm:inline">
+                EN
+              </span>
             </Link>
 
-            <Link href="/ru" className="flex items-center gap-1 hover:opacity-80 transition">
+            <Link
+              href="/ru"
+              className={`flex items-center gap-1 rounded-md px-1 py-1 transition sm:px-1.5 ${
+                locale === "ru"
+                  ? "bg-white/10 opacity-100"
+                  : "opacity-70 hover:opacity-100"
+              }`}
+            >
               <img
                 src="/flags/ru.png"
                 alt="Русский"
-                className="w-4 h-4 sm:w-5 sm:h-5 rounded-full"
+                className="h-5 w-5 rounded-full object-cover"
               />
-              <span className="hidden sm:inline text-white text-sm">RU</span>
+
+              <span className="hidden text-xs font-semibold text-white sm:inline">
+                RU
+              </span>
             </Link>
 
           </div>
 
+          {/* MOBİL BUTON */}
+          <button
+            type="button"
+            onClick={() => setMobileMenuOpen((prev) => !prev)}
+            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-white/10 bg-white/5 text-xl text-white transition hover:border-cyan-400/50 hover:bg-cyan-400/10 lg:hidden"
+            aria-label="Mobil menüyü aç/kapat"
+            aria-expanded={mobileMenuOpen}
+          >
+            {mobileMenuOpen ? "×" : "☰"}
+          </button>
+
         </div>
-
       </div>
-            {/* Mobil Menü */}
-      {mobileMenuOpen && (
-        <div className="lg:hidden bg-black border-t border-cyan-500/20 shadow-xl">
-          <nav className="flex flex-col">
 
-            <Link
-              href={`/${locale}`}
-              onClick={() => setMobileMenuOpen(false)}
-              className="px-6 py-4 text-white hover:bg-cyan-500/20 transition"
-            >
-              {t("home")}
-            </Link>
+      {/* MOBİL MENÜ */}
+      <div
+        className={`overflow-hidden border-t border-white/10 bg-black/95 transition-all duration-300 lg:hidden ${
+          mobileMenuOpen
+            ? "max-h-[calc(100vh-4rem)] overflow-y-auto opacity-100"
+            : "max-h-0 opacity-0"
+        }`}
+      >
 
-            <Link
-              href={`/${locale}/hakkimizda`}
-              onClick={() => setMobileMenuOpen(false)}
-              className="px-6 py-4 text-white hover:bg-cyan-500/20 transition"
-            >
-              {t("about")}
-            </Link>
+        <nav className="mx-auto flex max-w-screen-2xl flex-col px-3 py-1 sm:px-5">
+
+          <Link
+            href={`/${locale}`}
+            onClick={closeMobileMenu}
+            className="rounded-lg px-3 py-3 font-medium text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+          >
+            {t("home")}
+          </Link>
+
+          <Link
+            href={`/${locale}/hakkimizda`}
+            onClick={closeMobileMenu}
+            className="rounded-lg px-3 py-3 font-medium text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+          >
+            {t("about")}
+          </Link>
+
+          {/* MOBİL HİZMETLER */}
+          <div className="border-t border-white/5 pt-1">
 
             <Link
               href={`/${locale}/hizmetler`}
-              onClick={() => setMobileMenuOpen(false)}
-              className="px-6 py-4 text-white hover:bg-cyan-500/20 transition"
+              onClick={closeMobileMenu}
+              className="block rounded-lg px-3 py-2 font-medium text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
             >
               {t("services")}
             </Link>
 
-            <Link
-              href={`/${locale}/galeri`}
-              onClick={() => setMobileMenuOpen(false)}
-              className="px-6 py-4 text-white hover:bg-cyan-500/20 transition"
-            >
-              {t("gallery")}
-            </Link>
+            <div className="ml-3 grid grid-cols-2 border-l border-cyan-400/20 pl-2">
 
-            <Link
-              href={`/${locale}/projeler`}
-              onClick={() => setMobileMenuOpen(false)}
-              className="px-6 py-4 text-white hover:bg-cyan-500/20 transition"
-            >
-              {t("projects")}
-            </Link>
+              <Link
+                href={`/${locale}/projelendirme`}
+                onClick={closeMobileMenu}
+                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Projelendirme
+              </Link>
 
-            <Link
-              href={`/${locale}/iletisim`}
-              onClick={() => setMobileMenuOpen(false)}
-              className="px-6 py-4 text-white hover:bg-cyan-500/20 transition"
-            >
-              {t("contact")}
-            </Link>
+              <Link
+                href={`/${locale}/kesif`}
+                onClick={closeMobileMenu}
+                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Keşif
+              </Link>
 
-          </nav>
-        </div>
-      )}
+              <Link
+                href={`/${locale}/sihhi-tesisat`}
+                onClick={closeMobileMenu}
+                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Sıhhi Tesisat
+              </Link>
+
+              <Link
+                href={`/${locale}/yangin-tesisat`}
+                onClick={closeMobileMenu}
+                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Yangın Tesisat
+              </Link>
+
+              <Link
+                href={`/${locale}/havalandirma-sistemleri`}
+                onClick={closeMobileMenu}
+                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Havalandırma
+              </Link>
+
+              <Link
+                href={`/${locale}/isitma-sogutma-sistemleri`}
+                onClick={closeMobileMenu}
+                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Isıtma Soğutma
+              </Link>
+
+              <Link
+                href={`/${locale}/vrf-sistemleri`}
+                onClick={closeMobileMenu}
+                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                VRF Sistemleri
+              </Link>
+
+              <Link
+                href={`/${locale}/medikal-gaz-sistemleri`}
+                onClick={closeMobileMenu}
+                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Medikal Gaz
+              </Link>
+
+              <Link
+                href={`/${locale}/yuzme-havuz-sistemleri`}
+                onClick={closeMobileMenu}
+                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Havuz Sistemleri
+              </Link>
+
+              <Link
+                href={`/${locale}/peyzaj-sulama-sistemleri`}
+                onClick={closeMobileMenu}
+                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Peyzaj
+              </Link>
+
+              <Link
+                href={`/${locale}/aritma-sistemleri`}
+                onClick={closeMobileMenu}
+                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Arıtma
+              </Link>
+
+              <Link
+                href={`/${locale}/altyapi-sistemleri`}
+                onClick={closeMobileMenu}
+                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+              >
+                Altyapı
+              </Link>
+
+            </div>
+          </div>
+
+          <Link
+            href={`/${locale}/galeri`}
+            onClick={closeMobileMenu}
+            className="rounded-lg px-3 py-3 font-medium text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+          >
+            {t("gallery")}
+          </Link>
+
+          <Link
+            href={`/${locale}/projeler`}
+            onClick={closeMobileMenu}
+            className="rounded-lg px-3 py-3 font-medium text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+          >
+            {t("projects")}
+          </Link>
+
+          <Link
+            href={`/${locale}/iletisim`}
+            onClick={closeMobileMenu}
+            className="mt-0.5 rounded-lg border border-cyan-400/30 px-3 py-2.5 font-semibold text-cyan-300 transition hover:bg-cyan-400/10"
+          >
+            {t("contact")}
+          </Link>
+
+        </nav>
+      </div>
 
     </header>
   );

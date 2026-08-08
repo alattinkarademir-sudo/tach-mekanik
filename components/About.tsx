@@ -4,7 +4,7 @@ export default function About() {
 
 
   return (
-    <section className="py-24 bg-[#242424]">
+    <section className="py-24 bg-cc">
       <div className="mx-auto max-w-7xl px-6">
 
         <div className="text-center mb-16">
