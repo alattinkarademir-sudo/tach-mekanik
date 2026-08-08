@@ -16,7 +16,7 @@ export default function GalleryGrid({
   onImageClick,
 }: GalleryGridProps) {
   return (
-    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <div className="w-full grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-1">
       {projects.map((project, index) => (
         <div
           key={index}
@@ -38,8 +38,9 @@ export default function GalleryGrid({
             src={project.image}
             alt={project.title}
             className="
-              h-72
+              block
               w-full
+              h-72
               object-cover
               group-hover:scale-110
               transition-transform

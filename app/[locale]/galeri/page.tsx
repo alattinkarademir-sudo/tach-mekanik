@@ -92,7 +92,7 @@ export default function Galeri() {
           Galeri
         </h1>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 gap-1">
 
           {projects.map((project, index) => (
             <div
@@ -104,7 +104,7 @@ export default function Galeri() {
                 alt={project.title}
                 width={800}
                 height={600}
-                className="w-full h-[400px] object-cover"
+                className="w-full h-[250px] object-cover"
               />
             </div>
           ))}

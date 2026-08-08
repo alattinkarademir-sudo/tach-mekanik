@@ -117,7 +117,7 @@ export default function Gallery() {
   };
     return (
     <section id="gallery" className="pt-0 pb-0 bg-[#242424]">
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="w-full px-0">
         <GalleryFilter
           selected={selectedCategory}
           onSelect={(category) => {
