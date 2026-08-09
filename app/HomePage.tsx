@@ -1,9 +1,13 @@
+"use client";
 
 import HeroSlider from "@/components/HeroSlider";
+import { useTranslations } from "next-intl";
 
 export default function HomePage() {
+  const t = useTranslations("HomePage");
+
   return (
-    <main className="pt-20 md:pt-24">
+    <>
       <HeroSlider />
 
       <section className="bg-[#242424] px-6 py-20 md:py-28">
@@ -14,23 +18,19 @@ export default function HomePage() {
           </p>
 
           <h2 className="mb-8 text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl">
-            Mühendislik, Tecrübe ve Güven
+            {t("title")}
           </h2>
 
           <p className="mx-auto max-w-3xl text-base leading-8 text-white sm:text-lg">
-            Mekanik tesisatın yalnızca bir uygulama değil, doğru planlama ve
-            mühendislik gerektiren kapsamlı bir süreç olduğuna inanıyoruz.
+            {t("paragraph1")}
           </p>
 
           <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-white sm:text-lg">
-            Projenin ilk aşamasından uygulama ve teslim sürecine kadar; teknik
-            detayları, kaliteyi ve uzun vadeli performansı ön planda tutuyoruz.
+            {t("paragraph2")}
           </p>
 
           <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-white sm:text-lg">
-            Her projeye kendi ihtiyaçları doğrultusunda yaklaşarak, işlevsel,
-            güvenilir ve sürdürülebilir mekanik sistemler oluşturmayı
-            hedefliyoruz.
+            {t("paragraph3")}
           </p>
 
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-3">
@@ -40,25 +40,25 @@ export default function HomePage() {
                 39+
               </div>
               <div className="mt-2 text-sm text-gray-200">
-                Yıl Tecrübe
+                {t("experience")}
               </div>
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-white/[0.03] px-6 py-8">
               <div className="text-xl font-bold text-cyan-300">
-                Profesyonel
+                {t("professional")}
               </div>
               <div className="mt-2 text-sm text-gray-200">
-                Mühendislik
+                {t("engineering")}
               </div>
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-white/[0.03] px-6 py-8">
               <div className="text-xl font-bold text-cyan-300">
-                Güvenilir
+                {t("reliable")}
               </div>
               <div className="mt-2 text-sm text-gray-200">
-                Mekanik Çözümler
+                {t("mechanicalSolutions")}
               </div>
             </div>
 
@@ -66,6 +66,6 @@ export default function HomePage() {
 
         </div>
       </section>
-    </main>
+    </>
   );
 }

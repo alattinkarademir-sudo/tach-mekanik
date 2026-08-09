@@ -180,5 +180,16 @@
     "address": "Adres",
     "website": "Web Sitemiz"
     
-  }
+  },
+  "HomePage": {
+  "title": "Mühendislik, Tecrübe ve Güven",
+  "paragraph1": "Mekanik tesisatın yalnızca bir uygulama değil, doğru planlama ve mühendislik gerektiren kapsamlı bir süreç olduğuna inanıyoruz.",
+  "paragraph2": "Projenin ilk aşamasından uygulama ve teslim sürecine kadar; teknik detayları, kaliteyi ve uzun vadeli performansı ön planda tutuyoruz.",
+  "paragraph3": "Her projeye kendi ihtiyaçları doğrultusunda yaklaşarak, işlevsel, güvenilir ve sürdürülebilir mekanik sistemler oluşturmayı hedefliyoruz.",
+  "experience": "Yıl Tecrübe",
+  "professional": "Profesyonel",
+  "engineering": "Mühendislik",
+  "reliable": "Güvenilir",
+  "mechanicalSolutions": "Mekanik Çözümler"
+}
 }
