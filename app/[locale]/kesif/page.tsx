@@ -18,27 +18,28 @@ export default function KesifPage() {
   ];
 
   return (
-    <main>
-      <div className="mx-auto w-full max-w-[1600px] px-6 py-24 text-center md:px-10 lg:px-16">
-
-        <header className="mb-50">
-  <p className="font-semibold uppercase tracking-[0.35em] text-cyan-600">
+    <main
+      className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
+      style={{ backgroundColor: "#242424" }}
+    >
+      <header className="mb-50">
+  <p className="font-semibold uppercase tracking-[0.35em] text-cyan-200">
     TACH MEKANİK
   </p>
 
-  <h1 className="mt-5 text-5xl font-bold text-slate-600 md:text-6xl lg:text-8xl">
+  <h1 className="mt-5 text-5xl font-bold text-slate-200 md:text-6xl lg:text-6xl">
     KEŞİF
   </h1>
 
-  <div className="mx-auto mt-6 h-1 w-24 bg-cyan-500" />
+  <div className="mx-auto mt-6 h-1 w-24 bg-cyan-200" />
 </header>
 
 <section>
-  <h2 className="text-3xl font-bold text-slate-400 md:text-4xl lg:text-5xl">
+  <h2 className="text-3xl font-bold text-slate-200 md:text-4xl lg:text-5xl">
     Profesyonel Mekanik Tesisat Keşif Hizmeti
   </h2>
 
-          <p className="mx-auto mt-8 max-w-[1400px] text-lg leading-9 text-gray-600 md:text-xl">
+          <p className="mx-auto mt-8 max-w-[1400px] text-lg leading-9 text-gray-200 md:text-xl">
             TACH MEKANİK olarak, mekanik tesisat uygulamalarının doğru
             planlanması için keşif çalışmalarını titizlikle gerçekleştiriyoruz.
             Yapının mevcut durumunu, kullanım amacını ve teknik ihtiyaçlarını
@@ -46,7 +47,7 @@ export default function KesifPage() {
             oluşturuyoruz.
           </p>
 
-          <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-gray-600 md:text-xl">
+          <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-gray-200 md:text-xl">
             Keşif sürecinde yalnızca mevcut sistemi incelemekle kalmıyor;
             proje, uygulama ve işletme aşamalarında karşılaşılabilecek teknik
             ihtiyaçları önceden belirleyerek doğru malzeme, ekipman ve sistem
@@ -59,7 +60,7 @@ export default function KesifPage() {
             Keşif Çalışmalarımız
           </h2>
 
-          <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-gray-600 md:text-xl">
+          <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-gray-200 md:text-xl">
             Her yapıyı kendi özellikleri doğrultusunda değerlendiriyor,
             mekanik tesisat sistemlerinin ihtiyaçlarını detaylı şekilde
             analiz ediyoruz.
@@ -91,14 +92,14 @@ export default function KesifPage() {
               Doğru Keşif, Doğru Planlama
             </h2>
 
-            <p className="mt-8 text-lg leading-9 text-gray-600 md:text-xl">
+            <p className="mt-8 text-lg leading-9 text-gray-200 md:text-xl">
               Sağlıklı bir mekanik tesisat uygulamasının ilk adımlarından biri
               doğru keşif çalışmasıdır. Yerinde yapılan detaylı incelemeler,
               uygulama sırasında oluşabilecek belirsizliklerin ve gereksiz
               maliyetlerin önüne geçilmesine yardımcı olur.
             </p>
 
-            <p className="mt-6 text-lg leading-9 text-gray-600 md:text-xl">
+            <p className="mt-6 text-lg leading-9 text-gray-200 md:text-xl">
               TACH MEKANİK olarak keşif sürecinde elde edilen teknik verileri
               değerlendirerek projelendirme ve uygulama aşamalarına doğru
               şekilde aktarılmasını sağlıyoruz. Böylece zaman, malzeme ve
@@ -116,14 +117,12 @@ export default function KesifPage() {
             Yerinde İnceleme, Doğru Tespit, Güvenilir Çözüm
           </h2>
 
-          <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-gray-600 md:text-xl">
+          <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-gray-200 md:text-xl">
             Her projeye doğru keşif ve doğru teknik değerlendirme ile
             başlıyor, ihtiyaçlara uygun mekanik tesisat çözümleri
             geliştiriyoruz.
           </p>
-        </section>
-
-      </div>
-    </main>
-  );
+         </section>
+  </main>
+);
 }
