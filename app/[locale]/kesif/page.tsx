@@ -1,20 +1,23 @@
-
 "use client";
 
+import { useTranslations } from "next-intl";
+
 export default function KesifPage() {
+  const t = useTranslations("ExplorationPage");
+
   const kesifler = [
-    "Mevcut mekanik tesisat sistemlerinin incelenmesi",
-    "Yapının teknik ve mimari durumunun değerlendirilmesi",
-    "Isıtma ve soğutma sistemlerinin incelenmesi",
-    "Sıhhi tesisat ihtiyaçlarının belirlenmesi",
-    "Yangın tesisatı ihtiyaçlarının değerlendirilmesi",
-    "Havalandırma sistemlerinin incelenmesi",
-    "VRF sistemleri için teknik değerlendirme",
-    "Medikal gaz tesisatı ihtiyaçlarının belirlenmesi",
-    "Mekanik cihaz ve ekipmanların kontrolü",
-    "Boru ve kanal güzergâhlarının değerlendirilmesi",
-    "Kapasite ve debi ihtiyaçlarının belirlenmesi",
-    "Uygulama için gerekli malzeme ve ekipmanların tespiti",
+    t("items.existing"),
+    t("items.architectural"),
+    t("items.heatingCooling"),
+    t("items.plumbing"),
+    t("items.fire"),
+    t("items.ventilation"),
+    t("items.vrf"),
+    t("items.medical"),
+    t("items.equipment"),
+    t("items.piping"),
+    t("items.capacity"),
+    t("items.materials"),
   ];
 
   return (
@@ -22,48 +25,43 @@ export default function KesifPage() {
       className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
       style={{ backgroundColor: "#242424" }}
     >
-      <header className="mb-50">
-  <p className="font-semibold uppercase tracking-[0.35em] text-cyan-200">
-    TACH MEKANİK
-  </p>
+      <div className="mx-auto max-w-[1400px]">
+        {/* Başlık */}
+        <header className="mb-20">
+          <p className="text-cyan-400 uppercase tracking-[0.35em] font-semibold">
+            {t("brand")}
+          </p>
 
-  <h1 className="mt-5 text-5xl font-bold text-slate-200 md:text-6xl lg:text-6xl">
-    KEŞİF
-  </h1>
+          <h1 className="mt-5 text-2xl font-bold text-white md:text-3xl lg:text-4xl">
+            {t("title")}
+          </h1>
 
-  <div className="mx-auto mt-6 h-1 w-24 bg-cyan-200" />
-</header>
+          <div className="mt-6 h-1 w-24 bg-cyan-400" />
+        </header>
 
-<section>
-  <h2 className="text-3xl font-bold text-slate-200 md:text-4xl lg:text-5xl">
-    Profesyonel Mekanik Tesisat Keşif Hizmeti
-  </h2>
+        {/* Ana açıklama */}
+        <section>
+          <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+            {t("heading")}
+          </h2>
 
           <p className="mx-auto mt-8 max-w-[1400px] text-lg leading-9 text-gray-200 md:text-xl">
-            TACH MEKANİK olarak, mekanik tesisat uygulamalarının doğru
-            planlanması için keşif çalışmalarını titizlikle gerçekleştiriyoruz.
-            Yapının mevcut durumunu, kullanım amacını ve teknik ihtiyaçlarını
-            yerinde değerlendirerek uygulanabilir ve güvenilir çözümler
-            oluşturuyoruz.
+            {t("intro1")}
           </p>
 
           <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-gray-200 md:text-xl">
-            Keşif sürecinde yalnızca mevcut sistemi incelemekle kalmıyor;
-            proje, uygulama ve işletme aşamalarında karşılaşılabilecek teknik
-            ihtiyaçları önceden belirleyerek doğru malzeme, ekipman ve sistem
-            seçiminin yapılmasına yardımcı oluyoruz.
+            {t("intro2")}
           </p>
         </section>
 
+        {/* Keşif çalışmaları */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Keşif Çalışmalarımız
+            {t("scopeTitle")}
           </h2>
 
           <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-gray-200 md:text-xl">
-            Her yapıyı kendi özellikleri doğrultusunda değerlendiriyor,
-            mekanik tesisat sistemlerinin ihtiyaçlarını detaylı şekilde
-            analiz ediyoruz.
+            {t("scopeText")}
           </p>
 
           <div className="mx-auto mt-12 grid max-w-[1400px] grid-cols-1 gap-6 md:grid-cols-2">
@@ -86,43 +84,38 @@ export default function KesifPage() {
           </div>
         </section>
 
+        {/* Doğru keşif */}
         <section className="mx-auto mt-28 max-w-[1400px] text-center">
           <div className="border-l-2 border-cyan-400 pl-6 md:pl-10">
             <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-              Doğru Keşif, Doğru Planlama
+              {t("correctTitle")}
             </h2>
 
             <p className="mt-8 text-lg leading-9 text-gray-200 md:text-xl">
-              Sağlıklı bir mekanik tesisat uygulamasının ilk adımlarından biri
-              doğru keşif çalışmasıdır. Yerinde yapılan detaylı incelemeler,
-              uygulama sırasında oluşabilecek belirsizliklerin ve gereksiz
-              maliyetlerin önüne geçilmesine yardımcı olur.
+              {t("correctText1")}
             </p>
 
             <p className="mt-6 text-lg leading-9 text-gray-200 md:text-xl">
-              TACH MEKANİK olarak keşif sürecinde elde edilen teknik verileri
-              değerlendirerek projelendirme ve uygulama aşamalarına doğru
-              şekilde aktarılmasını sağlıyoruz. Böylece zaman, malzeme ve
-              işçilik açısından daha verimli çözümler oluşturuyoruz.
+              {t("correctText2")}
             </p>
           </div>
         </section>
 
+        {/* Son bölüm */}
         <section className="mt-28 border-t border-white/10 pb-20 pt-14">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
-            TACH MEKANİK
+            {t("brand")}
           </p>
 
           <h2 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Yerinde İnceleme, Doğru Tespit, Güvenilir Çözüm
+            {t("finalTitle")}
           </h2>
 
           <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-gray-200 md:text-xl">
-            Her projeye doğru keşif ve doğru teknik değerlendirme ile
-            başlıyor, ihtiyaçlara uygun mekanik tesisat çözümleri
-            geliştiriyoruz.
+            {t("finalText")}
           </p>
-         </section>
-  </main>
-);
+        </section>
+      </div>
+    </main>
+  );
 }

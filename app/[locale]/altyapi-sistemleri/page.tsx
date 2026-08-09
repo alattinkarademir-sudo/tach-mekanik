@@ -1,13 +1,31 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 export default function AltyapiSistemleriPage() {
+  const t = useTranslations("InfrastructurePage");
+
+  const systems = [
+    t("systems.1"),
+    t("systems.2"),
+    t("systems.3"),
+    t("systems.4"),
+    t("systems.5"),
+    t("systems.6"),
+    t("systems.7"),
+    t("systems.8"),
+    t("systems.9"),
+    t("systems.10"),
+    t("systems.11"),
+    t("systems.12"),
+  ];
+
   return (
     <main
       className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
       style={{ backgroundColor: "#242424" }}
     >
-      <div className="mx-auto max-w-[1500px]">
-
+      <div>
         {/* Başlık */}
         <header className="mb-20">
           <p className="font-semibold uppercase tracking-[0.35em] text-cyan-400">
@@ -15,7 +33,7 @@ export default function AltyapiSistemleriPage() {
           </p>
 
           <h1 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            ALTYAPI SİSTEMLERİ
+            {t("title")}
           </h1>
 
           <div className="mt-6 h-1 w-24 bg-cyan-400" />
@@ -24,52 +42,30 @@ export default function AltyapiSistemleriPage() {
         {/* Ana açıklama */}
         <section>
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Profesyonel Altyapı Sistemleri
+            {t("mainTitle")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK olarak, yapıların ve projelerin altyapı ihtiyaçlarına
-            yönelik güvenilir, dayanıklı ve uzun ömürlü mekanik altyapı
-            sistemleri tasarlıyor ve uyguluyoruz. Konutlardan ticari
-            yapılara, sanayi tesislerinden büyük ölçekli projelere kadar
-            farklı ihtiyaçlara uygun çözümler sunuyoruz.
+            {t("mainDescription1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Projenin mevcut şartlarını, arazi yapısını ve kullanım
-            ihtiyaçlarını değerlendirerek altyapı sistemlerini bir bütün
-            olarak ele alıyor; doğru kapasite, uygun malzeme ve profesyonel
-            uygulama ile güvenilir çözümler oluşturuyoruz.
+            {t("mainDescription2")}
           </p>
         </section>
 
         {/* Kapsam */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Altyapı Sistemleri Kapsamımız
+            {t("scopeTitle")}
           </h2>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Projenin teknik gereksinimlerine göre altyapının tüm
-            bileşenlerini değerlendiriyor, güvenli ve verimli çalışan
-            sistemler geliştiriyoruz.
+            {t("scopeDescription")}
           </p>
 
           <div className="mt-10 space-y-7">
-            {[
-              "Temiz su altyapı sistemleri",
-              "Atık su altyapı sistemleri",
-              "Yağmur suyu altyapı sistemleri",
-              "Drenaj sistemleri",
-              "Pis su ve kanalizasyon sistemleri",
-              "Su dağıtım ve isale hatları",
-              "Pompa ve terfi sistemleri",
-              "Su depolama sistemleri",
-              "Altyapı borulama sistemleri",
-              "Rögar ve bağlantı sistemleri",
-              "Altyapı mekanik tesisat uygulamaları",
-              "Altyapı uygulama ve detay projeleri",
-            ].map((item, index) => (
+            {systems.map((item, index) => (
               <article
                 key={index}
                 className="border-b border-white/10 pb-7"
@@ -91,20 +87,15 @@ export default function AltyapiSistemleriPage() {
         {/* Güvenilir altyapı */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Dayanıklı ve Güvenilir Altyapı
+            {t("reliabilityTitle")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Altyapı sistemleri, yapıların uzun yıllar güvenli ve kesintisiz
-            şekilde kullanılabilmesi açısından temel öneme sahiptir. Bu
-            nedenle doğru projelendirme, uygun malzeme seçimi ve kaliteli
-            uygulama büyük önem taşır.
+            {t("reliabilityDescription1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK, altyapı sistemlerinin kapasite ve kullanım
-            ihtiyaçlarını değerlendirerek sürdürülebilir, güvenilir ve uzun
-            ömürlü mekanik çözümler sunar.
+            {t("reliabilityDescription2")}
           </p>
         </section>
 
@@ -115,15 +106,13 @@ export default function AltyapiSistemleriPage() {
           </p>
 
           <h2 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Güçlü Yapılar İçin Sağlam Altyapı
+            {t("footerTitle")}
           </h2>
 
           <p className="mt-5 max-w-[1300px] text-lg leading-9 text-gray-300 md:text-xl">
-            Doğru mühendislik, kaliteli malzeme ve profesyonel uygulama ile
-            güvenilir ve uzun ömürlü altyapı sistemleri oluşturuyoruz.
+            {t("footerDescription")}
           </p>
         </section>
-
       </div>
     </main>
   );

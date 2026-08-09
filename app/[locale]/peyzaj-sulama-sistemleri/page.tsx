@@ -1,13 +1,31 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 export default function PeyzajSistemleriPage() {
+  const t = useTranslations("LandscapePage");
+
+  const systems = [
+    t("systems.1"),
+    t("systems.2"),
+    t("systems.3"),
+    t("systems.4"),
+    t("systems.5"),
+    t("systems.6"),
+    t("systems.7"),
+    t("systems.8"),
+    t("systems.9"),
+    t("systems.10"),
+    t("systems.11"),
+    t("systems.12"),
+  ];
+
   return (
     <main
       className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
       style={{ backgroundColor: "#242424" }}
     >
-      <div className="mx-auto max-w-[1500px]">
-
+      <div>
         {/* Başlık */}
         <header className="mb-20">
           <p className="font-semibold uppercase tracking-[0.35em] text-cyan-400">
@@ -15,7 +33,7 @@ export default function PeyzajSistemleriPage() {
           </p>
 
           <h1 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            PEYZAJ SİSTEMLERİ
+            {t("title")}
           </h1>
 
           <div className="mt-6 h-1 w-24 bg-cyan-400" />
@@ -24,52 +42,30 @@ export default function PeyzajSistemleriPage() {
         {/* Ana açıklama */}
         <section>
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Profesyonel Peyzaj Sulama Sistemleri
+            {t("mainTitle")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK olarak, yeşil alanların ve peyzaj düzenlemelerinin
-            ihtiyaçlarına yönelik modern, verimli ve uzun ömürlü sulama
-            sistemleri tasarlıyor ve uyguluyoruz. Konutlardan ticari
-            yapılara, otellerden büyük ölçekli peyzaj projelerine kadar
-            farklı alanlara uygun çözümler sunuyoruz.
+            {t("mainDescription1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Alanın büyüklüğü, bitki türleri, su ihtiyacı ve kullanım
-            koşullarını değerlendirerek doğru sulama yöntemini belirliyor;
-            suyun kontrollü ve dengeli şekilde dağıtılmasını sağlayan
-            sistemler oluşturuyoruz.
+            {t("mainDescription2")}
           </p>
         </section>
 
         {/* Sistem kapsamı */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Peyzaj Sistemleri Kapsamımız
+            {t("scopeTitle")}
           </h2>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Peyzaj alanlarının sulama ihtiyaçlarını bütüncül şekilde
-            değerlendiriyor, otomatik ve kontrollü sulama sistemleri ile
-            sürdürülebilir çözümler geliştiriyoruz.
+            {t("scopeDescription")}
           </p>
 
           <div className="mt-10 space-y-7">
-            {[
-              "Otomatik peyzaj sulama sistemleri",
-              "Damla sulama sistemleri",
-              "Sprinkler sulama sistemleri",
-              "Çim sulama sistemleri",
-              "Bahçe sulama sistemleri",
-              "Ağaç ve bitki sulama sistemleri",
-              "Sulama pompa sistemleri",
-              "Su depolama ve dağıtım sistemleri",
-              "Sulama borulama sistemleri",
-              "Otomatik sulama kontrol sistemleri",
-              "Yağmur sensörü ve kontrol sistemleri",
-              "Peyzaj sulama uygulama ve detay projeleri",
-            ].map((item, index) => (
+            {systems.map((item, index) => (
               <article
                 key={index}
                 className="border-b border-white/10 pb-7"
@@ -91,20 +87,15 @@ export default function PeyzajSistemleriPage() {
         {/* Su verimliliği */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Su Tasarrufu ve Verimli Sulama
+            {t("efficiencyTitle")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Peyzaj sulama sistemlerinde doğru tasarım, suyun gereksiz
-            kullanımını önlemek ve bitkilerin ihtiyaç duyduğu suyu doğru
-            zamanda sağlamak açısından büyük önem taşır.
+            {t("efficiencyDescription1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK, sulama bölgelerini ve su ihtiyaçlarını ayrı ayrı
-            değerlendirerek kontrollü çalışan sistemler oluşturur. Otomatik
-            kontrol ve uygun sulama ekipmanları sayesinde su tüketiminin
-            verimli şekilde yönetilmesine katkı sağlar.
+            {t("efficiencyDescription2")}
           </p>
         </section>
 
@@ -115,16 +106,13 @@ export default function PeyzajSistemleriPage() {
           </p>
 
           <h2 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Yeşil Alanlar İçin Akıllı Sulama
+            {t("footerTitle")}
           </h2>
 
           <p className="mt-5 max-w-[1300px] text-lg leading-9 text-gray-300 md:text-xl">
-            Doğru mühendislik, uygun ekipman ve profesyonel uygulama ile
-            verimli, kontrollü ve uzun ömürlü peyzaj sulama sistemleri
-            oluşturuyoruz.
+            {t("footerDescription")}
           </p>
         </section>
-
       </div>
     </main>
   );

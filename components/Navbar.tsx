@@ -15,11 +15,9 @@ export default function Navbar() {
   };
 
   return (
-    <header className="fixed left-0 top-0 z-50 w-full border-b border-white/10 bg-black/80 backdrop-blur-xl">
-
+    <header className="fixed top-0 z-50 w-full border-b border-cyan-400/20 bg-black/80 backdrop-blur-xl">
       {/* ÜST NAVBAR */}
       <div className="mx-auto flex h-16 max-w-screen-2xl items-center justify-between px-4 sm:h-20 sm:px-5 lg:h-24 lg:px-10">
-
         {/* LOGO */}
         <Link
           href={`/${locale}`}
@@ -36,7 +34,6 @@ export default function Navbar() {
 
         {/* MASAÜSTÜ MENÜ */}
         <nav className="hidden items-center gap-5 lg:flex xl:gap-8">
-
           <Link
             href={`/${locale}`}
             className="whitespace-nowrap py-3 text-sm font-semibold text-white transition hover:text-cyan-400"
@@ -53,105 +50,99 @@ export default function Navbar() {
 
           {/* HİZMETLER */}
           <div className="group relative">
-
-            <Link
-              href={`/${locale}/hizmetler`}
-              className="flex items-center gap-1 whitespace-nowrap py-3 text-sm font-semibold text-white transition hover:text-cyan-400"
-            >
+            <div className="flex cursor-default items-center gap-1 whitespace-nowrap py-3 text-sm font-semibold text-white transition hover:text-cyan-400">
               {t("services")}
 
               <span className="text-xs transition-transform duration-300 group-hover:rotate-180">
                 ▾
               </span>
-            </Link>
+            </div>
 
             {/* HİZMETLER ALT MENÜSÜ */}
             <div className="invisible absolute left-1/2 top-full z-50 mt-3 w-80 -translate-x-1/2 translate-y-2 rounded-xl border border-cyan-400/20 bg-black/95 p-2 opacity-0 shadow-2xl backdrop-blur-xl transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-
               <Link
                 href={`/${locale}/projelendirme`}
                 className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Projelendirme
+                {t("projelendirme")}
               </Link>
 
               <Link
                 href={`/${locale}/kesif`}
                 className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Keşif
+                {t("kesif")}
               </Link>
 
               <Link
                 href={`/${locale}/sihhi-tesisat`}
                 className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Sıhhi Tesisat
+                {t("sihhiTesisat")}
               </Link>
 
               <Link
                 href={`/${locale}/yangin-tesisat`}
                 className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Yangın Tesisat
+                {t("yanginTesisat")}
               </Link>
 
               <Link
                 href={`/${locale}/havalandirma-sistemleri`}
                 className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Havalandırma
+                {t("havalandirma")}
               </Link>
 
               <Link
                 href={`/${locale}/isitma-sogutma-sistemleri`}
                 className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Isıtma Soğutma
+                {t("isitmaSogutma")}
               </Link>
 
               <Link
                 href={`/${locale}/vrf-sistemleri`}
                 className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                VRF Sistemleri
+                {t("vrfSistemleri")}
               </Link>
 
               <Link
                 href={`/${locale}/medikal-gaz-sistemleri`}
                 className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Medikal Gaz
+                {t("medikalGaz")}
               </Link>
 
               <Link
                 href={`/${locale}/yuzme-havuz-sistemleri`}
                 className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Havuz Sistemleri
+                {t("havuzSistemleri")}
               </Link>
 
               <Link
                 href={`/${locale}/peyzaj-sulama-sistemleri`}
                 className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Peyzaj
+                {t("peyzaj")}
               </Link>
 
               <Link
                 href={`/${locale}/aritma-sistemleri`}
                 className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Arıtma
+                {t("aritma")}
               </Link>
 
               <Link
                 href={`/${locale}/altyapi-sistemleri`}
                 className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Altyapı
+                {t("altyapi")}
               </Link>
-
             </div>
           </div>
 
@@ -175,15 +166,12 @@ export default function Navbar() {
           >
             {t("contact")}
           </Link>
-
         </nav>
 
         {/* SAĞ TARAF */}
         <div className="flex items-center gap-2 sm:gap-3 lg:gap-5">
-
           {/* DİLLER */}
           <div className="flex items-center gap-1 sm:gap-2">
-
             <Link
               href="/tr"
               className={`flex items-center gap-1 rounded-md px-1 py-1 transition sm:px-1.5 ${
@@ -240,7 +228,6 @@ export default function Navbar() {
                 RU
               </span>
             </Link>
-
           </div>
 
           {/* MOBİL BUTON */}
@@ -253,7 +240,6 @@ export default function Navbar() {
           >
             {mobileMenuOpen ? "×" : "☰"}
           </button>
-
         </div>
       </div>
 
@@ -265,9 +251,7 @@ export default function Navbar() {
             : "max-h-0 opacity-0"
         }`}
       >
-
         <nav className="mx-auto flex max-w-screen-2xl flex-col px-3 py-1 sm:px-5">
-
           <Link
             href={`/${locale}`}
             onClick={closeMobileMenu}
@@ -286,23 +270,17 @@ export default function Navbar() {
 
           {/* MOBİL HİZMETLER */}
           <div className="border-t border-white/5 pt-1">
-
-            <Link
-              href={`/${locale}/hizmetler`}
-              onClick={closeMobileMenu}
-              className="block rounded-lg px-3 py-2 font-medium text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
-            >
+            <div className="block rounded-lg px-3 py-2 font-medium text-white">
               {t("services")}
-            </Link>
+            </div>
 
             <div className="ml-3 grid grid-cols-2 border-l border-cyan-400/20 pl-2">
-
               <Link
                 href={`/${locale}/projelendirme`}
                 onClick={closeMobileMenu}
                 className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Projelendirme
+                {t("projelendirme")}
               </Link>
 
               <Link
@@ -310,7 +288,7 @@ export default function Navbar() {
                 onClick={closeMobileMenu}
                 className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Keşif
+                {t("kesif")}
               </Link>
 
               <Link
@@ -318,7 +296,7 @@ export default function Navbar() {
                 onClick={closeMobileMenu}
                 className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Sıhhi Tesisat
+                {t("sihhiTesisat")}
               </Link>
 
               <Link
@@ -326,7 +304,7 @@ export default function Navbar() {
                 onClick={closeMobileMenu}
                 className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Yangın Tesisat
+                {t("yanginTesisat")}
               </Link>
 
               <Link
@@ -334,7 +312,7 @@ export default function Navbar() {
                 onClick={closeMobileMenu}
                 className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Havalandırma
+                {t("havalandirma")}
               </Link>
 
               <Link
@@ -342,7 +320,7 @@ export default function Navbar() {
                 onClick={closeMobileMenu}
                 className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Isıtma Soğutma
+                {t("isitmaSogutma")}
               </Link>
 
               <Link
@@ -350,7 +328,7 @@ export default function Navbar() {
                 onClick={closeMobileMenu}
                 className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                VRF Sistemleri
+                {t("vrfSistemleri")}
               </Link>
 
               <Link
@@ -358,7 +336,7 @@ export default function Navbar() {
                 onClick={closeMobileMenu}
                 className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Medikal Gaz
+                {t("medikalGaz")}
               </Link>
 
               <Link
@@ -366,7 +344,7 @@ export default function Navbar() {
                 onClick={closeMobileMenu}
                 className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Havuz Sistemleri
+                {t("havuzSistemleri")}
               </Link>
 
               <Link
@@ -374,7 +352,7 @@ export default function Navbar() {
                 onClick={closeMobileMenu}
                 className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Peyzaj
+                {t("peyzaj")}
               </Link>
 
               <Link
@@ -382,7 +360,7 @@ export default function Navbar() {
                 onClick={closeMobileMenu}
                 className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Arıtma
+                {t("aritma")}
               </Link>
 
               <Link
@@ -390,9 +368,8 @@ export default function Navbar() {
                 onClick={closeMobileMenu}
                 className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
               >
-                Altyapı
+                {t("altyapi")}
               </Link>
-
             </div>
           </div>
 
@@ -419,10 +396,8 @@ export default function Navbar() {
           >
             {t("contact")}
           </Link>
-
         </nav>
       </div>
-
     </header>
   );
 }

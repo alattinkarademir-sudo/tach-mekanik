@@ -1,13 +1,31 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 export default function VrfSistemleriPage() {
+  const t = useTranslations("VRFPage");
+
+  const systems = [
+    t("systems.1"),
+    t("systems.2"),
+    t("systems.3"),
+    t("systems.4"),
+    t("systems.5"),
+    t("systems.6"),
+    t("systems.7"),
+    t("systems.8"),
+    t("systems.9"),
+    t("systems.10"),
+    t("systems.11"),
+    t("systems.12"),
+  ];
+
   return (
     <main
       className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
       style={{ backgroundColor: "#242424" }}
     >
-      <div className="mx-auto max-w-[1500px]">
-
+      <div>
         {/* Başlık */}
         <header className="mb-20">
           <p className="font-semibold uppercase tracking-[0.35em] text-cyan-400">
@@ -15,7 +33,7 @@ export default function VrfSistemleriPage() {
           </p>
 
           <h1 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            VRF SİSTEMLERİ
+            {t("title")}
           </h1>
 
           <div className="mt-6 h-1 w-24 bg-cyan-400" />
@@ -24,51 +42,30 @@ export default function VrfSistemleriPage() {
         {/* Ana açıklama */}
         <section>
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Profesyonel VRF Sistemleri
+            {t("mainTitle")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK olarak, farklı kullanım alanlarının ısıtma ve
-            soğutma ihtiyaçlarına yönelik yüksek verimli VRF sistemleri
-            tasarlıyor ve uyguluyoruz. Konut, ofis, otel, ticari yapı ve
-            büyük ölçekli projelere uygun çözümler sunuyoruz.
+            {t("mainDescription1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Yapının kullanım amacı, kapasitesi ve mimari özelliklerini
-            değerlendirerek uygun dış ünite ve iç ünite kombinasyonlarını
-            belirliyor; enerji verimliliği ve kullanıcı konforunu birlikte
-            ele alıyoruz.
+            {t("mainDescription2")}
           </p>
         </section>
 
         {/* VRF kapsamı */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            VRF Sistemleri Kapsamımız
+            {t("scopeTitle")}
           </h2>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Projenin teknik gereksinimlerine göre VRF sistemlerinin
-            tasarımından uygulamasına kadar tüm süreçleri mühendislik
-            prensipleri doğrultusunda yürütüyoruz.
+            {t("scopeDescription")}
           </p>
 
           <div className="mt-10 space-y-7">
-            {[
-              "VRF sistem tasarımı",
-              "VRF dış ünite sistemleri",
-              "VRF iç ünite sistemleri",
-              "Kaset tipi iç üniteler",
-              "Duvar tipi iç üniteler",
-              "Kanal tipi iç üniteler",
-              "Gizli tavan tipi iç üniteler",
-              "VRF bakır borulama sistemleri",
-              "Yoğuşma suyu drenaj sistemleri",
-              "Kumanda ve kontrol sistemleri",
-              "VRF uygulama ve detay projeleri",
-              "Devreye alma ve sistem kontrolleri",
-            ].map((item, index) => (
+            {systems.map((item, index) => (
               <article
                 key={index}
                 className="border-b border-white/10 pb-7"
@@ -90,20 +87,15 @@ export default function VrfSistemleriPage() {
         {/* Enerji verimliliği */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Konfor ve Enerji Verimliliği
+            {t("efficiencyTitle")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            VRF sistemleri, farklı mahallerin ihtiyaçlarına göre bağımsız
-            olarak kontrol edilebilmesi sayesinde enerji kullanımının
-            optimize edilmesine yardımcı olur. Doğru sistem tasarımı,
-            ekipman seçimi ve uygulama ile yüksek konfor sağlanabilir.
+            {t("efficiencyDescription1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK, sistem kapasitesini ve mahal ihtiyaçlarını
-            değerlendirerek dengeli çalışan, kullanıcı konforunu ve enerji
-            verimliliğini ön planda tutan VRF çözümleri oluşturur.
+            {t("efficiencyDescription2")}
           </p>
         </section>
 
@@ -114,15 +106,13 @@ export default function VrfSistemleriPage() {
           </p>
 
           <h2 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Modern Yapılar İçin Akıllı İklimlendirme
+            {t("footerTitle")}
           </h2>
 
           <p className="mt-5 max-w-[1300px] text-lg leading-9 text-gray-300 md:text-xl">
-            Doğru mühendislik, uygun sistem seçimi ve profesyonel uygulama
-            ile verimli, konforlu ve uzun ömürlü VRF sistemleri oluşturuyoruz.
+            {t("footerDescription")}
           </p>
         </section>
-
       </div>
     </main>
   );

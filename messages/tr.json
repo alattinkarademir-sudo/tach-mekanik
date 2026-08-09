@@ -1,11 +1,24 @@
 {
   "menu": {
     "home": "Ana Sayfa",
-    "about": "Hakkımızda",
-    "services": "Hizmetler",
-    "gallery": "Galeri",
-    "projects": "Projeler",
-    "contact": "İletişim"
+  "about": "Hakkımızda",
+  "services": "Hizmetler",
+  "gallery": "Galeri",
+  "projects": "Projeler",
+  "contact": "İletişim",
+
+  "projelendirme": "Projelendirme",
+  "kesif": "Keşif",
+  "sihhiTesisat": "Sıhhi Tesisat",
+  "yanginTesisat": "Yangın Tesisatı",
+  "havalandirma": "Havalandırma",
+  "isitmaSogutma": "Isıtma & Soğutma",
+  "vrfSistemleri": "VRF Sistemleri",
+  "medikalGaz": "Medikal Gaz",
+  "havuzSistemleri": "Yüzme Havuz Sistemleri",
+  "peyzaj": "Peyzaj Sulama",
+  "aritma": "Arıtma Sistemleri",
+  "altyapi": "Altyapı Sistemleri"
   },
 
   "HeroSlider": {

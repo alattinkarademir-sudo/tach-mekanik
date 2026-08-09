@@ -1,21 +1,40 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 export default function SihhiTesisatPage() {
+  const t = useTranslations("PlumbingPage");
+
+  const items = [
+    t("items.cleanWater"),
+    t("items.hotWater"),
+    t("items.coldWater"),
+    t("items.wastewater"),
+    t("items.rainwater"),
+    t("items.sewer"),
+    t("items.drainage"),
+    t("items.pump"),
+    t("items.storage"),
+    t("items.pressurization"),
+    t("items.calculations"),
+    t("items.application"),
+  ];
+
   return (
     <main
       className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
       style={{ backgroundColor: "#242424" }}
     >
-      <div className="mx-auto max-w-[1500px]">
+      <div className="mx-auto max-w-[1400px]">
 
         {/* Başlık */}
         <header className="mb-20">
           <p className="font-semibold uppercase tracking-[0.35em] text-cyan-400">
-            TACH MEKANİK
+            {t("brand")}
           </p>
 
           <h1 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            SIHHİ TESİSAT
+            {t("title")}
           </h1>
 
           <div className="mt-6 h-1 w-24 bg-cyan-400" />
@@ -24,52 +43,30 @@ export default function SihhiTesisatPage() {
         {/* Ana açıklama */}
         <section>
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Profesyonel Sıhhi Tesisat Sistemleri
+            {t("heading")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK olarak, yapıların temiz su, sıcak su, atık su ve
-            yağmur suyu ihtiyaçlarına yönelik güvenilir ve uzun ömürlü sıhhi
-            tesisat sistemleri tasarlıyor ve uyguluyoruz. Konutlardan ticari
-            yapılara, endüstriyel tesislerden büyük ölçekli projelere kadar
-            farklı yapı tiplerine uygun çözümler sunuyoruz.
+            {t("intro1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Sistem tasarımından uygulamaya kadar tüm süreçleri mühendislik
-            prensipleri doğrultusunda ele alıyor; doğru boru çapı, uygun
-            malzeme seçimi, yeterli basınç ve debi değerleri ile güvenli ve
-            verimli çalışan tesisatlar oluşturuyoruz.
+            {t("intro2")}
           </p>
         </section>
 
         {/* Sıhhi tesisat kapsamı */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Sıhhi Tesisat Kapsamımız
+            {t("scopeTitle")}
           </h2>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Her projeyi kendi teknik ihtiyaçları doğrultusunda değerlendiriyor,
-            yapı içerisinde güvenli, hijyenik ve verimli çalışan sıhhi tesisat
-            sistemleri için kapsamlı çözümler geliştiriyoruz.
+            {t("scopeText")}
           </p>
 
           <div className="mt-10 space-y-7">
-            {[
-              "Temiz su tesisatı sistemleri",
-              "Sıcak kullanım suyu sistemleri",
-              "Soğuk su tesisatı sistemleri",
-              "Atık su tesisatı sistemleri",
-              "Yağmur suyu tesisatı sistemleri",
-              "Pis su ve gider sistemleri",
-              "Drenaj sistemleri",
-              "Pompa ve hidrofor sistemleri",
-              "Su depolama ve dağıtım sistemleri",
-              "Basınçlandırma sistemleri",
-              "Boru çapı, debi ve basınç hesaplamaları",
-              "Sıhhi tesisat uygulama ve detay projeleri",
-            ].map((item, index) => (
+            {items.map((item, index) => (
               <article
                 key={index}
                 className="border-b border-white/10 pb-7"
@@ -91,37 +88,30 @@ export default function SihhiTesisatPage() {
         {/* Güvenli ve hijyenik sistemler */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Güvenli ve Hijyenik Tesisat Sistemleri
+            {t("reliableTitle")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Sıhhi tesisat sistemleri, yapıların günlük kullanımında doğrudan
-            ihtiyaç duyulan temel mekanik sistemlerin başında gelir. Bu nedenle
-            tesisatın doğru projelendirilmesi ve kaliteli malzemelerle
-            uygulanması büyük önem taşır.
+            {t("reliableText1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK, sistemlerin uzun yıllar güvenilir şekilde çalışmasını
-            hedefleyerek uygun malzeme ve ekipman seçimi yapar. Su kayıplarını,
-            basınç problemlerini ve uygulama sırasında oluşabilecek teknik
-            sorunları önceden değerlendirerek sürdürülebilir çözümler sunar.
+            {t("reliableText2")}
           </p>
         </section>
 
         {/* Son bölüm */}
         <section className="mt-24 border-t border-white/10 pb-16 pt-12">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
-            TACH MEKANİK
+            {t("brand")}
           </p>
 
           <h2 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Sağlıklı Yapılar İçin Güvenilir Tesisat
+            {t("finalTitle")}
           </h2>
 
           <p className="mt-5 max-w-[1300px] text-lg leading-9 text-gray-300 md:text-xl">
-            Doğru mühendislik, kaliteli malzeme ve profesyonel uygulama ile
-            uzun ömürlü sıhhi tesisat sistemleri oluşturuyoruz.
+            {t("finalText")}
           </p>
         </section>
 

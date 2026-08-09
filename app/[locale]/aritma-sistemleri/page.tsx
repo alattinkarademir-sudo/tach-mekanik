@@ -1,13 +1,31 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 export default function AritmaSistemleriPage() {
+  const t = useTranslations("WaterTreatmentPage");
+
+  const systems = [
+    t("systems.1"),
+    t("systems.2"),
+    t("systems.3"),
+    t("systems.4"),
+    t("systems.5"),
+    t("systems.6"),
+    t("systems.7"),
+    t("systems.8"),
+    t("systems.9"),
+    t("systems.10"),
+    t("systems.11"),
+    t("systems.12"),
+  ];
+
   return (
     <main
       className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
       style={{ backgroundColor: "#242424" }}
     >
-      <div className="mx-auto max-w-[1500px]">
-
+      <div>
         {/* Başlık */}
         <header className="mb-20">
           <p className="font-semibold uppercase tracking-[0.35em] text-cyan-400">
@@ -15,7 +33,7 @@ export default function AritmaSistemleriPage() {
           </p>
 
           <h1 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            ARITMA SİSTEMLERİ
+            {t("title")}
           </h1>
 
           <div className="mt-6 h-1 w-24 bg-cyan-400" />
@@ -24,51 +42,30 @@ export default function AritmaSistemleriPage() {
         {/* Ana açıklama */}
         <section>
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Profesyonel Arıtma Sistemleri
+            {t("mainTitle")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK olarak, yapıların ve işletmelerin su ihtiyaçlarına
-            yönelik güvenilir ve verimli su arıtma sistemleri tasarlıyor ve
-            uyguluyoruz. Kullanım amacına ve su kalitesine uygun çözümler
-            geliştirerek sürdürülebilir sistemler oluşturuyoruz.
+            {t("mainDescription1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Konutlardan ticari yapılara, otellerden endüstriyel tesislere
-            kadar farklı kullanım alanlarının ihtiyaçlarını değerlendiriyor;
-            doğru kapasite, ekipman ve sistem tasarımı ile uzun ömürlü
-            çözümler sunuyoruz.
+            {t("mainDescription2")}
           </p>
         </section>
 
         {/* Arıtma kapsamı */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Arıtma Sistemleri Kapsamımız
+            {t("scopeTitle")}
           </h2>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Su kalitesi ve kullanım ihtiyacını birlikte değerlendirerek
-            uygun arıtma yöntemlerini belirliyor, sistemin tüm mekanik
-            bileşenlerini bir bütün olarak ele alıyoruz.
+            {t("scopeDescription")}
           </p>
 
           <div className="mt-10 space-y-7">
-            {[
-              "Su arıtma sistemleri",
-              "İçme ve kullanma suyu arıtma sistemleri",
-              "Filtrasyon sistemleri",
-              "Kum ve karbon filtre sistemleri",
-              "Yumuşatma sistemleri",
-              "Ters ozmoz sistemleri",
-              "Ultrafiltrasyon sistemleri",
-              "Su depolama ve dağıtım sistemleri",
-              "Arıtma pompa sistemleri",
-              "Kimyasal dozaj sistemleri",
-              "Arıtma tesisatı ve borulama sistemleri",
-              "Arıtma sistemi uygulama ve detay projeleri",
-            ].map((item, index) => (
+            {systems.map((item, index) => (
               <article
                 key={index}
                 className="border-b border-white/10 pb-7"
@@ -90,20 +87,15 @@ export default function AritmaSistemleriPage() {
         {/* Su kalitesi */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Temiz ve Güvenilir Su İçin
+            {t("qualityTitle")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Arıtma sistemlerinde doğru proses seçimi ve uygun ekipman
-            kullanımı, elde edilen suyun kalitesi ve sistemin işletme
-            verimliliği açısından büyük önem taşır.
+            {t("qualityDescription1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK, suyun kullanım amacını ve mevcut su özelliklerini
-            değerlendirerek ihtiyaca uygun arıtma çözümleri geliştirir.
-            Sistemlerin güvenilir, kontrollü ve sürdürülebilir şekilde
-            çalışmasını hedefler.
+            {t("qualityDescription2")}
           </p>
         </section>
 
@@ -114,15 +106,13 @@ export default function AritmaSistemleriPage() {
           </p>
 
           <h2 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Su Kalitesi İçin Güvenilir Çözümler
+            {t("footerTitle")}
           </h2>
 
           <p className="mt-5 max-w-[1300px] text-lg leading-9 text-gray-300 md:text-xl">
-            Doğru mühendislik, uygun ekipman ve profesyonel uygulama ile
-            verimli, güvenilir ve uzun ömürlü arıtma sistemleri oluşturuyoruz.
+            {t("footerDescription")}
           </p>
         </section>
-
       </div>
     </main>
   );

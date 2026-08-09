@@ -1,13 +1,31 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 export default function YanginTesisatiPage() {
+  const t = useTranslations("FirePage");
+
+  const systems = [
+    t("systems.1"),
+    t("systems.2"),
+    t("systems.3"),
+    t("systems.4"),
+    t("systems.5"),
+    t("systems.6"),
+    t("systems.7"),
+    t("systems.8"),
+    t("systems.9"),
+    t("systems.10"),
+    t("systems.11"),
+    t("systems.12"),
+  ];
+
   return (
     <main
       className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
       style={{ backgroundColor: "#242424" }}
     >
-      <div className="mx-auto max-w-[1500px]">
-
+      <div>
         {/* Başlık */}
         <header className="mb-20">
           <p className="font-semibold uppercase tracking-[0.35em] text-cyan-400">
@@ -15,7 +33,7 @@ export default function YanginTesisatiPage() {
           </p>
 
           <h1 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            YANGIN TESİSATI
+            {t("title")}
           </h1>
 
           <div className="mt-6 h-1 w-24 bg-cyan-400" />
@@ -24,53 +42,30 @@ export default function YanginTesisatiPage() {
         {/* Ana açıklama */}
         <section>
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Profesyonel Yangın Tesisatı Sistemleri
+            {t("mainTitle")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK olarak, yapıların yangın risklerine karşı güvenliğini
-            sağlamak amacıyla ulusal ve uluslararası standartlara uygun yangın
-            tesisatı sistemleri tasarlıyor ve uyguluyoruz. Konutlardan ticari
-            yapılara, endüstriyel tesislerden büyük ölçekli yapılara kadar
-            farklı kullanım alanlarına uygun yangın güvenliği çözümleri
-            sunuyoruz.
+            {t("mainDescription1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Yangın tesisatı sistemlerinde doğru kapasite hesabı, uygun ekipman
-            seçimi ve güvenilir uygulama prensiplerini esas alıyor; yangın
-            anında ihtiyaç duyulan suyun doğru basınç ve debi değerleriyle
-            gerekli noktalara ulaştırılmasını sağlıyoruz.
+            {t("mainDescription2")}
           </p>
         </section>
 
         {/* Yangın tesisatı kapsamı */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Yangın Tesisatı Kapsamımız
+            {t("scopeTitle")}
           </h2>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Yapının kullanım amacı, büyüklüğü ve yangın riskleri
-            değerlendirilerek ihtiyaca uygun yangın söndürme ve yangından
-            korunma sistemleri oluşturuyoruz.
+            {t("scopeDescription")}
           </p>
 
           <div className="mt-10 space-y-7">
-            {[
-              "Yangın hidrant sistemleri",
-              "Yangın dolapları sistemleri",
-              "Sprinkler yangın söndürme sistemleri",
-              "Yangın pompa sistemleri",
-              "Yangın su depoları",
-              "Yangın kolon tesisatları",
-              "Islak borulu sprinkler sistemleri",
-              "Kuru borulu sprinkler sistemleri",
-              "Gazlı söndürme sistemleri",
-              "Yangın suyu basınçlandırma sistemleri",
-              "Yangın tesisatı borulama sistemleri",
-              "Yangın tesisatı hesap ve uygulama projeleri",
-            ].map((item, index) => (
+            {systems.map((item, index) => (
               <article
                 key={index}
                 className="border-b border-white/10 pb-7"
@@ -92,23 +87,15 @@ export default function YanginTesisatiPage() {
         {/* Yangın güvenliği */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Güvenli Yangın Söndürme Sistemleri
+            {t("safetyTitle")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Yangın tesisatı sistemlerinin amacı, yangın sırasında müdahale
-            süresini kısaltmak ve yangının kontrol altına alınmasına yardımcı
-            olmaktır. Bu nedenle sistemlerin doğru projelendirilmesi,
-            ekipmanların uygun şekilde seçilmesi ve uygulamanın teknik
-            standartlara uygun gerçekleştirilmesi büyük önem taşır.
+            {t("safetyDescription1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK, yangın güvenliği ihtiyaçlarını bütüncül şekilde
-            değerlendirerek güvenilir, dayanıklı ve uzun ömürlü yangın
-            tesisatı çözümleri sunar. Sistemlerin bakım ve işletme süreçlerinin
-            sağlıklı yürütülebilmesi için erişilebilir ve sürdürülebilir
-            çözümler oluşturur.
+            {t("safetyDescription2")}
           </p>
         </section>
 
@@ -119,16 +106,13 @@ export default function YanginTesisatiPage() {
           </p>
 
           <h2 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Güvenli Yapılar İçin Etkin Yangın Çözümleri
+            {t("footerTitle")}
           </h2>
 
           <p className="mt-5 max-w-[1300px] text-lg leading-9 text-gray-300 md:text-xl">
-            Doğru mühendislik, kaliteli ekipman ve profesyonel uygulama ile
-            yapıların yangın güvenliğine katkı sağlayan güvenilir sistemler
-            oluşturuyoruz.
+            {t("footerDescription")}
           </p>
         </section>
-
       </div>
     </main>
   );

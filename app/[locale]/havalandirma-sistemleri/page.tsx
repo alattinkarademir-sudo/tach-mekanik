@@ -1,13 +1,31 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 export default function HavalandirmaSistemleriPage() {
+  const t = useTranslations("VentilationPage");
+
+  const systems = [
+    t("systems.1"),
+    t("systems.2"),
+    t("systems.3"),
+    t("systems.4"),
+    t("systems.5"),
+    t("systems.6"),
+    t("systems.7"),
+    t("systems.8"),
+    t("systems.9"),
+    t("systems.10"),
+    t("systems.11"),
+    t("systems.12"),
+  ];
+
   return (
     <main
       className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
       style={{ backgroundColor: "#242424" }}
     >
-      <div className="mx-auto max-w-[1500px]">
-
+      <div>
         {/* Başlık */}
         <header className="mb-20">
           <p className="font-semibold uppercase tracking-[0.35em] text-cyan-400">
@@ -15,7 +33,7 @@ export default function HavalandirmaSistemleriPage() {
           </p>
 
           <h1 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            HAVALANDIRMA SİSTEMLERİ
+            {t("title")}
           </h1>
 
           <div className="mt-6 h-1 w-24 bg-cyan-400" />
@@ -24,53 +42,30 @@ export default function HavalandirmaSistemleriPage() {
         {/* Ana açıklama */}
         <section>
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Profesyonel Havalandırma Sistemleri
+            {t("mainTitle")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK olarak, yapılarda sağlıklı ve konforlu iç ortam
-            koşullarının oluşturulması amacıyla profesyonel havalandırma
-            sistemleri tasarlıyor ve uyguluyoruz. Konutlardan ticari yapılara,
-            endüstriyel tesislerden büyük ölçekli projelere kadar farklı
-            ihtiyaçlara uygun mekanik havalandırma çözümleri sunuyoruz.
+            {t("mainDescription1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Taze hava ihtiyacı, egzoz havası, hava değişim oranları ve
-            sistem kapasitesi gibi teknik gereksinimleri değerlendirerek;
-            enerji verimli, güvenilir ve uzun ömürlü havalandırma sistemleri
-            oluşturuyoruz.
+            {t("mainDescription2")}
           </p>
         </section>
 
         {/* Havalandırma kapsamı */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Havalandırma Sistemleri Kapsamımız
+            {t("scopeTitle")}
           </h2>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Her yapının kullanım amacı ve teknik ihtiyaçlarını ayrı ayrı
-            değerlendirerek uygun havalandırma sistemlerini belirliyor,
-            projelendirme ve uygulama süreçlerini mühendislik prensipleri
-            doğrultusunda yürütüyoruz.
+            {t("scopeDescription")}
           </p>
 
           <div className="mt-10 space-y-7">
-            {[
-              "Taze hava havalandırma sistemleri",
-              "Egzoz ve atık hava sistemleri",
-              "Mekanik havalandırma sistemleri",
-              "Otopark havalandırma sistemleri",
-              "Mutfak davlumbaz ve egzoz sistemleri",
-              "Banyo ve WC egzoz sistemleri",
-              "Endüstriyel havalandırma sistemleri",
-              "Isı geri kazanımlı havalandırma sistemleri",
-              "Hava kanalı sistemleri",
-              "Fan ve aspiratör sistemleri",
-              "Hava dağıtım ve menfez sistemleri",
-              "Havalandırma uygulama ve detay projeleri",
-            ].map((item, index) => (
+            {systems.map((item, index) => (
               <article
                 key={index}
                 className="border-b border-white/10 pb-7"
@@ -92,22 +87,15 @@ export default function HavalandirmaSistemleriPage() {
         {/* Konforlu ve sağlıklı ortamlar */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Sağlıklı ve Konforlu İç Ortamlar
+            {t("comfortTitle")}
           </h2>
 
           <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            Doğru tasarlanmış bir havalandırma sistemi, iç ortam havasının
-            kalitesinin korunması ve kullanıcı konforunun sağlanması açısından
-            büyük önem taşır. Yeterli miktarda taze havanın sağlanması ve
-            kirli havanın kontrollü şekilde ortamdan uzaklaştırılması sistemin
-            temel görevlerindendir.
+            {t("comfortDescription1")}
           </p>
 
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
-            TACH MEKANİK, hava debisi, kanal kesitleri, fan kapasitesi ve hava
-            dağılımını birlikte değerlendirerek dengeli çalışan sistemler
-            oluşturur. Enerji tüketimini ve işletme maliyetlerini dikkate
-            alarak sürdürülebilir çözümler geliştirir.
+            {t("comfortDescription2")}
           </p>
         </section>
 
@@ -118,16 +106,13 @@ export default function HavalandirmaSistemleriPage() {
           </p>
 
           <h2 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Temiz Hava İçin Güvenilir Havalandırma
+            {t("footerTitle")}
           </h2>
 
           <p className="mt-5 max-w-[1300px] text-lg leading-9 text-gray-300 md:text-xl">
-            Doğru mühendislik, uygun ekipman seçimi ve profesyonel uygulama
-            ile verimli, güvenilir ve uzun ömürlü havalandırma sistemleri
-            oluşturuyoruz.
+            {t("footerDescription")}
           </p>
         </section>
-
       </div>
     </main>
   );

@@ -1,11 +1,24 @@
 {
   "menu": {
     "home": "Home",
-    "about": "About Us",
-    "services": "Services",
-    "gallery": "Gallery",
-    "projects": "Projects",
-    "contact": "Contact"
+  "about": "About Us",
+  "services": "Services",
+  "gallery": "Gallery",
+  "projects": "Projects",
+  "contact": "Contact",
+
+  "projelendirme": "Project Planning",
+  "kesif": "Survey",
+  "sihhiTesisat": "Plumbing",
+  "yanginTesisat": "Fire Protection",
+  "havalandirma": "Ventilation",
+  "isitmaSogutma": "Heating & Cooling",
+  "vrfSistemleri": "VRF Systems",
+  "medikalGaz": "Medical Gas",
+  "havuzSistemleri": "Swimming Pool Systems",
+  "peyzaj": "Landscape Irrigation",
+  "aritma": "Water Treatment",
+  "altyapi": "Infrastructure"
   },
 
   "HeroSlider": {
@@ -24,20 +37,19 @@
   },
 
   "Gallery": {
-  "title": "Gallery",
-  "subtitle": "TACH MECHANICAL Project Applications",
-
-  "fire": "Fire Protection Systems",
-  "sanitary": "Plumbing Systems",
-  "ventilation": "Ventilation Systems",
-  "hvac": "HVAC Systems",
-  "medical": "Medical Gas Systems",
-  "booster": "Booster Pump Systems",
-  "landscape": "Landscape Irrigation Systems",
-  "treatment": "Water Treatment Systems",
-  "infrastructure": "Infrastructure Systems",
-  "pool": "Swimming Pool Systems"
-},
+    "title": "Gallery",
+    "subtitle": "TACH MECHANICAL Project Applications",
+    "fire": "Fire Protection Systems",
+    "sanitary": "Plumbing Systems",
+    "ventilation": "Ventilation Systems",
+    "hvac": "HVAC Systems",
+    "medical": "Medical Gas Systems",
+    "booster": "Booster Pump Systems",
+    "landscape": "Landscape Irrigation Systems",
+    "treatment": "Water Treatment Systems",
+    "infrastructure": "Infrastructure Systems",
+    "pool": "Swimming Pool Systems"
+  },
 
   "Services": {
     "brand": "TACH MECHANICAL",
@@ -45,7 +57,6 @@
     "subtitle": "We provide professional mechanical installation solutions from design to implementation for every stage of your projects.",
 
     "items": {
-
       "project": {
         "title": "Mechanical Design",
         "description": "At TACH MECHANICAL, we provide professional mechanical design solutions based on engineering principles, international standards and modern design approaches. We perform requirement analysis, site evaluations, technical assessments and detailed engineering calculations to create the most suitable system designs for each project. We develop reliable, energy-efficient and long-lasting solutions for plumbing systems, HVAC, fire protection, ventilation, industrial mechanical installations and specialized systems."
@@ -58,12 +69,12 @@
 
       "plumbing": {
         "title": "Plumbing Systems",
-        "description": "At TACH MEKANİK, we provide reliable, efficient, and sustainable engineering solutions for plumbing systems, which are among the fundamental requirements of residential, commercial, and industrial facilities. We design and implement clean water, wastewater, rainwater, and hot water systems with accurate engineering calculations, high-quality material selection, and professional installation processes.\n\nWe manage all stages of plumbing projects, from design and engineering to installation and commissioning, for residential buildings, commercial facilities, hotels, hospitals, industrial plants, and special projects. By prioritizing water efficiency, hygiene standards, energy savings, and operational convenience, we develop modern solutions tailored to the needs of each project.\n\nWe provide professional services for clean water distribution systems, wastewater and drainage systems, rainwater collection systems, booster systems, and domestic hot water solutions in accordance with national and international application standards.\n\nWith a focus on quality, durability, and long-term performance, we deliver reliable and sustainable plumbing solutions that meet the highest expectations of our clients." 
+        "description": "At TACH MEKANİK, we provide reliable, efficient, and sustainable engineering solutions for plumbing systems, which are among the fundamental requirements of residential, commercial, and industrial facilities. We design and implement clean water, wastewater, rainwater, and hot water systems with accurate engineering calculations, high-quality material selection, and professional installation processes.\n\nWe manage all stages of plumbing projects, from design and engineering to installation and commissioning, for residential buildings, commercial facilities, hotels, hospitals, industrial plants, and special projects. By prioritizing water efficiency, hygiene standards, energy savings, and operational convenience, we develop modern solutions tailored to the needs of each project.\n\nWe provide professional services for clean water distribution systems, wastewater and drainage systems, rainwater collection systems, booster systems, and domestic hot water solutions in accordance with national and international application standards.\n\nWith a focus on quality, durability, and long-term performance, we deliver reliable and sustainable plumbing solutions that meet the highest expectations of our clients."
       },
 
       "fire": {
         "title": "Fire Protection Systems",
-         "description": "At TACH MECHANIK, we design, engineer, and implement modern fire protection systems to ensure the safety of people, assets, and facilities. Based on internationally recognized NFPA, EN, and ISO standards, we provide reliable engineering solutions for industrial facilities, commercial buildings, hospitals, hotels, and special projects.\n\nWe professionally manage all stages of fire protection projects, including sprinkler systems, fire hose cabinets, hydrant systems, fire pumps, fire alarm systems, and special suppression solutions, from design and equipment selection to installation, testing, and commissioning.\n\nBy developing solutions in accordance with NFPA 13, NFPA 20, NFPA 72, NFPA 2001 standards, as well as EN 12845, EN 15004, and CEN/TS 54-14 criteria, we create high-performance, sustainable, and long-lasting fire safety systems.\n\nIn every project, we prioritize reliability, rapid response, quality, and operational continuity, providing our customers with effective fire protection solutions that meet international standards."
+        "description": "At TACH MECHANIK, we design, engineer, and implement modern fire protection systems to ensure the safety of people, assets, and facilities. Based on internationally recognized NFPA, EN, and ISO standards, we provide reliable engineering solutions for industrial facilities, commercial buildings, hospitals, hotels, and special projects.\n\nWe professionally manage all stages of fire protection projects, including sprinkler systems, fire hose cabinets, hydrant systems, fire pumps, fire alarm systems, and special suppression solutions, from design and equipment selection to installation, testing, and commissioning.\n\nBy developing solutions in accordance with NFPA 13, NFPA 20, NFPA 72, NFPA 2001 standards, as well as EN 12845, EN 15004, and CEN/TS 54-14 criteria, we create high-performance, sustainable, and long-lasting fire safety systems.\n\nIn every project, we prioritize reliability, rapid response, quality, and operational continuity, providing our customers with effective fire protection solutions that meet international standards."
       },
 
       "ventilation": {
@@ -78,7 +89,7 @@
 
       "vrf": {
         "title": "VRF Systems",
-        "description": "Компания TACH Mekanik предлагает высокоэффективные решения в области систем отопления и охлаждения для жилых проектов, вилл, отелей, больниц, торговых центров, офисов и промышленных объектов. Мы проектируем и реализуем современные системы климатизации, включая центральное отопление, кондиционирование воздуха, чиллерные системы, фанкойлы, котельные установки, тепловые насосы и другие HVAC-технологии, адаптированные под требования каждого проекта. Наша опытная инженерная команда профессионально выполняет все этапы работ: обследование объекта, расчёты мощности, проектирование, подбор оборудования, монтаж, ввод в эксплуатацию и техническое сопровождение. Используя качественное оборудование, точные инженерные расчёты и современные методы монтажа, мы создаём надёжные, долговечные и энергоэффективные механические системы, обеспечивающие высокий уровень комфорта."
+        "description": "As TACH Mekanik, we design and implement modern VRF air conditioning systems for hotels, hospitals, offices, shopping centers, villas, commercial buildings and other projects. Our VRF solutions provide individual temperature control, high energy efficiency and maximum comfort through variable refrigerant flow technology. Each system is designed according to the characteristics of the building, its intended use and the requirements of the client. Our experienced engineering team professionally manages site surveys, capacity calculations, system design, equipment selection, installation, testing and commissioning. With quality equipment and precise engineering applications, we provide reliable, quiet, energy-efficient and long-lasting VRF systems."
       },
 
       "medical": {
@@ -103,9 +114,8 @@
 
       "infrastructure": {
         "title": "Infrastructure Systems",
-       "description": "As TACH Mekanik, we provide reliable mechanical infrastructure solutions for residential projects, villas, hotels, residential complexes, commercial buildings, and large-scale construction projects. We design and implement clean water supply systems, wastewater systems, stormwater drainage infrastructure, building connection lines, and mechanical infrastructure applications according to project requirements. Our experienced engineering team professionally manages all processes including site surveys, hydraulic calculations, system design, material selection, installation, testing, and commissioning. With accurate engineering calculations, high-quality materials, and modern installation techniques, we create long-lasting, safe, and efficient infrastructure systems. TACH Mekanik is your reliable solution partner for mechanical infrastructure projects from the initial design stage to final completion."
+        "description": "As TACH Mekanik, we provide reliable mechanical infrastructure solutions for residential projects, villas, hotels, residential complexes, commercial buildings, and large-scale construction projects. We design and implement clean water supply systems, wastewater systems, stormwater drainage infrastructure, building connection lines, and mechanical infrastructure applications according to project requirements. Our experienced engineering team professionally manages all processes including site surveys, hydraulic calculations, system design, material selection, installation, testing, and commissioning. With accurate engineering calculations, high-quality materials, and modern installation techniques, we create long-lasting, safe, and efficient infrastructure systems. TACH Mekanik is your reliable solution partner for mechanical infrastructure projects from the initial design stage to final completion."
       }
-
     }
   },
 
@@ -118,7 +128,8 @@
     "experience": "Years of Experience",
     "projects": "Completed Projects"
   },
-    "AboutPage": {
+
+  "AboutPage": {
     "hero": {
       "title": "About Us",
       "subtitle": "Since 1987, we have been combining trust, quality and engineering excellence in the mechanical installation industry."
@@ -151,7 +162,6 @@
 
     "expertise": {
       "title": "Our Expertise",
-
       "items": {
         "project": "Mechanical Installation Design",
         "survey": "Quantity Survey & Cost Analysis",
@@ -226,6 +236,314 @@
     "email": "E-mail",
     "address": "Address",
     "website": "Website"
-  
-  }
+  },
+
+  "ProjectPage": {
+    "brand": "TACH MECHANICAL",
+    "title": "MECHANICAL DESIGN",
+    "heading": "Professional Mechanical Installation Design",
+    "intro1": "At TACH MECHANICAL, we prepare safe, efficient and sustainable mechanical installation projects according to the needs and intended use of each building. We do not consider the design process as merely technical drawings; we develop comprehensive solutions that are compatible with architectural, electrical and other disciplines and prevent problems during implementation.",
+    "intro2": "By combining our engineering experience with modern project techniques, we design mechanical systems specifically for different types of buildings, from residential and commercial buildings to industrial facilities and large-scale projects.",
+    "scopeTitle": "Our Design Scope",
+    "scopeText": "We evaluate each project according to its specific technical requirements and develop comprehensive solutions that ensure all mechanical systems operate in harmony.",
+
+    "scope": {
+      "heatingCooling": "Heating and cooling system designs",
+      "plumbing": "Plumbing system designs",
+      "fire": "Fire protection system designs",
+      "ventilation": "Ventilation designs",
+      "vrf": "VRF system designs",
+      "medical": "Medical gas system designs",
+      "infrastructure": "Mechanical infrastructure designs",
+      "pump": "Pump and booster pump system designs",
+      "technical": "Technical room and equipment layouts",
+      "piping": "Piping and ductwork systems",
+      "calculations": "System capacity and flow calculations",
+      "application": "Application and detailed designs"
+    },
+
+    "correctTitle": "The Right Design, The Right Implementation",
+    "correctText1": "A well-prepared mechanical installation project forms the foundation of the implementation process. TACH MECHANICAL evaluates potential implementation problems during the design stage and plans the selection of materials, equipment, capacities and systems correctly.",
+    "correctText2": "Our goal is not only to create functioning systems, but to provide mechanical installation solutions that will operate reliably for many years, reduce operating costs and support energy efficiency.",
+    "finalTitle": "Reliable Mechanical Solutions with Engineering Experience",
+    "finalText": "From design to implementation, we design long-lasting systems through accurate planning and the right engineering approach."
+  },
+
+  "ExplorationPage": {
+    "brand": "TACH MECHANICAL",
+    "title": "SITE SURVEY",
+    "heading": "Professional Mechanical Site Survey",
+    "intro1": "At TACH MECHANICAL, we carry out site survey studies meticulously to ensure the correct planning of mechanical installation applications. By evaluating the existing condition, intended use and technical requirements of each building on site, we develop practical and reliable solutions.",
+    "intro2": "During the survey process, we do not only examine the existing systems. We also identify technical requirements that may arise during the design, implementation and operation stages, helping to ensure the correct selection of materials, equipment and systems.",
+    "scopeTitle": "Our Site Survey Services",
+    "scopeText": "We evaluate each building according to its specific characteristics and analyze the requirements of mechanical installation systems in detail.",
+
+    "items": {
+      "existing": "Inspection of existing mechanical installation systems",
+      "architectural": "Evaluation of the technical and architectural condition of the building",
+      "heatingCooling": "Inspection of heating and cooling systems",
+      "plumbing": "Identification of plumbing requirements",
+      "fire": "Evaluation of fire protection requirements",
+      "ventilation": "Inspection of ventilation systems",
+      "vrf": "Technical assessment for VRF systems",
+      "medical": "Identification of medical gas system requirements",
+      "equipment": "Inspection of mechanical equipment and machinery",
+      "piping": "Evaluation of pipe and duct routes",
+      "capacity": "Determination of capacity and flow requirements",
+      "materials": "Identification of materials and equipment required for implementation"
+    },
+
+    "correctTitle": "The Right Survey, The Right Planning",
+    "correctText1": "A proper site survey is one of the first steps of a successful mechanical installation application. Detailed on-site inspections help prevent uncertainties and unnecessary costs that may arise during implementation.",
+    "correctText2": "At TACH MECHANICAL, we evaluate the technical data obtained during the survey process and ensure that it is correctly transferred to the design and implementation stages. This allows us to develop more efficient solutions in terms of time, materials and labor.",
+    "finalTitle": "On-Site Inspection, Accurate Assessment, Reliable Solution",
+    "finalText": "We begin every project with accurate site surveys and technical assessments, developing mechanical installation solutions tailored to the specific requirements of each project."
+  },
+
+  "PlumbingPage": {
+    "brand": "TACH MECHANICAL",
+    "title": "PLUMBING",
+    "heading": "Professional Plumbing Systems",
+    "intro1": "At TACH MECHANICAL, we design and implement reliable and long-lasting plumbing systems for the clean water, hot water, wastewater and rainwater requirements of buildings. We provide solutions suitable for different types of buildings, from residential and commercial projects to industrial facilities and large-scale developments.",
+    "intro2": "We handle the entire process from system design to implementation in accordance with engineering principles, creating safe and efficient installations through correct pipe sizing, appropriate material selection and adequate pressure and flow calculations.",
+    "scopeTitle": "Our Plumbing Scope",
+    "scopeText": "We evaluate each project according to its specific technical requirements and develop comprehensive solutions for safe, hygienic and efficient plumbing systems throughout the building.",
+
+    "items": {
+      "cleanWater": "Clean water supply systems",
+      "hotWater": "Domestic hot water systems",
+      "coldWater": "Cold water systems",
+      "wasteWater": "Wastewater systems",
+      "rainWater": "Rainwater systems",
+      "sewage": "Sewage and drainage systems",
+      "drainage": "Drainage systems",
+      "pump": "Pump and booster pump systems",
+      "storage": "Water storage and distribution systems",
+      "pressurization": "Water pressurization systems",
+      "calculations": "Pipe sizing, flow and pressure calculations",
+      "detail": "Plumbing installation and detailed design projects"
+    },
+
+    "safetyTitle": "Safe and Hygienic Plumbing Systems",
+    "safetyText1": "Plumbing systems are among the fundamental mechanical systems directly required for the daily use of buildings. Therefore, proper system design and implementation with high-quality materials are of great importance.",
+    "safetyText2": "TACH MECHANICAL selects appropriate materials and equipment with the goal of ensuring reliable operation for many years. By evaluating water losses, pressure problems and potential technical issues in advance, we provide sustainable solutions.",
+    "finalTitle": "Reliable Plumbing for Healthy Buildings",
+    "finalText": "We create long-lasting plumbing systems through proper engineering, quality materials and professional implementation."
+  },
+  "FirePage": {
+  "title": "FIRE PROTECTION SYSTEMS",
+  "mainTitle": "Professional Fire Protection Systems",
+  "mainDescription1": "At TACH MEKANİK, we design and install fire protection systems in accordance with national and international standards to ensure the safety of buildings against fire risks. We provide fire safety solutions suitable for different applications, from residential and commercial buildings to industrial facilities and large-scale structures.",
+  "mainDescription2": "In fire protection systems, we focus on accurate capacity calculations, proper equipment selection, and reliable installation principles. We ensure that the water required during a fire reaches the necessary points at the correct pressure and flow rates.",
+  "scopeTitle": "Our Fire Protection Systems",
+  "scopeDescription": "We develop fire extinguishing and fire protection systems according to the intended use, size, and fire risks of each building.",
+  "systems": {
+    "1": "Fire hydrant systems",
+    "2": "Fire hose reel systems",
+    "3": "Sprinkler fire extinguishing systems",
+    "4": "Fire pump systems",
+    "5": "Fire water storage tanks",
+    "6": "Fire riser systems",
+    "7": "Wet pipe sprinkler systems",
+    "8": "Dry pipe sprinkler systems",
+    "9": "Gas fire suppression systems",
+    "10": "Fire water pressure boosting systems",
+    "11": "Fire protection piping systems",
+    "12": "Fire protection calculation and application projects"
+  },
+  "safetyTitle": "Safe Fire Protection Systems",
+  "safetyDescription1": "The purpose of fire protection systems is to reduce intervention time during a fire and help bring the fire under control. Therefore, proper system design, appropriate equipment selection, and installation in accordance with technical standards are of great importance.",
+  "safetyDescription2": "TACH MEKANİK provides reliable, durable, and long-lasting fire protection solutions by evaluating fire safety requirements as a whole. We create accessible and sustainable solutions to ensure that system maintenance and operation processes can be carried out effectively.",
+  "footerTitle": "Effective Fire Solutions for Safe Buildings",
+  "footerDescription": "With proper engineering, quality equipment, and professional installation, we create reliable systems that contribute to the fire safety of buildings."
+},
+"VentilationPage": {
+  "title": "VENTILATION SYSTEMS",
+  "mainTitle": "Professional Ventilation Systems",
+  "mainDescription1": "At TACH MEKANİK, we design and install professional ventilation systems to create healthy and comfortable indoor conditions in buildings. We provide mechanical ventilation solutions tailored to different needs, from residential and commercial buildings to industrial facilities and large-scale projects.",
+  "mainDescription2": "We evaluate technical requirements such as fresh air demand, exhaust air, air change rates, and system capacity to create energy-efficient, reliable, and long-lasting ventilation systems.",
+  "scopeTitle": "Our Ventilation Systems",
+  "scopeDescription": "We determine suitable ventilation systems by evaluating the purpose and technical requirements of each building individually, and we carry out design and installation processes in accordance with engineering principles.",
+  "systems": {
+    "1": "Fresh air ventilation systems",
+    "2": "Exhaust and waste air systems",
+    "3": "Mechanical ventilation systems",
+    "4": "Parking garage ventilation systems",
+    "5": "Kitchen hood and exhaust systems",
+    "6": "Bathroom and WC exhaust systems",
+    "7": "Industrial ventilation systems",
+    "8": "Heat recovery ventilation systems",
+    "9": "Air duct systems",
+    "10": "Fan and aspirator systems",
+    "11": "Air distribution and diffuser systems",
+    "12": "Ventilation application and detail projects"
+  },
+  "comfortTitle": "Healthy and Comfortable Indoor Environments",
+  "comfortDescription1": "A properly designed ventilation system is essential for maintaining indoor air quality and ensuring user comfort. Providing sufficient fresh air and removing polluted air from the environment in a controlled manner are among the fundamental functions of the system.",
+  "comfortDescription2": "TACH MEKANİK creates balanced systems by evaluating air flow rates, duct dimensions, fan capacity, and air distribution together. We develop sustainable solutions by taking energy consumption and operating costs into consideration.",
+  "footerTitle": "Reliable Ventilation for Clean Air",
+  "footerDescription": "With proper engineering, suitable equipment selection, and professional installation, we create efficient, reliable, and long-lasting ventilation systems."
+},
+"HeatingCoolingPage": {
+  "title": "HEATING AND COOLING SYSTEMS",
+  "mainTitle": "Professional Heating and Cooling Systems",
+  "mainDescription1": "At TACH MEKANİK, we design and install comfortable, efficient, and reliable mechanical systems for the heating and cooling needs of buildings. We provide solutions suitable for different applications, from residential and commercial buildings to industrial facilities and large-scale projects.",
+  "mainDescription2": "We select the appropriate systems by evaluating the purpose, capacity, and technical requirements of each building. With accurate capacity calculations, suitable equipment, and proper piping design, we create energy-efficient and long-lasting systems.",
+  "scopeTitle": "Our Heating and Cooling Systems",
+  "scopeDescription": "We evaluate each project according to its specific requirements and develop engineering solutions suitable for the climate control and energy needs of buildings.",
+  "systems": {
+    "1": "Radiator and central heating systems",
+    "2": "Boiler and hot water systems",
+    "3": "Individual heating systems",
+    "4": "Radiator heating systems",
+    "5": "Underfloor heating systems",
+    "6": "Fan-coil systems",
+    "7": "Chiller systems",
+    "8": "Cooling plant systems",
+    "9": "Heat pump systems",
+    "10": "Hot and chilled water piping systems",
+    "11": "Pump and circulation systems",
+    "12": "Heating and cooling application projects"
+  },
+  "comfortTitle": "Comfortable and Energy-Efficient Systems",
+  "comfortDescription1": "Proper capacity selection, suitable equipment, and balanced system design are essential for energy consumption and user comfort in heating and cooling systems.",
+  "comfortDescription2": "TACH MEKANİK provides sustainable solutions by evaluating performance, energy efficiency, and operating costs together throughout all stages, from system design to installation.",
+  "footerTitle": "Climate Control Solutions for Every Building",
+  "footerDescription": "With proper engineering, quality equipment, and professional installation, we create comfortable, efficient, and long-lasting heating and cooling systems."
+},
+"VRFPage": {
+  "title": "VRF SYSTEMS",
+  "mainTitle": "Professional VRF Systems",
+  "mainDescription1": "At TACH MEKANİK, we design and install high-efficiency VRF systems for the heating and cooling needs of different applications. We provide solutions suitable for residential buildings, offices, hotels, commercial buildings, and large-scale projects.",
+  "mainDescription2": "We determine suitable combinations of outdoor and indoor units by evaluating the purpose, capacity, and architectural characteristics of each building. We consider energy efficiency and user comfort together.",
+  "scopeTitle": "Our VRF Systems",
+  "scopeDescription": "We manage all processes, from the design to the installation of VRF systems, in accordance with engineering principles and the technical requirements of each project.",
+  "systems": {
+    "1": "VRF system design",
+    "2": "VRF outdoor unit systems",
+    "3": "VRF indoor unit systems",
+    "4": "Cassette-type indoor units",
+    "5": "Wall-mounted indoor units",
+    "6": "Duct-type indoor units",
+    "7": "Concealed ceiling indoor units",
+    "8": "VRF copper piping systems",
+    "9": "Condensate drainage systems",
+    "10": "Control and management systems",
+    "11": "VRF application and detail projects",
+    "12": "Commissioning and system inspections"
+  },
+  "efficiencyTitle": "Comfort and Energy Efficiency",
+  "efficiencyDescription1": "VRF systems help optimize energy use by allowing different spaces to be controlled independently according to their individual needs. High comfort can be achieved through proper system design, equipment selection, and installation.",
+  "efficiencyDescription2": "TACH MEKANİK creates balanced VRF solutions by evaluating system capacity and space requirements, prioritizing user comfort and energy efficiency.",
+  "footerTitle": "Smart Climate Control for Modern Buildings",
+  "footerDescription": "With proper engineering, suitable system selection, and professional installation, we create efficient, comfortable, and long-lasting VRF systems."
+},
+"MedicalGasPage": {
+  "title": "MEDICAL GAS SYSTEMS",
+  "mainTitle": "Professional Medical Gas Systems",
+  "mainDescription1": "At TACH MEKANİK, we carry out the design, engineering, and installation processes of medical gas systems required in healthcare facilities in accordance with engineering principles.",
+  "mainDescription2": "By evaluating the technical requirements of hospitals, healthcare centers, operating rooms, intensive care units, and other healthcare facilities, we create reliable, controlled, and long-lasting medical gas installations.",
+  "scopeTitle": "Our Medical Gas Systems",
+  "scopeDescription": "We approach the medical gas infrastructure as a whole according to the purpose of the project and the technical requirements of the healthcare facility, designing safe and reliably operating systems.",
+  "systems": {
+    "1": "Medical oxygen systems",
+    "2": "Medical vacuum systems",
+    "3": "Medical compressed air systems",
+    "4": "Nitrogen and other medical gas systems",
+    "5": "Medical gas piping systems",
+    "6": "Medical gas outlets and terminal units",
+    "7": "Operating room medical gas systems",
+    "8": "Intensive care medical gas systems",
+    "9": "Patient room medical gas systems",
+    "10": "Medical gas alarm and control systems",
+    "11": "Medical gas application and detail projects",
+    "12": "System testing and commissioning works"
+  },
+  "safetyTitle": "Safe and Controlled Systems",
+  "safetyDescription1": "Reliability and continuity are of great importance in medical gas systems. Proper system design, the use of suitable materials, and installation in accordance with technical standards are fundamental elements for the safe operation of healthcare facilities.",
+  "safetyDescription2": "TACH MEKANİK aims to create controlled, organized, and reliable systems by evaluating all components of the medical gas infrastructure together.",
+  "footerTitle": "Reliable Medical Gas Systems for Healthcare Facilities",
+  "footerDescription": "With proper engineering, suitable materials, and professional installation, we create reliable medical gas systems tailored to the needs of healthcare facilities."
+},
+"SwimmingPoolPage": {
+  "title": "SWIMMING POOL SYSTEMS",
+  "mainTitle": "Professional Swimming Pool Systems",
+  "mainDescription1": "At TACH MEKANİK, we design and install reliable and efficient systems for the mechanical installation, filtration, circulation, and water treatment needs of swimming pools.",
+  "mainDescription2": "We provide engineering solutions suitable for the purpose and capacity of swimming pools in residential buildings, hotels, sports facilities, social facilities, and large-scale projects.",
+  "scopeTitle": "Our Swimming Pool Systems",
+  "scopeDescription": "We evaluate all mechanical requirements of the pool as a whole and create suitable systems to ensure that water is properly circulated, filtered, and kept under control.",
+  "systems": {
+    "1": "Pool circulation systems",
+    "2": "Pool filtration systems",
+    "3": "Pool pump systems",
+    "4": "Balance tank systems",
+    "5": "Pool heating systems",
+    "6": "Pool water treatment systems",
+    "7": "Chemical dosing systems",
+    "8": "Pool overflow and return systems",
+    "9": "Pool drainage systems",
+    "10": "Pool mechanical installation piping",
+    "11": "Pool equipment and control systems",
+    "12": "Swimming pool application and detail projects"
+  },
+  "hygieneTitle": "Hygienic and Efficient Pool Systems",
+  "hygieneDescription1": "Proper circulation and filtration systems are essential for maintaining water quality and ensuring user comfort in swimming pools.",
+  "hygieneDescription2": "TACH MEKANİK determines suitable pumps, filters, piping, and control systems by evaluating pool capacity and operating conditions. We also provide sustainable solutions by considering energy efficiency and operating costs.",
+  "footerTitle": "Healthy and Comfortable Swimming Pools",
+  "footerDescription": "With proper engineering, quality equipment, and professional installation, we create reliable, efficient, and long-lasting swimming pool systems."
+},
+"LandscapePage": {
+  "title": "LANDSCAPE SYSTEMS",
+  "mainTitle": "Professional Landscape Irrigation Systems",
+  "mainDescription1": "At TACH MEKANİK, we design and install modern, efficient, and long-lasting irrigation systems for the needs of green areas and landscape applications. We provide solutions suitable for different areas, from residential and commercial buildings to hotels and large-scale landscape projects.",
+  "mainDescription2": "We determine the appropriate irrigation method by evaluating the size of the area, plant types, water requirements, and operating conditions. We create systems that ensure controlled and balanced water distribution.",
+  "scopeTitle": "Our Landscape Systems",
+  "scopeDescription": "We evaluate the irrigation needs of landscape areas as a whole and develop sustainable solutions with automatic and controlled irrigation systems.",
+  "systems": {
+    "1": "Automatic landscape irrigation systems",
+    "2": "Drip irrigation systems",
+    "3": "Sprinkler irrigation systems",
+    "4": "Lawn irrigation systems",
+    "5": "Garden irrigation systems",
+    "6": "Tree and plant irrigation systems",
+    "7": "Irrigation pump systems",
+    "8": "Water storage and distribution systems",
+    "9": "Irrigation piping systems",
+    "10": "Automatic irrigation control systems",
+    "11": "Rain sensor and control systems",
+    "12": "Landscape irrigation application and detail projects"
+  },
+  "efficiencyTitle": "Water Conservation and Efficient Irrigation",
+  "efficiencyDescription1": "Proper design of landscape irrigation systems is essential to prevent unnecessary water use and provide plants with the water they need at the right time.",
+  "efficiencyDescription2": "TACH MEKANİK creates controlled systems by evaluating irrigation zones and water requirements individually. Automatic control and suitable irrigation equipment help manage water consumption efficiently.",
+  "footerTitle": "Smart Irrigation for Green Areas",
+  "footerDescription": "With proper engineering, suitable equipment, and professional installation, we create efficient, controlled, and long-lasting landscape irrigation systems."
+},
+"WaterTreatmentPage": {
+  "title": "WATER TREATMENT SYSTEMS",
+  "mainTitle": "Professional Water Treatment Systems",
+  "mainDescription1": "At TACH MEKANİK, we design and install reliable and efficient water treatment systems for the water needs of buildings and businesses. We develop sustainable systems by providing solutions suitable for the intended use and water quality.",
+  "mainDescription2": "We evaluate the needs of different facilities, from residential and commercial buildings to hotels and industrial plants, and provide long-lasting solutions with the right capacity, equipment, and system design.",
+  "scopeTitle": "Our Water Treatment Systems",
+  "scopeDescription": "By evaluating water quality and usage requirements together, we determine the appropriate treatment methods and consider all mechanical components of the system as a whole.",
+  "systems": {
+    "1": "Water treatment systems",
+    "2": "Drinking and utility water treatment systems",
+    "3": "Filtration systems",
+    "4": "Sand and carbon filter systems",
+    "5": "Water softening systems",
+    "6": "Reverse osmosis systems",
+    "7": "Ultrafiltration systems",
+    "8": "Water storage and distribution systems",
+    "9": "Water treatment pump systems",
+    "10": "Chemical dosing systems",
+    "11": "Water treatment piping and installation systems",
+    "12": "Water treatment application and detail projects"
+  },
+  "qualityTitle": "For Clean and Reliable Water",
+  "qualityDescription1": "Proper process selection and the use of suitable equipment are essential for water quality and operational efficiency in water treatment systems.",
+  "qualityDescription2": "TACH MEKANİK develops water treatment solutions according to the intended use of the water and its existing characteristics. We aim to ensure that systems operate reliably, in a controlled manner, and sustainably.",
+  "footerTitle": "Reliable Solutions for Water Quality",
+  "footerDescription": "With proper engineering, suitable equipment, and professional installation, we create efficient, reliable, and long-lasting water treatment systems."
+}
 }

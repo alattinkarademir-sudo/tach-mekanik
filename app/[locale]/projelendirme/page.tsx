@@ -1,7 +1,11 @@
 
 "use client";
 
+import { useTranslations } from "next-intl";
+
 export default function ProjelendirmePage() {
+  const t = useTranslations("ProjectPage");
+
   return (
     <main className="min-h-screen bg-[#202020] px-5 py-24 md:px-10 lg:px-20">
       <div className="mx-auto max-w-[1400px]">
@@ -9,12 +13,12 @@ export default function ProjelendirmePage() {
         {/* Başlık */}
         <header className="mb-20">
           <p className="text-cyan-400 uppercase tracking-[0.35em] font-semibold">
-            TACH MEKANİK
-          </p>
+  {t("brand")}
+</p>
 
-         <h1 className="mt-5 text-2xl md:text-3xl lg:text-4xl font-bold text-white">
-            PROJELENDİRME
-          </h1>
+<h1 className="mt-5 text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+  {t("title")}
+</h1>
 
           <div className="mt-6 h-1 w-24 bg-cyan-400" />
         </header>
@@ -22,52 +26,42 @@ export default function ProjelendirmePage() {
         {/* Ana açıklama */}
         <section>
           <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-white">
-            Profesyonel Mekanik Tesisat Projelendirme
-          </h2>
+  {t("heading")}
+</h2>
 
           <p className="mt-8 text-lg md:text-xl text-gray-300 leading-9 max-w-[1250px]">
-            TACH MEKANİK olarak, yapıların ihtiyaçlarına ve kullanım amaçlarına
-            uygun, güvenli, verimli ve sürdürülebilir mekanik tesisat
-            projeleri hazırlıyoruz. Projelendirme sürecini yalnızca teknik
-            çizimlerden ibaret görmüyor; yapının mimari, elektrik ve diğer
-            disiplinleriyle uyumlu, uygulamada sorun çıkarmayacak bütüncül
-            çözümler geliştiriyoruz.
-          </p>
+  {t("intro1")}
+</p>
 
           <p className="mt-6 text-lg md:text-xl text-gray-300 leading-9 max-w-[1250px]">
-            Mühendislik deneyimimizi modern proje teknikleriyle birleştirerek
-            konutlardan ticari yapılara, endüstriyel tesislerden büyük ölçekli
-            projelere kadar farklı yapı tiplerine özel mekanik sistemler
-            tasarlıyoruz.
-          </p>
+  {t("intro2")}
+</p>
         </section>
 
         {/* Projelendirme kapsamı */}
         <section className="mt-20">
           <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-white">
-            Projelendirme Kapsamımız
-          </h2>
+  {t("scopeTitle")}
+</h2>
 
-          <p className="mt-6 text-lg md:text-xl text-gray-300 leading-9 max-w-[1250px]">
-            Her projeyi kendi teknik ihtiyaçları doğrultusunda değerlendiriyor,
-            mekanik sistemlerin birbiriyle uyumlu çalışmasını sağlayacak
-            kapsamlı çözümler geliştiriyoruz.
-          </p>
+<p className="mt-6 text-lg md:text-xl text-gray-300 leading-9 max-w-[1250px]">
+  {t("scopeText")}
+</p>
 
           <div className="mt-10 space-y-7">
             {[
-              "Isıtma ve soğutma sistemleri projeleri",
-              "Sıhhi tesisat projeleri",
-              "Yangın tesisatı projeleri",
-              "Havalandırma projeleri",
-              "VRF sistemleri projeleri",
-              "Medikal gaz tesisatı projeleri",
-              "Mekanik altyapı projeleri",
-              "Pompa ve hidrofor sistemleri",
-              "Teknik hacim ve cihaz yerleşimleri",
-              "Borulama ve kanal sistemleri",
-              "Sistem kapasite ve debi hesaplamaları",
-              "Uygulama ve detay projeleri",
+              , t("scope.heatingCooling"),
+  t("scope.plumbing"),
+  t("scope.fire"),
+  t("scope.ventilation"),
+  t("scope.vrf"),
+  t("scope.medical"),
+  t("scope.infrastructure"),
+  t("scope.pump"),
+  t("scope.technical"),
+  t("scope.piping"),
+  t("scope.calculations"),
+  t("scope.application"),
             ].map((item, index) => (
               <article
                 key={index}
@@ -90,15 +84,12 @@ export default function ProjelendirmePage() {
         {/* Doğru proje */}
         <section className="mt-24">
           <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-white">
-            Doğru Proje, Doğru Uygulama
-          </h2>
+  {t("correctTitle")}
+</h2>
 
           <p className="mt-8 text-lg md:text-xl text-gray-300 leading-9 max-w-[1250px]">
-            İyi hazırlanmış bir mekanik tesisat projesi, uygulama sürecinin
-            temelini oluşturur. TACH MEKANİK, proje aşamasında olası uygulama
-            problemlerini önceden değerlendirerek malzeme, ekipman, kapasite
-            ve sistem seçimini doğru şekilde planlar.
-          </p>
+  {t("correctText1")}
+</p>
 
           <p className="mt-6 text-lg md:text-xl text-gray-300 leading-9 max-w-[1250px]">
             Amacımız yalnızca çalışan sistemler oluşturmak değil; uzun yıllar
@@ -111,17 +102,16 @@ export default function ProjelendirmePage() {
         {/* Son bölüm */}
         <section className="mt-24 border-t border-white/10 pt-12 pb-16">
           <p className="text-cyan-400 text-sm uppercase tracking-[0.3em] font-semibold">
-            TACH MEKANİK
+            {t("brand")}
           </p>
 
           <h2 className="mt-5 text-3xl md:text-4xl font-bold text-white">
-            Mühendislik Deneyimiyle Güvenilir Mekanik Çözümler
+           {t("finalTitle")}
           </h2>
 
           <p className="mt-5 max-w-[1200px] text-lg md:text-xl text-gray-300 leading-9">
-            Projeden uygulamaya, doğru planlama ve doğru mühendislik yaklaşımı
-            ile uzun ömürlü sistemler tasarlıyoruz.
-          </p>
+  {t("finalText")}
+</p>
         </section>
 
       </div>
