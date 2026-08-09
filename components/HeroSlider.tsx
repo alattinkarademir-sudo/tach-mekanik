@@ -40,11 +40,11 @@ export default function HeroSlider() {
   }, []);
 
   return (
-    <section className="relative w-full h-[420px] md:h-[550px] lg:h-[650px] overflow-hidden">
+    <section className="relative w-full mt-22 h-[420px] md:h-[550px] lg:h-[650px] overflow-hidden">
       <img
         src={images[current]}
         alt={`Slide ${current + 1}`}
-      className="absolute inset-0 w-full h-full object-cover object-[center_25%]"
+      className="absolute inset-0 w-full h-full object-cover object-[center_45%]"
       />
 
       <div className="absolute inset-0 bg-black/40"></div>
