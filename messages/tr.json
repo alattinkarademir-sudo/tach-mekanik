@@ -487,6 +487,32 @@
   "qualityDescription2": "TACH MEKANİK, suyun kullanım amacı ve mevcut özelliklerine göre arıtma çözümleri geliştirir. Sistemlerin güvenilir, kontrollü ve sürdürülebilir şekilde çalışmasını hedefliyoruz.",
   "footerTitle": "Su Kalitesi İçin Güvenilir Çözümler",
   "footerDescription": "Doğru mühendislik, uygun ekipman ve profesyonel uygulama ile verimli, güvenilir ve uzun ömürlü arıtma sistemleri oluşturuyoruz."
+},"InfrastructurePage": {
+  "title": "ALTYAPI SİSTEMLERİ",
+  "mainTitle": "Profesyonel Altyapı Sistemleri",
+  "mainDescription1": "TACH MEKANİK olarak binalar ve farklı projeler için güvenilir, dayanıklı ve uzun ömürlü mekanik altyapı sistemleri tasarlıyor ve uyguluyoruz. Konut ve ticari yapılardan endüstriyel tesislere ve büyük ölçekli projelere kadar farklı ihtiyaçlara uygun çözümler sunuyoruz.",
+  "mainDescription2": "Projenin mevcut koşullarını, arazi özelliklerini ve işletme gereksinimlerini değerlendirerek altyapı sistemlerini bir bütün olarak ele alıyoruz. Doğru kapasite hesapları, uygun malzemeler ve profesyonel uygulama ile güvenilir çözümler oluşturuyoruz.",
+  "scopeTitle": "Altyapı Sistemlerimiz",
+  "scopeDescription": "Altyapının tüm bileşenlerini projenin teknik gereksinimlerine göre değerlendiriyor ve güvenli, verimli sistemler geliştiriyoruz.",
+  "systems": {
+    "1": "Temiz su altyapı sistemleri",
+    "2": "Atık su altyapı sistemleri",
+    "3": "Yağmur suyu kanalizasyon sistemleri",
+    "4": "Drenaj sistemleri",
+    "5": "Kanalizasyon ve atık su sistemleri",
+    "6": "Su dağıtım ve besleme hatları",
+    "7": "Pompa ve hidrofor sistemleri",
+    "8": "Su depolama sistemleri",
+    "9": "Boru altyapı sistemleri",
+    "10": "Rögar ve bağlantı sistemleri",
+    "11": "Mekanik altyapı montaj çalışmaları",
+    "12": "Altyapı uygulama ve detay projeleri"
+  },
+  "reliabilityTitle": "Dayanıklı ve Güvenilir Altyapı",
+  "reliabilityDescription1": "Altyapı sistemleri, yapıların uzun yıllar güvenli ve kesintisiz şekilde işletilmesi için temel öneme sahiptir. Bu nedenle doğru projelendirme, uygun malzeme seçimi ve kaliteli uygulama büyük önem taşır.",
+  "reliabilityDescription2": "TACH MEKANİK, altyapı sistemlerinin kapasitesini ve işletme gereksinimlerini değerlendirerek sürdürülebilir, güvenilir ve uzun ömürlü mekanik çözümler sunar.",
+  "footerTitle": "Sağlam Yapılar İçin Güvenilir Altyapı",
+  "footerDescription": "Doğru mühendislik, kaliteli malzemeler ve profesyonel uygulama ile güvenilir ve uzun ömürlü altyapı sistemleri oluşturuyoruz."
 },
 
   "HomePage": {
