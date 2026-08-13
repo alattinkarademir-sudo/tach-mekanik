@@ -166,6 +166,12 @@ export default function Navbar() {
           >
             {t("contact")}
           </Link>
+          <Link
+  href={`/${locale}/teklif-al`}
+  className="whitespace-nowrap rounded-lg bg-cyan-500 px-4 py-2 text-sm font-bold text-white transition hover:bg-cyan-400 hover:scale-105"
+>
+  {t("quote")}
+</Link>
         </nav>
 
         {/* SAĞ TARAF */}
@@ -390,12 +396,20 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href={`/${locale}/iletisim`}
-            onClick={closeMobileMenu}
-            className="mt-0.5 rounded-lg border border-cyan-400/30 px-3 py-2.5 font-semibold text-cyan-300 transition hover:bg-cyan-400/10"
-          >
-            {t("contact")}
-          </Link>
+  href={`/${locale}/iletisim`}
+  onClick={closeMobileMenu}
+  className="mt-0.5 rounded-lg border border-cyan-400/30 px-3 py-2.5 font-semibold text-cyan-300 transition hover:bg-cyan-400/10"
+>
+  {t("contact")}
+</Link>
+
+<Link
+  href={`/${locale}/teklif-al`}
+  onClick={closeMobileMenu}
+  className="mt-2 rounded-lg bg-cyan-500 px-3 py-3 text-center font-bold text-white transition hover:bg-cyan-400"
+>
+  {t("quote")}
+</Link>
         </nav>
       </div>
     </header>

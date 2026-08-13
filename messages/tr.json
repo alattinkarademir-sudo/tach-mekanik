@@ -6,6 +6,7 @@
     "gallery": "Galeri",
     "projects": "Projeler",
     "contact": "İletişim",
+    "quote": "Teklif Al",
 
     "projelendirme": "Projelendirme",
     "kesif": "Keşif",
@@ -169,15 +170,65 @@
     "projects": "Tamamlanan Proje"
   },
 
-  "Contact": {
-    "brand": "TACH MEKANİK",
-    "title": "İletişim",
-    "description": "Projeleriniz için bizimle iletişime geçin. Uzman ekibimiz en kısa sürede size dönüş sağlayacaktır.",
-    "phone": "Telefon",
-    "email": "E-posta",
-    "address": "Adres",
-    "website": "Web Sitemiz"
-  },
+ "Contact": {
+  "brand": "TACH MEKANİK",
+  "title": "İletişim",
+  "description": "Projeleriniz için bizimle iletişime geçin. Uzman ekibimiz en kısa sürede size dönüş sağlayacaktır.",
+  "phone": "Telefon",
+  "email": "E-posta",
+  "address": "Adres",
+  "website": "Web Sitemiz",
+  "quoteTitle": "PROJELERİNİZ İÇİN TEKLİF ALIN",
+  "quoteDescription": "İhtiyaçlarınızı değerlendirelim, size özel mekanik çözümler sunalım.",
+  "quoteButton": "TEKLİF AL"
+},
+"QuotePage": {
+  "brand": "TACH MEKANİK",
+  "title": "Teklif Al",
+  "description": "Projenizi bize anlatın. Deneyimli ekibimiz talebinizi inceleyerek en kısa sürede sizinle iletişime geçecektir.",
+  "formTitle": "Teklif Talebi",
+  "formDescription": "Size en uygun çözümü hazırlayabilmemiz için lütfen projenizle ilgili detayları paylaşın.",
+
+  "name": "Ad Soyad",
+  "namePlaceholder": "Adınız ve soyadınız",
+
+  "company": "Firma Adı",
+  "companyPlaceholder": "Firma adınız",
+
+  "phone": "Telefon",
+
+  "email": "E-posta",
+
+  "projectType": "Proje Türü",
+  "projectTypePlaceholder": "Proje türünü seçiniz",
+
+  "residential": "Konut",
+  "hotel": "Otel",
+  "hospital": "Hastane",
+  "industrial": "Endüstriyel Tesis",
+  "commercial": "Ticari Yapı",
+  "other": "Diğer",
+
+  "service": "İlgilendiğiniz Hizmet",
+  "servicePlaceholder": "Hizmet seçiniz",
+
+  "project": "Mekanik Projelendirme",
+  "heatingCooling": "Isıtma ve Soğutma",
+  "ventilation": "Havalandırma",
+  "fire": "Yangın Sistemleri",
+  "plumbing": "Sıhhi Tesisat",
+  "vrf": "VRF Sistemleri",
+  "medical": "Medikal Gaz Sistemleri",
+  "infrastructure": "Altyapı Sistemleri",
+
+  "projectDescription": "Proje Açıklaması",
+  "projectDescriptionPlaceholder": "Projeniz hakkında kısa bilgi verebilirsiniz...",
+
+  "submit": "TEKLİF TALEBİ GÖNDER"
+
+},
+
+  
 
   "ProjectPage": {
     "brand": "TACH MEKANİK",
