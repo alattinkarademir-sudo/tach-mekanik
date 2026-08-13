@@ -229,46 +229,58 @@
 "errorMessage": "Teklif gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
 },
 
-  
-
   "ProjectPage": {
-    "brand": "TACH MEKANİK",
-    "title": "MEKANİK PROJELENDİRME",
-    "heading": "Profesyonel Mekanik Tesisat Projelendirme",
-    "intro1": "TACH MEKANİK olarak her binanın ihtiyaçlarına ve kullanım amacına uygun, güvenli, verimli ve sürdürülebilir mekanik tesisat projeleri hazırlıyoruz. Projelendirme sürecini yalnızca teknik çizimlerden ibaret görmüyor; mimari, elektrik ve diğer disiplinlerle uyumlu, uygulama aşamasında oluşabilecek sorunları önleyen kapsamlı çözümler geliştiriyoruz.",
-    "intro2": "Mühendislik deneyimimizi modern proje teknikleriyle birleştirerek konut ve ticari yapılardan endüstriyel tesislere ve büyük ölçekli projelere kadar farklı yapı türlerine özel mekanik sistemler tasarlıyoruz.",
-    "scopeTitle": "Projelendirme Kapsamımız",
-    "scopeText": "Her projeyi kendine özgü teknik gereksinimlerine göre değerlendiriyor ve tüm mekanik sistemlerin uyumlu şekilde çalışmasını sağlayan kapsamlı çözümler geliştiriyoruz.",
-    "scope": {
-      "heatingCooling": "Isıtma ve soğutma sistemleri projelendirmesi",
-      "plumbing": "Sıhhi tesisat sistemleri projelendirmesi",
-      "fire": "Yangın koruma sistemleri projelendirmesi",
-      "ventilation": "Havalandırma sistemleri projelendirmesi",
-      "vrf": "VRF sistemleri projelendirmesi",
-      "medical": "Medikal gaz sistemleri projelendirmesi",
-      "infrastructure": "Mekanik altyapı sistemleri projelendirmesi",
-      "pump": "Pompa ve hidrofor sistemleri projelendirmesi",
-      "technical": "Teknik hacim ve ekipman yerleşimleri",
-      "piping": "Boru ve kanal sistemleri projelendirmesi",
-      "calculations": "Sistem kapasite ve debi hesaplamaları",
-      "application": "Uygulama ve detay projeleri"
-    },
-    "correctTitle": "Doğru Proje, Doğru Uygulama",
-    "correctText1": "İyi hazırlanmış bir mekanik tesisat projesi, uygulama sürecinin temelini oluşturur. TACH MEKANİK, projelendirme aşamasında olası uygulama sorunlarını değerlendirerek malzeme, ekipman, kapasite ve sistem seçimlerini doğru şekilde planlar.",
-    "correctText2": "Amacımız yalnızca çalışan sistemler oluşturmak değil; uzun yıllar güvenilir şekilde çalışacak, işletme maliyetlerini azaltacak ve enerji verimliliğini destekleyecek mekanik tesisat çözümleri sunmaktır.",
-    "finalTitle": "Mühendislik Deneyimiyle Güvenilir Mekanik Çözümler",
-    "finalText": "Projelendirmeden uygulamaya kadar doğru planlama ve doğru mühendislik yaklaşımıyla uzun ömürlü sistemler tasarlıyoruz.",
-    "applicationsTitle": "Nerelerde Uygulanır?",
-"applicationsText": "Mekanik tesisat projelendirme hizmetlerimizi farklı yapı ve kullanım alanlarının teknik gereksinimlerine uygun olarak sunuyoruz.",
-"applications": {
-  "residential": "Konut ve Rezidans Projeleri",
-  "hotel": "Otel ve Turizm Tesisleri",
-  "hospital": "Hastane ve Sağlık Tesisleri",
-  "industrial": "Endüstriyel Tesisler",
-  "commercial": "AVM, Ofis ve Ticari Yapılar",
-  "education": "Eğitim ve Kamu Binaları",
-  "infrastructure": "Altyapı ve Üstyapı Projeleri"
+  "brand": "TACH MEKANİK",
+  "title": "MEKANİK PROJELENDİRME",
+  "heading": "Profesyonel Mekanik Tesisat Projelendirme",
+
+  "intro1": "TACH MEKANİK olarak her binanın ihtiyaçlarına ve kullanım amacına uygun, güvenli, verimli ve sürdürülebilir mekanik tesisat projeleri hazırlıyoruz. Projelendirme sürecini yalnızca teknik çizimlerden ibaret görmüyor; mimari, elektrik ve diğer disiplinlerle uyumlu, uygulama aşamasında oluşabilecek sorunları önleyen kapsamlı çözümler geliştiriyoruz.",
+
+  "intro2": "Mühendislik deneyimimizi modern proje teknikleriyle birleştirerek konut ve ticari yapılardan endüstriyel tesislere ve büyük ölçekli projelere kadar farklı yapı türlerine özel mekanik sistemler tasarlıyoruz.",
+
+  "scopeTitle": "Projelendirme Kapsamımız",
+
+  "scopeText": "Her projeyi kendine özgü teknik gereksinimlerine göre değerlendiriyor ve tüm mekanik sistemlerin uyumlu şekilde çalışmasını sağlayan kapsamlı çözümler geliştiriyoruz.",
+
+  "scope": {
+    "heatingCooling": "Isıtma ve soğutma sistemleri projelendirmesi",
+    "plumbing": "Sıhhi tesisat sistemleri projelendirmesi",
+    "fire": "Yangın koruma sistemleri projelendirmesi",
+    "ventilation": "Havalandırma sistemleri projelendirmesi",
+    "vrf": "VRF sistemleri projelendirmesi",
+    "medical": "Medikal gaz sistemleri projelendirmesi",
+    "infrastructure": "Mekanik altyapı sistemleri projelendirmesi",
+    "pump": "Pompa ve hidrofor sistemleri projelendirmesi",
+    "technical": "Teknik hacim ve ekipman yerleşimleri",
+    "piping": "Boru ve kanal sistemleri projelendirmesi",
+    "calculations": "Sistem kapasite ve debi hesaplamaları",
+    "application": "Uygulama ve detay projeleri"
   },
+
+  "correctTitle": "Doğru Proje, Doğru Uygulama",
+
+  "correctText1": "İyi hazırlanmış bir mekanik tesisat projesi, uygulama sürecinin temelini oluşturur. TACH MEKANİK, projelendirme aşamasında olası uygulama sorunlarını değerlendirerek malzeme, ekipman, kapasite ve sistem seçimlerini doğru şekilde planlar.",
+
+  "correctText2": "Amacımız yalnızca çalışan sistemler oluşturmak değil; uzun yıllar güvenilir şekilde çalışacak, işletme maliyetlerini azaltacak ve enerji verimliliğini destekleyecek mekanik tesisat çözümleri sunmaktır.",
+
+  "finalTitle": "Mühendislik Deneyimiyle Güvenilir Mekanik Çözümler",
+
+  "finalText": "Projelendirmeden uygulamaya kadar doğru planlama ve doğru mühendislik yaklaşımıyla uzun ömürlü sistemler tasarlıyoruz.",
+
+  "applicationsTitle": "Nerelerde Uygulanır?",
+
+  "applicationsText": "Mekanik tesisat projelendirme hizmetlerimizi farklı yapı ve kullanım alanlarının teknik gereksinimlerine uygun olarak sunuyoruz.",
+
+  "applications": {
+    "residential": "Konut ve Rezidans Projeleri",
+    "hotel": "Otel ve Turizm Tesisleri",
+    "hospital": "Hastane ve Sağlık Tesisleri",
+    "industrial": "Endüstriyel Tesisler",
+    "commercial": "AVM, Ofis ve Ticari Yapılar",
+    "education": "Eğitim ve Kamu Binaları",
+    "infrastructure": "Altyapı ve Üstyapı Projeleri"
+  }
+},
 
   "ExplorationPage": {
     "brand": "TACH MEKANİK",
@@ -545,11 +557,13 @@
     "12": "Su arıtma uygulama ve detay projeleri"
   },
   "qualityTitle": "Temiz ve Güvenilir Su İçin",
-  "qualityDescription1": "Su arıtma sistemlerinde doğru proses seçimi ve uygun ekipmanların kullanılması, su kalitesi ve işletme verimliliği açısından büyük önem taşır.",
-  "qualityDescription2": "TACH MEKANİK, suyun kullanım amacı ve mevcut özelliklerine göre arıtma çözümleri geliştirir. Sistemlerin güvenilir, kontrollü ve sürdürülebilir şekilde çalışmasını hedefliyoruz.",
-  "footerTitle": "Su Kalitesi İçin Güvenilir Çözümler",
-  "footerDescription": "Doğru mühendislik, uygun ekipman ve profesyonel uygulama ile verimli, güvenilir ve uzun ömürlü arıtma sistemleri oluşturuyoruz."
-},"InfrastructurePage": {
+"qualityDescription1": "Su arıtma sistemlerinde doğru proses seçimi ve uygun ekipmanların kullanılması, su kalitesi ve işletme verimliliği açısından büyük önem taşır.",
+"qualityDescription2": "TACH MEKANİK, suyun kullanım amacı ve mevcut özelliklerine göre arıtma çözümleri geliştirir. Sistemlerin güvenilir, kontrollü ve sürdürülebilir şekilde çalışmasını hedefliyoruz.",
+"footerTitle": "Su Kalitesi İçin Güvenilir Çözümler",
+"footerDescription": "Doğru mühendislik, uygun ekipman ve profesyonel uygulama ile verimli, güvenilir ve uzun ömürlü arıtma sistemleri oluşturuyoruz."
+},
+
+"InfrastructurePage": {
   "title": "ALTYAPI SİSTEMLERİ",
   "mainTitle": "Profesyonel Altyapı Sistemleri",
   "mainDescription1": "TACH MEKANİK olarak binalar ve farklı projeler için güvenilir, dayanıklı ve uzun ömürlü mekanik altyapı sistemleri tasarlıyor ve uyguluyoruz. Konut ve ticari yapılardan endüstriyel tesislere ve büyük ölçekli projelere kadar farklı ihtiyaçlara uygun çözümler sunuyoruz.",
@@ -577,18 +591,15 @@
   "footerDescription": "Doğru mühendislik, kaliteli malzemeler ve profesyonel uygulama ile güvenilir ve uzun ömürlü altyapı sistemleri oluşturuyoruz."
 },
 
-  "HomePage": {
-    "title": "Mühendislik, Tecrübe ve Güven",
-    "paragraph1": "Mekanik tesisatın yalnızca bir uygulama değil, doğru planlama ve mühendislik gerektiren kapsamlı bir süreç olduğuna inanıyoruz.",
-    "paragraph2": "Projenin ilk aşamasından uygulama ve teslim sürecine kadar; teknik detayları, kaliteyi ve uzun vadeli performansı ön planda tutuyoruz.",
-    "paragraph3": "Her projeye kendi ihtiyaçları doğrultusunda yaklaşarak, işlevsel, güvenilir ve sürdürülebilir mekanik sistemler oluşturmayı hedefliyoruz.",
-    "experience": "Yıl Tecrübe",
-    "professional": "Profesyonel",
-    "engineering": "Mühendislik",
-    "reliable": "Güvenilir",
-    "mechanicalSolutions": "Mekanik Çözümler"
+"HomePage": {
+  "title": "1987'den Günümüze Güvenilir Mekanik Çözümler",
+  "paragraph1": "TACH MEKANİK olarak, mekanik tesisat sektöründe 1987 yılından bu yana edindiğimiz deneyim ve uzmanlıkla projelendirme, uygulama ve danışmanlık hizmetleri sunuyoruz.",
+  "paragraph2": "Türkiye'nin ve dünyanın dört bir yanında gerçekleştirilen üstyapı ve altyapı projelerinde güvenin, kalitenin ve profesyonel mekanik çözümlerin adresiyiz.",
+  "paragraph3": "Modern mühendislik anlayışımız, deneyimli kadromuz ve kaliteli uygulamalarımızla her projeye sürdürülebilir ve güvenilir çözümler sunuyoruz.",
+  "experience": "Yıllık Tecrübe",
+  "professional": "Profesyonel",
+  "engineering": "Mühendislik",
+  "reliable": "Güvenilir",
+  "mechanicalSolutions": "Mekanik Çözümler"
   }
-
-}
-
 }
