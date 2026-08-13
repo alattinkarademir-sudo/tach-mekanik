@@ -205,7 +205,17 @@
     "correctText1": "İyi hazırlanmış bir mekanik tesisat projesi, uygulama sürecinin temelini oluşturur. TACH MEKANİK, projelendirme aşamasında olası uygulama sorunlarını değerlendirerek malzeme, ekipman, kapasite ve sistem seçimlerini doğru şekilde planlar.",
     "correctText2": "Amacımız yalnızca çalışan sistemler oluşturmak değil; uzun yıllar güvenilir şekilde çalışacak, işletme maliyetlerini azaltacak ve enerji verimliliğini destekleyecek mekanik tesisat çözümleri sunmaktır.",
     "finalTitle": "Mühendislik Deneyimiyle Güvenilir Mekanik Çözümler",
-    "finalText": "Projelendirmeden uygulamaya kadar doğru planlama ve doğru mühendislik yaklaşımıyla uzun ömürlü sistemler tasarlıyoruz."
+    "finalText": "Projelendirmeden uygulamaya kadar doğru planlama ve doğru mühendislik yaklaşımıyla uzun ömürlü sistemler tasarlıyoruz.",
+    "applicationsTitle": "Nerelerde Uygulanır?",
+"applicationsText": "Mekanik tesisat projelendirme hizmetlerimizi farklı yapı ve kullanım alanlarının teknik gereksinimlerine uygun olarak sunuyoruz.",
+"applications": {
+  "residential": "Konut ve Rezidans Projeleri",
+  "hotel": "Otel ve Turizm Tesisleri",
+  "hospital": "Hastane ve Sağlık Tesisleri",
+  "industrial": "Endüstriyel Tesisler",
+  "commercial": "AVM, Ofis ve Ticari Yapılar",
+  "education": "Eğitim ve Kamu Binaları",
+  "infrastructure": "Altyapı ve Üstyapı Projeleri"
   },
 
   "ExplorationPage": {
@@ -526,4 +536,7 @@
     "reliable": "Güvenilir",
     "mechanicalSolutions": "Mekanik Çözümler"
   }
+
+}
+
 }

@@ -81,6 +81,38 @@ export default function ProjelendirmePage() {
           </div>
         </section>
 
+        {/* Nerelerde Uygulanır */}
+        <section className="mt-24">
+          <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-white">
+            {t("applicationsTitle")}
+          </h2>
+
+          <p className="mt-6 text-lg md:text-xl text-gray-300 leading-9 max-w-[1250px]">
+            {t("applicationsText")}
+          </p>
+
+          <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5">
+            {[
+              t("applications.residential"),
+              t("applications.hotel"),
+              t("applications.hospital"),
+              t("applications.industrial"),
+              t("applications.commercial"),
+              t("applications.education"),
+              t("applications.infrastructure"),
+            ].map((item, index) => (
+              <div
+                key={index}
+                className="rounded-xl border border-white/10 bg-white/5 px-6 py-5"
+              >
+                <p className="text-lg md:text-xl text-white">
+                  {item}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+        
         {/* Doğru proje */}
         <section className="mt-24">
           <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-white">

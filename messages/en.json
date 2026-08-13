@@ -239,28 +239,40 @@
   },
 
   "ProjectPage": {
-    "brand": "TACH MECHANICAL",
-    "title": "MECHANICAL DESIGN",
-    "heading": "Professional Mechanical Installation Design",
-    "intro1": "At TACH MECHANICAL, we prepare safe, efficient and sustainable mechanical installation projects according to the needs and intended use of each building. We do not consider the design process as merely technical drawings; we develop comprehensive solutions that are compatible with architectural, electrical and other disciplines and prevent problems during implementation.",
-    "intro2": "By combining our engineering experience with modern project techniques, we design mechanical systems specifically for different types of buildings, from residential and commercial buildings to industrial facilities and large-scale projects.",
-    "scopeTitle": "Our Design Scope",
-    "scopeText": "We evaluate each project according to its specific technical requirements and develop comprehensive solutions that ensure all mechanical systems operate in harmony.",
+  "brand": "TACH MECHANICAL",
+  "title": "MECHANICAL DESIGN",
+  "heading": "Professional Mechanical Installation Design",
+  "intro1": "At TACH MECHANICAL, we prepare safe, efficient and sustainable mechanical installation projects according to the needs and intended use of each building. We do not consider the design process as merely technical drawings; we develop comprehensive solutions that are compatible with architectural, electrical and other disciplines and prevent problems during implementation.",
+  "intro2": "By combining our engineering experience with modern project techniques, we design mechanical systems specifically for different types of buildings, from residential and commercial buildings to industrial facilities and large-scale projects.",
+  "scopeTitle": "Our Design Scope",
+  "scopeText": "We evaluate each project according to its specific technical requirements and develop comprehensive solutions that ensure all mechanical systems operate in harmony.",
 
-    "scope": {
-      "heatingCooling": "Heating and cooling system designs",
-      "plumbing": "Plumbing system designs",
-      "fire": "Fire protection system designs",
-      "ventilation": "Ventilation designs",
-      "vrf": "VRF system designs",
-      "medical": "Medical gas system designs",
-      "infrastructure": "Mechanical infrastructure designs",
-      "pump": "Pump and booster pump system designs",
-      "technical": "Technical room and equipment layouts",
-      "piping": "Piping and ductwork systems",
-      "calculations": "System capacity and flow calculations",
-      "application": "Application and detailed designs"
-    },
+  "scope": {
+    "heatingCooling": "Heating and cooling system designs",
+    "plumbing": "Plumbing system designs",
+    "fire": "Fire protection system designs",
+    "ventilation": "Ventilation designs",
+    "vrf": "VRF system designs",
+    "medical": "Medical gas system designs",
+    "infrastructure": "Mechanical infrastructure designs",
+    "pump": "Pump and booster pump system designs",
+    "technical": "Technical room and equipment layouts",
+    "piping": "Piping and ductwork systems",
+    "calculations": "System capacity and flow calculations",
+    "application": "Application and detailed designs"
+  },
+
+  "applicationsTitle": "Where Is It Applied?",
+  "applicationsText": "We provide mechanical installation design services for different building types and usage areas according to their specific technical requirements.",
+  "applications": {
+    "residential": "Residential and Housing Projects",
+    "hotel": "Hotels and Tourism Facilities",
+    "hospital": "Hospitals and Healthcare Facilities",
+    "industrial": "Industrial Facilities",
+    "commercial": "Shopping Malls, Offices and Commercial Buildings",
+    "education": "Educational and Public Buildings",
+    "infrastructure": "Infrastructure and Superstructure Projects"
+  },
 
     "correctTitle": "The Right Design, The Right Implementation",
     "correctText1": "A well-prepared mechanical installation project forms the foundation of the implementation process. TACH MECHANICAL evaluates potential implementation problems during the design stage and plans the selection of materials, equipment, capacities and systems correctly.",
