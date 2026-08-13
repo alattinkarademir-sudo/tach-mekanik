@@ -589,52 +589,52 @@
   "mechanicalSolutions": "Механические решения"
 },
   "QuotePage": {
-    "brand": "TACH МЕХАНИКА",
-    "title": "Получить предложение",
-    "description": "Расскажите нам о вашем проекте. Наша опытная команда рассмотрит ваш запрос и свяжется с вами в ближайшее время.",
-    "formTitle": "Запросить предложение",
-    "formDescription": "Пожалуйста, укажите информацию о вашем проекте, чтобы мы могли подготовить наиболее подходящее решение.",
+  "brand": "TACH МЕХАНИКА",
+  "title": "Получить предложение",
+  "description": "Расскажите нам о вашем проекте. Наша опытная команда рассмотрит ваш запрос и свяжется с вами в ближайшее время.",
+  "formTitle": "Запросить предложение",
+  "formDescription": "Пожалуйста, укажите информацию о вашем проекте, чтобы мы могли подготовить наиболее подходящее решение.",
 
-    "name": "Имя и фамилия",
-    "namePlaceholder": "Ваше имя и фамилия",
+  "name": "Имя и фамилия",
+  "namePlaceholder": "Ваше имя и фамилия",
 
-    "company": "Название компании",
-    "companyPlaceholder": "Название вашей компании",
+  "company": "Название компании",
+  "companyPlaceholder": "Название вашей компании",
 
-    "phone": "Телефон",
-    "phonePlaceholder": "+90 5XX XXX XX XX",
+  "phone": "Телефон",
+  "phonePlaceholder": "+90 5XX XXX XX XX",
 
-    "email": "Электронная почта",
-    "emailPlaceholder": "example@email.com",
+  "email": "Электронная почта",
+  "emailPlaceholder": "example@email.com",
 
-    "projectType": "Тип проекта",
-    "projectTypePlaceholder": "Выберите тип проекта",
-    "projectTypes": {
-      "residential": "Жилой объект",
-      "hotel": "Отель",
-      "hospital": "Больница",
-      "industrial": "Промышленное предприятие",
-      "commercial": "Коммерческое здание",
-      "other": "Другое"
-    },
+  "projectType": "Тип проекта",
+  "projectTypePlaceholder": "Выберите тип проекта",
+  "projectTypes": {
+    "residential": "Жилой объект",
+    "hotel": "Отель",
+    "hospital": "Больница",
+    "industrial": "Промышленное предприятие",
+    "commercial": "Коммерческое здание",
+    "other": "Другое"
+  },
 
-    "service": "Интересующая услуга",
-    "servicePlaceholder": "Выберите услугу",
-    "services": {
-      "project": "Механическое проектирование",
-      "heatingCooling": "Отопление и охлаждение",
-      "ventilation": "Вентиляция",
-      "fire": "Противопожарные системы",
-      "plumbing": "Сантехнические системы",
-      "vrf": "VRF-системы",
-      "medical": "Системы медицинских газов",
-      "infrastructure": "Инфраструктурные системы",
-      "other": "Другое"
-    },
+  "service": "Интересующая услуга",
+  "servicePlaceholder": "Выберите услугу",
+  "services": {
+    "project": "Механическое проектирование",
+    "heatingCooling": "Отопление и охлаждение",
+    "ventilation": "Вентиляция",
+    "fire": "Противопожарные системы",
+    "plumbing": "Сантехнические системы",
+    "vrf": "VRF-системы",
+    "medical": "Системы медицинских газов",
+    "infrastructure": "Инфраструктурные системы",
+    "other": "Другое"
+  },
 
-    "message": "Описание проекта",
-    "messagePlaceholder": "Вы можете кратко рассказать о вашем проекте...",
+  "projectDescription": "Описание проекта",
+  "projectDescriptionPlaceholder": "Вы можете кратко рассказать о вашем проекте...",
 
-    "submit": "ОТПРАВИТЬ ЗАПРОС"
-  }
+  "submit": "ОТПРАВИТЬ ЗАПРОС"
+}
 }
