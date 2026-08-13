@@ -572,21 +572,23 @@
   "QuotePage": {
   "brand": "TACH MEKANİK",
   "title": "Get a Quote",
-  "description": "Tell us about your project. Our experienced team will review your request and get back to you as soon as possible.",
-  "formTitle": "Request a Quote",
-  "formDescription": "Please provide the details of your project so we can prepare the most suitable solution for you.",
+  "description": "Tell us about your project. Our experienced team will review your request and contact you as soon as possible.",
+  "formTitle": "Quote Request",
+  "formDescription": "Please share details about your project so we can prepare the most suitable solution for you.",
 
   "name": "Full Name",
-  "namePlaceholder": "Your full name",
+  "namePlaceholder": "Your first and last name",
 
   "company": "Company Name",
   "companyPlaceholder": "Your company name",
 
   "phone": "Phone",
+
   "email": "Email",
 
   "projectType": "Project Type",
   "projectTypePlaceholder": "Select project type",
+
   "residential": "Residential",
   "hotel": "Hotel",
   "hospital": "Hospital",
@@ -596,6 +598,7 @@
 
   "service": "Service of Interest",
   "servicePlaceholder": "Select a service",
+
   "project": "Mechanical Engineering",
   "heatingCooling": "Heating and Cooling",
   "ventilation": "Ventilation",
@@ -605,10 +608,12 @@
   "medical": "Medical Gas Systems",
   "infrastructure": "Infrastructure Systems",
 
-  "message": "Project Description",
-  "messagePlaceholder": "You can provide a brief description of your project...",
+  "projectDescription": "Project Description",
+  "projectDescriptionPlaceholder": "You can provide brief information about your project...",
 
-  "submit": "SUBMIT QUOTE REQUEST"
+  "submit": "SUBMIT QUOTE REQUEST",
+  "successMessage": "Your quote request has been sent successfully.",
+  "errorMessage": "An error occurred while sending your quote request. Please try again."
 
   }
 }

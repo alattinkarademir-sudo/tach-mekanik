@@ -1,9 +1,53 @@
 "use client";
 
+import { useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 
 export default function TeklifAl() {
   const t = useTranslations("QuotePage");
+  const formRef = useRef<HTMLFormElement>(null);
+
+  const [status, setStatus] = useState<
+    "idle" | "sending" | "success" | "error"
+  >("idle");
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    setStatus("sending");
+
+    const formData = new FormData(e.currentTarget);
+
+    const data = {
+      name: formData.get("name"),
+      company: formData.get("company"),
+      phone: formData.get("phone"),
+      email: formData.get("email"),
+      projectType: formData.get("projectType"),
+      service: formData.get("service"),
+      message: formData.get("message"),
+    };
+
+    try {
+      const response = await fetch("/api/teklif", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error("Gönderim başarısız");
+      }
+
+      setStatus("success");
+      formRef.current?.reset();
+    } catch (error) {
+      console.error(error);
+      setStatus("error");
+    }
+  };
 
   return (
     <main className="min-h-screen bg-[#242424] px-6 py-20 text-white">
@@ -33,8 +77,11 @@ export default function TeklifAl() {
             {t("formDescription")}
           </p>
 
-          {/* FORM */}
-          <form className="mt-10 space-y-6">
+          <form
+            ref={formRef}
+            onSubmit={handleSubmit}
+            className="mt-10 space-y-6"
+          >
 
             <div className="grid md:grid-cols-2 gap-6">
 
@@ -196,27 +243,44 @@ export default function TeklifAl() {
             </div>
 
             <div>
-              <label className="block mb-2 font-semibold">
-  {t("projectDescription")}
-</label>
 
-<textarea
-  name="message"
-  rows={6}
-  required
-  className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 outline-none transition focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 resize-none"
-  placeholder={t("projectDescriptionPlaceholder")}
+              <label className="block mb-2 font-semibold">
+                {t("projectDescription")}
+              </label>
+
+              <textarea
+                name="message"
+                rows={6}
+                required
+                className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 outline-none transition focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 resize-none"
+                placeholder={t("projectDescriptionPlaceholder")}
               />
+
             </div>
 
             <div className="text-center pt-4">
 
               <button
                 type="submit"
-                className="rounded-xl bg-cyan-500 px-10 py-4 text-lg font-bold text-white transition-all duration-300 hover:bg-cyan-400 hover:scale-105 shadow-lg shadow-cyan-500/20"
+                disabled={status === "sending"}
+                className="rounded-xl bg-cyan-500 px-10 py-4 text-lg font-bold text-white transition-all duration-300 hover:bg-cyan-400 hover:scale-105 shadow-lg shadow-cyan-500/20 disabled:opacity-60 disabled:cursor-not-allowed"
               >
-                {t("submit")}
+                {status === "sending"
+                  ? "Gönderiliyor..."
+                  : t("submit")}
               </button>
+
+              {status === "success" && (
+  <p className="mt-4 text-center font-semibold text-green-600">
+    {t("successMessage")}
+  </p>
+)}
+
+{status === "error" && (
+  <p className="mt-4 text-center font-semibold text-red-600">
+    {t("errorMessage")}
+  </p>
+)}
 
             </div>
 

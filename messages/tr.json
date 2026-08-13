@@ -224,8 +224,9 @@
   "projectDescription": "Proje Açıklaması",
   "projectDescriptionPlaceholder": "Projeniz hakkında kısa bilgi verebilirsiniz...",
 
-  "submit": "TEKLİF TALEBİ GÖNDER"
-
+  "submit": "TEKLİF TALEBİ GÖNDER",
+"successMessage": "Teklif talebiniz başarıyla gönderildi.",
+"errorMessage": "Teklif gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
 },
 
   
