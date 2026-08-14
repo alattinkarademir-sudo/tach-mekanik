@@ -1,10 +1,15 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import GalleryModal from "@/components/GalleryModal";
 
 export default function Galeri() {
   const t = useTranslations("Gallery");
+
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const projects = [
     {
@@ -84,27 +89,45 @@ export default function Galeri() {
     },
   ];
 
+  const openImage = (index: number) => {
+    setSelectedIndex(index);
+    setIsModalOpen(true);
+  };
+
+  const nextImage = () => {
+    setSelectedIndex((prev) =>
+      prev === projects.length - 1 ? 0 : prev + 1
+    );
+  };
+
+  const prevImage = () => {
+    setSelectedIndex((prev) =>
+      prev === 0 ? projects.length - 1 : prev - 1
+    );
+  };
+
   return (
     <main>
-      <section className="max-w-7xl mx-auto py-20 px-6">
+      <section className="max-w-[1600px] mx-auto py-20 px-4">
 
         <h1 className="text-4xl md:text-5xl font-bold text-center text-white mb-12">
           Galeri
         </h1>
 
-        <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 gap-1">
+        <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 gap-2">
 
           {projects.map((project, index) => (
             <div
               key={index}
-              className="rounded-2xl overflow-hidden"
+              onClick={() => openImage(index)}
+              className="rounded-2xl overflow-hidden cursor-pointer"
             >
               <Image
                 src={project.image}
                 alt={project.title}
-                width={800}
-                height={600}
-                className="w-full h-[250px] object-cover"
+                width={1400}
+                height={1000}
+                className="w-full h-[350px] object-cover"
               />
             </div>
           ))}
@@ -112,6 +135,15 @@ export default function Galeri() {
         </div>
 
       </section>
+
+      <GalleryModal
+        isOpen={isModalOpen}
+        image={projects[selectedIndex]?.image || ""}
+        title={projects[selectedIndex]?.title || ""}
+        onClose={() => setIsModalOpen(false)}
+        onNext={nextImage}
+        onPrev={prevImage}
+      />
     </main>
   );
 }
