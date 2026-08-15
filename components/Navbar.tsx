@@ -153,12 +153,33 @@ export default function Navbar() {
             {t("gallery")}
           </Link>
 
-          <Link
-            href={`/${locale}/projeler`}
-            className="whitespace-nowrap py-2 text-sm font-semibold text-white transition hover:text-cyan-400"
-          >
-            {t("projects")}
-          </Link>
+          {/* PROJELER */}
+<div className="group relative">
+  <div className="flex cursor-default items-center gap-1 whitespace-nowrap py-2 text-sm font-semibold text-white transition hover:text-cyan-400">
+    {t("projects")}
+
+    <span className="text-xs transition-transform duration-300 group-hover:rotate-180">
+      ▾
+    </span>
+  </div>
+
+  {/* PROJELER ALT MENÜSÜ */}
+  <div className="invisible absolute left-1/2 top-full z-50 mt-3 w-64 -translate-x-1/2 translate-y-2 rounded-xl border border-cyan-400/20 bg-black/95 p-2 opacity-0 shadow-2xl backdrop-blur-xl transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+    <Link
+      href={`/${locale}/devam-eden-projeler`}
+      className="block rounded-lg px-4 py-2 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+    >
+      {t("ongoingProjects")}
+    </Link>
+
+    <Link
+      href={`/${locale}/tamamlanan-projeler`}
+      className="block rounded-lg px-4 py-2 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+    >
+      {t("completedProjects")}
+    </Link>
+  </div>
+</div>
 
           <Link
             href={`/${locale}/iletisim`}
@@ -387,13 +408,30 @@ export default function Navbar() {
             {t("gallery")}
           </Link>
 
-          <Link
-            href={`/${locale}/projeler`}
-            onClick={closeMobileMenu}
-            className="rounded-lg px-3 py-3 font-medium text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
-          >
-            {t("projects")}
-          </Link>
+          {/* MOBİL PROJELER */}
+<div className="border-t border-white/5 pt-1">
+  <div className="block rounded-lg px-3 py-2 font-medium text-white">
+    {t("projects")}
+  </div>
+
+  <div className="ml-3 border-l border-cyan-400/20 pl-2">
+    <Link
+      href={`/${locale}/devam-eden-projeler`}
+      onClick={closeMobileMenu}
+      className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+    >
+      {t("ongoingProjects")}
+    </Link>
+
+    <Link
+      href={`/${locale}/tamamlanan-projeler`}
+      onClick={closeMobileMenu}
+      className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+    >
+      {t("completedProjects")}
+    </Link>
+  </div>
+</div>
 
           <Link
   href={`/${locale}/iletisim`}

@@ -5,6 +5,8 @@
   "services": "Услуги",
   "gallery": "Галерея",
   "projects": "Проекты",
+  "ongoingProjects": "Текущие проекты",
+  "completedProjects": "Завершённые проекты",
   "contact": "Контакты",
   "website": "Веб-сайт",
   "quote": "Получить предложение",
@@ -232,6 +234,12 @@
     "address": "Адрес",
     "website": "Веб-сайт"
   },
+  "Projects": {
+  "ongoingTitle": "Текущие проекты",
+  "ongoingDescription": "Здесь будут представлены наши текущие проекты.",
+  "completedTitle": "Завершённые проекты",
+  "completedDescription": "Здесь будут представлены наши завершённые проекты."
+},
 
   "ProjectPage": {
   "brand": "TACH MECHANICAL",

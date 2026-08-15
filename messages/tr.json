@@ -1,26 +1,28 @@
 {
-  "menu": {
-    "home": "Ana Sayfa",
-    "about": "Hakkımızda",
-    "services": "Hizmetler",
-    "gallery": "Galeri",
-    "projects": "Projeler",
-    "contact": "İletişim",
-    "quote": "Teklif Al",
+ "menu": {
+  "home": "Ana Sayfa",
+  "about": "Hakkımızda",
+  "services": "Hizmetler",
+  "gallery": "Galeri",
+  "projects": "Projeler",
+  "ongoingProjects": "Devam Eden Projeler",
+  "completedProjects": "Tamamlanan Projeler",
+  "contact": "İletişim",
+  "quote": "Teklif Al",
 
-    "projelendirme": "Projelendirme",
-    "kesif": "Keşif",
-    "sihhiTesisat": "Sıhhi Tesisat",
-    "yanginTesisat": "Yangın Tesisatı",
-    "havalandirma": "Havalandırma",
-    "isitmaSogutma": "Isıtma & Soğutma",
-    "vrfSistemleri": "VRF Sistemleri",
-    "medikalGaz": "Medikal Gaz",
-    "havuzSistemleri": "Yüzme Havuz Sistemleri",
-    "peyzaj": "Peyzaj Sulama",
-    "aritma": "Arıtma Sistemleri",
-    "altyapi": "Altyapı Sistemleri"
-  },
+  "projelendirme": "Projelendirme",
+  "kesif": "Keşif",
+  "sihhiTesisat": "Sıhhi Tesisat",
+  "yanginTesisat": "Yangın Tesisatı",
+  "havalandirma": "Havalandırma",
+  "isitmaSogutma": "Isıtma & Soğutma",
+  "vrfSistemleri": "VRF Sistemleri",
+  "medikalGaz": "Medikal Gaz",
+  "havuzSistemleri": "Yüzme Havuz Sistemleri",
+  "peyzaj": "Peyzaj Sulama",
+  "aritma": "Arıtma Sistemleri",
+  "altyapi": "Altyapı Sistemleri"
+},
 
   "HeroSlider": {
     "title": "TACH MEKANİK",
@@ -182,6 +184,13 @@
   "quoteDescription": "İhtiyaçlarınızı değerlendirelim, size özel mekanik çözümler sunalım.",
   "quoteButton": "TEKLİF AL"
 },
+"Projects": {
+  "ongoingTitle": "Devam Eden Projeler",
+  "ongoingDescription": "Devam eden projelerimiz burada yer alacaktır.",
+  "completedTitle": "Tamamlanan Projeler",
+  "completedDescription": "Tamamlanan projelerimiz burada yer alacaktır."
+},
+
 "QuotePage": {
   "brand": "TACH MEKANİK",
   "title": "Teklif Al",

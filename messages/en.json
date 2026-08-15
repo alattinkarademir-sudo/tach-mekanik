@@ -5,6 +5,8 @@
   "services": "Services",
   "gallery": "Gallery",
   "projects": "Projects",
+  "ongoingProjects": "Ongoing Projects",
+  "completedProjects": "Completed Projects",
   "contact": "Contact",
 
   "projelendirme": "Project Planning",
@@ -237,6 +239,12 @@
     "address": "Address",
     "website": "Website"
   },
+  "Projects": {
+  "ongoingTitle": "Ongoing Projects",
+  "ongoingDescription": "Our ongoing projects will be listed here.",
+  "completedTitle": "Completed Projects",
+  "completedDescription": "Our completed projects will be listed here."
+},
 
   "ProjectPage": {
   "brand": "TACH MECHANICAL",
