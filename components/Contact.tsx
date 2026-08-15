@@ -1,5 +1,4 @@
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 
 export default function Contact() {
   const t = useTranslations("Contact");
@@ -77,26 +76,7 @@ export default function Contact() {
 
         </div>
 
-        {/* TEKLİF AL */}
-        <div className="mt-16 text-center">
-          <h3 className="text-3xl md:text-4xl font-bold">
-            {t("quoteTitle")}
-          </h3>
-
-          <p className="mt-4 text-gray-300">
-            {t("quoteDescription")}
-          </p>
-
-          <Link
-            href="/iletisim"
-            className="inline-flex items-center justify-center mt-8 rounded-xl bg-cyan-500 px-10 py-4 text-lg font-bold text-white transition-all duration-300 hover:bg-cyan-400 hover:scale-105 shadow-lg shadow-cyan-500/20"
-          >
-            {t("quoteButton")}
-          </Link>
-        </div>
-
       </div>
     </section>
   );
 }
-
