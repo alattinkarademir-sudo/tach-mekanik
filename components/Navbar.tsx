@@ -82,6 +82,13 @@ export default function Navbar() {
               </Link>
 
               <Link
+                href={`/${locale}/gunes-enerjisi-sistemleri`}
+                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+>
+                {t("gunesEnerjisi")}
+              </Link>
+
+              <Link
                 href={`/${locale}/yangin-tesisat`}
                 className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
@@ -326,6 +333,14 @@ export default function Navbar() {
                 {t("sihhiTesisat")}
               </Link>
 
+              <Link
+                href={`/${locale}/gunes-enerjisi-sistemleri`}
+                onClick={closeMobileMenu}
+                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+>
+                {t("gunesEnerjisi")}
+              </Link>
+              
               <Link
                 href={`/${locale}/yangin-tesisat`}
                 onClick={closeMobileMenu}

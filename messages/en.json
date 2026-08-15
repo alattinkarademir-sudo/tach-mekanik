@@ -12,6 +12,7 @@
   "projelendirme": "Project Planning",
   "kesif": "Survey",
   "sihhiTesisat": "Plumbing",
+  "gunesEnerjisi": "Solar Energy Systems",
   "yanginTesisat": "Fire Protection",
   "havalandirma": "Ventilation",
   "isitmaSogutma": "Heating & Cooling",
@@ -623,5 +624,40 @@
   "successMessage": "Your quote request has been sent successfully.",
   "errorMessage": "An error occurred while sending your quote request. Please try again."
 
-  }
+  },
+  "SolarPage": {
+  "brand": "TACH MECHANICAL",
+  "title": "Solar Energy Systems",
+  "heading": "Efficient and Sustainable Solar Energy Solutions",
+
+  "intro1": "At TACH MECHANICAL, we provide mechanical system design, engineering and implementation solutions to ensure efficient and effective use of solar energy.",
+
+  "intro2": "We develop solar energy systems tailored to project requirements and site conditions, contributing to reduced energy costs, improved energy efficiency and sustainable solutions.",
+
+  "scopeTitle": "Our Solar Energy Systems",
+
+  "scopeText": "We approach the mechanical infrastructure of solar energy systems as an integrated solution, aiming for safe, efficient and long-lasting system operation according to project requirements.",
+
+  "items": {
+    "systemDesign": "Solar energy system engineering and system design",
+    "panelSystems": "Selection of solar energy collectors and related equipment",
+    "hotWater": "Solar-assisted hot water systems",
+    "circulation": "Circulation and pumping systems",
+    "storage": "Hot water storage and accumulation systems",
+    "pumpSystems": "Pumps, booster systems and auxiliary mechanical equipment",
+    "automation": "Automation, control and system monitoring solutions",
+    "efficiency": "System optimization for improved energy efficiency",
+    "application": "Installation, testing and commissioning"
+  },
+
+  "reliableTitle": "Reliable and Efficient Systems",
+
+  "reliableText1": "We evaluate each project according to its specific requirements and operating conditions, developing solutions designed to maximize the efficiency of solar energy systems.",
+
+  "reliableText2": "We focus on quality equipment selection, sound engineering principles and professional implementation to ensure safe, efficient and sustainable system operation.",
+
+  "finalTitle": "Professional Mechanical Solutions for Solar Energy",
+
+  "finalText": "At TACH MECHANICAL, we approach solar energy projects with a professional understanding of engineering, mechanical system design and implementation, providing reliable solutions tailored to project requirements."
+}
 }

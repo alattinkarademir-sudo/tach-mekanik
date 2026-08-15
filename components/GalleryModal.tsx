@@ -145,8 +145,8 @@ export default function GalleryModal({
           draggable={false}
           className="
             max-w-full
-            max-h-[82vh]
-            sm:max-h-[86vh]
+            max-h-[250vh]
+            sm:max-h-[92vh]
             w-auto
             h-auto
             object-contain

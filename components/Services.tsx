@@ -10,6 +10,7 @@ export default function Services() {
     { icon: "📐", key: "project" },
     { icon: "📋", key: "exploration" },
     { icon: "🚿", key: "plumbing" },
+    { icon: "☀️", key: "solar" },
     { icon: "🔥", key: "fire" },
     { icon: "🌬️", key: "ventilation" },
     { icon: "❄️", key: "hvac" },
