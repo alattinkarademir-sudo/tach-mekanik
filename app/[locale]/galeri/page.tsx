@@ -82,14 +82,8 @@ export default function Galeri() {
 
   return (
     <main>
-      <section className="max-w-[1600px] mx-auto py-20 px-4">
-
-        <h1 className="text-4xl md:text-5xl font-bold text-center text-white mb-12">
-          Galeri
-        </h1>
-
+      <section className="max-w-[1600px] mx-auto pt-17 md:pt-25 pb-20 px-4">
         <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 gap-2">
-
           {translatedProjects.map((project, index) => (
             <div
               key={`${project.category}-${project.image}`}
@@ -97,28 +91,26 @@ export default function Galeri() {
               className="rounded-2xl overflow-hidden cursor-pointer"
             >
               {project.type === "video" ? (
-  <video
-    src={project.image}
-    muted
-    playsInline
-    preload="metadata"
-    controls
-    className="w-full h-[350px] object-cover"
-  />
-) : (
-  <Image
-    src={project.image}
-    alt={project.title}
-    width={1400}
-    height={1000}
-    className="w-full h-[350px] object-cover"
-  />
-)}
+                <video
+                  src={project.image}
+                  muted
+                  playsInline
+                  preload="metadata"
+                  controls
+                  className="w-full h-[350px] object-cover"
+                />
+              ) : (
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  width={1400}
+                  height={1000}
+                  className="w-full h-[350px] object-cover"
+                />
+              )}
             </div>
           ))}
-
         </div>
-
       </section>
 
       <GalleryModal

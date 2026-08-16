@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 interface GalleryModalProps {
   image: string;
@@ -22,6 +22,7 @@ export default function GalleryModal({
   onPrev,
 }: GalleryModalProps) {
   const touchStartX = useRef<number | null>(null);
+  const [isImageLoaded, setIsImageLoaded] = useState(true);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -42,6 +43,14 @@ export default function GalleryModal({
       document.body.style.overflow = originalOverflow;
     };
   }, [isOpen, onClose, onNext, onPrev]);
+
+  useEffect(() => {
+    if (type === "image") {
+      setIsImageLoaded(false);
+    } else {
+      setIsImageLoaded(true);
+    }
+  }, [image, type]);
 
   if (!isOpen) return null;
 
@@ -143,6 +152,7 @@ export default function GalleryModal({
       >
         {type === "video" ? (
           <video
+            key={image}
             src={image}
             controls
             autoPlay
@@ -159,10 +169,12 @@ export default function GalleryModal({
           />
         ) : (
           <img
+            key={image}
             src={image}
             alt={title}
             draggable={false}
-            className="
+            onLoad={() => setIsImageLoaded(true)}
+            className={`
               max-w-full
               max-h-[92vh]
               w-auto
@@ -170,11 +182,14 @@ export default function GalleryModal({
               object-contain
               rounded-lg
               select-none
-            "
+              transition-opacity
+              duration-150
+              ${isImageLoaded ? "opacity-100" : "opacity-0"}
+            `}
           />
         )}
 
-        {title && (
+        {title && isImageLoaded && (
           <h2
             className="
               mt-4
