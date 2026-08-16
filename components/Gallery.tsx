@@ -1,103 +1,79 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import GalleryFilter from "./GalleryFilter";
 import GalleryGrid from "./GalleryGrid";
 import GalleryModal from "./GalleryModal";
 
+type GalleryItem = {
+  title: string;
+  category: string;
+  image: string;
+  type: "image" | "video";
+};
+
 export default function Gallery() {
   const t = useTranslations("Gallery");
 
-  const projects = [
-    {
-      title: t("fire"),
-      category: "yangin",
-      image: "/galleri/yangin/yangin1.png",
-    },
-    {
-      title: t("fire"),
-      category: "yangin",
-      image: "/galleri/yangin/yangin2.png",
-    },
-    {
-      title: t("sanitary"),
-      category: "sihhi",
-      image: "/galleri/sihhi/sihhi1.png",
-    },
-    {
-      title: t("sanitary"),
-      category: "sihhi",
-      image: "/galleri/sihhi/sihhi2.png",
-    },
-    {
-      title: t("ventilation"),
-      category: "havalandirma",
-      image: "/galleri/havalandirma/havalandirma1.png",
-    },
-    {
-      title: t("ventilation"),
-      category: "havalandirma",
-      image: "/galleri/havalandirma/havalandirma2.png",
-    },
-    {
-      title: t("ventilation"),
-      category: "havalandirma",
-      image: "/galleri/havalandirma/havalandirma3.png",
-    },
-    {
-      title: t("hvac"),
-      category: "iklimlendirme",
-      image: "/galleri/iklimlendirme/iklimlendirme1.png",
-    },
-    {
-      title: t("hvac"),
-      category: "iklimlendirme",
-      image: "/galleri/iklimlendirme/iklimlendirme2.png",
-    },
-    {
-      title: t("medical"),
-      category: "medikal",
-      image: "/galleri/medikal/medikal1.png",
-    },
-    {
-      title: t("booster"),
-      category: "hidrofor",
-      image: "/galleri/hidrofor/hidrofor1.png",
-    },
-    {
-      title: t("landscape"),
-      category: "peyzaj",
-      image: "/galleri/peyzaj/peyzaj1.png",
-    },
-    {
-      title: t("treatment"),
-      category: "aritma",
-      image: "/galleri/aritma/aritma1.png",
-    },
-    {
-      title: t("infrastructure"),
-      category: "altyapi",
-      image: "/galleri/altyapi/altyapi1.png",
-    },
-    {
-      title: t("pool"),
-      category: "havuz",
-      image: "/galleri/havuz/havuz1.png",
-    },
-  ];
-
+  const [projects, setProjects] = useState<GalleryItem[]>([]);
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [open, setOpen] = useState(false);
 
-  const filteredProjects = useMemo(() => {
-    if (selectedCategory === "all") return projects;
+  useEffect(() => {
+    const loadGallery = async () => {
+      try {
+        const response = await fetch("/api/gallery-files");
 
-    return projects.filter(
+        if (!response.ok) {
+          throw new Error("Galeri yüklenemedi");
+        }
+
+        const data: GalleryItem[] = await response.json();
+
+        setProjects(data);
+      } catch (error) {
+        console.error("Galeri yükleme hatası:", error);
+      }
+    };
+
+    loadGallery();
+  }, []);
+
+  const getTitle = (category: string) => {
+    const titles: Record<string, string> = {
+      yangin: t("fire"),
+      sihhi: t("sanitary"),
+      havalandirma: t("ventilation"),
+      iklimlendirme: t("hvac"),
+      medikal: t("medical"),
+      hidrofor: t("booster"),
+      peyzaj: t("landscape"),
+      aritma: t("treatment"),
+      altyapi: t("infrastructure"),
+      havuz: t("pool"),
+    };
+
+    return titles[category] || category;
+  };
+
+  const translatedProjects = useMemo(() => {
+    return projects.map((project) => ({
+      ...project,
+      title: getTitle(project.category),
+    }));
+  }, [projects]);
+
+  const filteredProjects = useMemo(() => {
+    if (selectedCategory === "all") {
+      return translatedProjects;
+    }
+
+    return translatedProjects.filter(
       (project) => project.category === selectedCategory
     );
-  }, [selectedCategory]);
+  }, [selectedCategory, translatedProjects]);
 
   const openImage = (index: number) => {
     setSelectedIndex(index);
@@ -115,7 +91,8 @@ export default function Gallery() {
       prev === 0 ? filteredProjects.length - 1 : prev - 1
     );
   };
-    return (
+
+  return (
     <section id="gallery" className="pt-0 pb-0 bg-[#242424]">
       <div className="w-full px-0">
         <GalleryFilter
@@ -125,10 +102,12 @@ export default function Gallery() {
             setSelectedIndex(0);
           }}
         />
+
         <GalleryGrid
           projects={filteredProjects}
           onImageClick={openImage}
         />
+
         <GalleryModal
           isOpen={open}
           image={

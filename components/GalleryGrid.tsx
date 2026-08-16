@@ -4,6 +4,7 @@ type Project = {
   title: string;
   image: string;
   category: string;
+  type: "image" | "video";
 };
 
 interface GalleryGridProps {
@@ -34,19 +35,37 @@ export default function GalleryGrid({
             duration-300
           "
         >
-          <img
-            src={project.image}
-            alt={project.title}
-            className="
-              block
-              w-full
-              h-72
-              object-cover
-              group-hover:scale-110
-              transition-transform
-              duration-500
-            "
-          />
+          {project.type === "video" ? (
+            <video
+              src={project.image}
+              muted
+              playsInline
+              preload="metadata"
+              className="
+                block
+                w-full
+                h-72
+                object-cover
+                group-hover:scale-110
+                transition-transform
+                duration-500
+              "
+            />
+          ) : (
+            <img
+              src={project.image}
+              alt={project.title}
+              className="
+                block
+                w-full
+                h-72
+                object-cover
+                group-hover:scale-110
+                transition-transform
+                duration-500
+              "
+            />
+          )}
 
           <div className="p-4">
             <h3 className="text-lg font-semibold text-white">

@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 interface GalleryModalProps {
   image: string;
   title: string;
+  type?: "image" | "video";
   isOpen: boolean;
   onClose: () => void;
   onNext: () => void;
@@ -14,6 +15,7 @@ interface GalleryModalProps {
 export default function GalleryModal({
   image,
   title,
+  type = "image",
   isOpen,
   onClose,
   onNext,
@@ -79,7 +81,7 @@ export default function GalleryModal({
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
-      {/* GERİ / KAPAT */}
+      {/* X KAPAT */}
       <button
         type="button"
         onClick={(e) => {
@@ -123,12 +125,12 @@ export default function GalleryModal({
           hover:bg-orange-500
           transition
         "
-        aria-label="Önceki resim"
+        aria-label="Önceki"
       >
         ‹
       </button>
 
-      {/* RESİM */}
+      {/* İÇERİK */}
       <div
         className="
           w-full h-full
@@ -139,21 +141,38 @@ export default function GalleryModal({
         "
         onClick={(e) => e.stopPropagation()}
       >
-        <img
-          src={image}
-          alt={title}
-          draggable={false}
-          className="
-            max-w-full
-            max-h-[250vh]
-            sm:max-h-[92vh]
-            w-auto
-            h-auto
-            object-contain
-            rounded-lg
-            select-none
-          "
-        />
+        {type === "video" ? (
+          <video
+            src={image}
+            controls
+            autoPlay
+            playsInline
+            className="
+              max-w-full
+              max-h-[85vh]
+              w-auto
+              h-auto
+              object-contain
+              rounded-lg
+              bg-black
+            "
+          />
+        ) : (
+          <img
+            src={image}
+            alt={title}
+            draggable={false}
+            className="
+              max-w-full
+              max-h-[92vh]
+              w-auto
+              h-auto
+              object-contain
+              rounded-lg
+              select-none
+            "
+          />
+        )}
 
         {title && (
           <h2
@@ -193,7 +212,7 @@ export default function GalleryModal({
           hover:bg-orange-500
           transition
         "
-        aria-label="Sonraki resim"
+        aria-label="Sonraki"
       >
         ›
       </button>

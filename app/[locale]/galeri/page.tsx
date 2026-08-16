@@ -1,93 +1,67 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import GalleryModal from "@/components/GalleryModal";
 
+type GalleryItem = {
+  title: string;
+  category: string;
+  image: string;
+  type: "image" | "video";
+};
+
 export default function Galeri() {
   const t = useTranslations("Gallery");
 
+  const [projects, setProjects] = useState<GalleryItem[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const projects = [
-    {
-      title: t("fire"),
-      category: "yangin",
-      image: "/galeri/yangin/yangin1.png",
-    },
-    {
-      title: t("fire"),
-      category: "yangin",
-      image: "/galeri/yangin/yangin2.png",
-    },
-    {
-      title: t("sanitary"),
-      category: "sihhi",
-      image: "/galeri/sihhi/sihhi1.png",
-    },
-    {
-      title: t("sanitary"),
-      category: "sihhi",
-      image: "/galeri/sihhi/sihhi2.png",
-    },
-    {
-      title: t("ventilation"),
-      category: "havalandirma",
-      image: "/galeri/havalandirma/havalandirma1.png",
-    },
-    {
-      title: t("ventilation"),
-      category: "havalandirma",
-      image: "/galeri/havalandirma/havalandirma2.png",
-    },
-    {
-      title: t("ventilation"),
-      category: "havalandirma",
-      image: "/galeri/havalandirma/havalandirma3.png",
-    },
-    {
-      title: t("hvac"),
-      category: "iklimlendirme",
-      image: "/galeri/iklimlendirme/iklimlendirme1.png",
-    },
-    {
-      title: t("hvac"),
-      category: "iklimlendirme",
-      image: "/galeri/iklimlendirme/iklimlendirme2.png",
-    },
-    {
-      title: t("medical"),
-      category: "medikal",
-      image: "/galeri/medikal/medikal1.png",
-    },
-    {
-      title: t("booster"),
-      category: "hidrofor",
-      image: "/galeri/hidrofor/hidrofor1.png",
-    },
-    {
-      title: t("landscape"),
-      category: "peyzaj",
-      image: "/galeri/peyzaj/peyzaj1.png",
-    },
-    {
-      title: t("treatment"),
-      category: "aritma",
-      image: "/galeri/aritma/aritma1.png",
-    },
-    {
-      title: t("infrastructure"),
-      category: "altyapi",
-      image: "/galeri/altyapi/altyapi1.png",
-    },
-    {
-      title: t("pool"),
-      category: "havuz",
-      image: "/galeri/havuz/havuz1.png",
-    },
-  ];
+  useEffect(() => {
+    const loadGallery = async () => {
+      try {
+        const response = await fetch("/api/gallery-files");
+
+        if (!response.ok) {
+          throw new Error("Galeri yüklenemedi");
+        }
+
+        const data: GalleryItem[] = await response.json();
+
+        setProjects(data);
+      } catch (error) {
+        console.error("Galeri yükleme hatası:", error);
+      }
+    };
+
+    loadGallery();
+  }, []);
+
+  const getTitle = (category: string) => {
+    const titles: Record<string, string> = {
+      yangin: t("fire"),
+      sihhi: t("sanitary"),
+      havalandirma: t("ventilation"),
+      iklimlendirme: t("hvac"),
+      medikal: t("medical"),
+      hidrofor: t("booster"),
+      peyzaj: t("landscape"),
+      aritma: t("treatment"),
+      altyapi: t("infrastructure"),
+      havuz: t("pool"),
+    };
+
+    return titles[category] || category;
+  };
+
+  const translatedProjects = useMemo(() => {
+    return projects.map((project) => ({
+      ...project,
+      title: getTitle(project.category),
+    }));
+  }, [projects]);
 
   const openImage = (index: number) => {
     setSelectedIndex(index);
@@ -96,13 +70,13 @@ export default function Galeri() {
 
   const nextImage = () => {
     setSelectedIndex((prev) =>
-      prev === projects.length - 1 ? 0 : prev + 1
+      prev === translatedProjects.length - 1 ? 0 : prev + 1
     );
   };
 
   const prevImage = () => {
     setSelectedIndex((prev) =>
-      prev === 0 ? projects.length - 1 : prev - 1
+      prev === 0 ? translatedProjects.length - 1 : prev - 1
     );
   };
 
@@ -116,19 +90,30 @@ export default function Galeri() {
 
         <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 gap-2">
 
-          {projects.map((project, index) => (
+          {translatedProjects.map((project, index) => (
             <div
-              key={index}
+              key={`${project.category}-${project.image}`}
               onClick={() => openImage(index)}
               className="rounded-2xl overflow-hidden cursor-pointer"
             >
-              <Image
-                src={project.image}
-                alt={project.title}
-                width={1400}
-                height={1000}
-                className="w-full h-[350px] object-cover"
-              />
+              {project.type === "video" ? (
+  <video
+    src={project.image}
+    muted
+    playsInline
+    preload="metadata"
+    controls
+    className="w-full h-[350px] object-cover"
+  />
+) : (
+  <Image
+    src={project.image}
+    alt={project.title}
+    width={1400}
+    height={1000}
+    className="w-full h-[350px] object-cover"
+  />
+)}
             </div>
           ))}
 
@@ -138,8 +123,9 @@ export default function Galeri() {
 
       <GalleryModal
         isOpen={isModalOpen}
-        image={projects[selectedIndex]?.image || ""}
-        title={projects[selectedIndex]?.title || ""}
+        image={translatedProjects[selectedIndex]?.image || ""}
+        title={translatedProjects[selectedIndex]?.title || ""}
+        type={projects[selectedIndex]?.type || "image"}
         onClose={() => setIsModalOpen(false)}
         onNext={nextImage}
         onPrev={prevImage}
