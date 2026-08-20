@@ -21,7 +21,7 @@ export default function GunesEnerjisiPage() {
   return (
     <main
       className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
-      style={{ backgroundColor: "#242424" }}
+      style={{ backgroundColor: "#333333" }}
     >
       <div className="mx-auto max-w-[1400px]">
 

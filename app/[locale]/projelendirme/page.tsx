@@ -8,7 +8,7 @@ export default function ProjelendirmePage() {
   const t = useTranslations("ProjectPage");
 
   return (
-    <main className="min-h-screen bg-[#202020] px-5 py-24 md:px-10 lg:px-20">
+    <main className="min-h-screen bg-[#333333] px-5 py-24 md:px-10 lg:px-20">
       <div className="mx-auto max-w-[1400px]">
 
         {/* Başlık */}
