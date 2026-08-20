@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="bg-[#242424] py-24 text-white"
+      className="bg-[#555555] py-24 text-white"
     >
       <div className="mx-auto max-w-7xl px-6">
 
