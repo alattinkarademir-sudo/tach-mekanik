@@ -24,7 +24,7 @@ export default function AltyapiSistemleriPage() {
   return (
     <main
       className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
-      style={{ backgroundColor: "#333333" }}
+      style={{ backgroundColor: "#666666" }}
     >
       <div className="mx-auto max-w-[1400px]">
 
@@ -34,7 +34,7 @@ export default function AltyapiSistemleriPage() {
             TACH MEKANİK
           </p>
 
-          <h1 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+          <h1 className="mt-5 text-3xl font-bold text-black md:text-4xl lg:text-5xl">
             {t("title")}
           </h1>
 
@@ -43,15 +43,15 @@ export default function AltyapiSistemleriPage() {
 
         {/* Ana açıklama */}
         <section>
-          <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+          <h2 className="text-3xl font-bold text-black md:text-4xl lg:text-5xl">
             {t("mainTitle")}
           </h2>
 
-          <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
+          <p className="mt-8 max-w-[1350px] text-lg leading-9 text-black md:text-xl">
             {t("mainDescription1")}
           </p>
 
-          <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
+          <p className="mt-6 max-w-[1350px] text-lg leading-9 text-black md:text-xl">
             {t("mainDescription2")}
           </p>
 
@@ -67,11 +67,11 @@ export default function AltyapiSistemleriPage() {
 
         {/* Kapsam */}
         <section className="mt-24">
-          <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+          <h2 className="text-3xl font-bold text-black md:text-4xl lg:text-5xl">
             {t("scopeTitle")}
           </h2>
 
-          <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
+          <p className="mt-6 max-w-[1350px] text-lg leading-9 text-black md:text-xl">
             {t("scopeDescription")}
           </p>
 
@@ -79,14 +79,14 @@ export default function AltyapiSistemleriPage() {
             {systems.map((item, index) => (
               <article
                 key={index}
-                className="border-b border-white/10 pb-7"
+                className="border-b border-black/10 pb-7"
               >
                 <div className="flex items-start gap-5">
                   <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-cyan-400/10 font-bold text-cyan-400">
                     {index + 1}
                   </span>
 
-                  <p className="text-xl leading-8 text-white md:text-2xl">
+                  <p className="text-xl leading-8 text-black md:text-2xl">
                     {item}
                   </p>
                 </div>
@@ -97,30 +97,30 @@ export default function AltyapiSistemleriPage() {
 
         {/* Güvenilir altyapı */}
         <section className="mt-24">
-          <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+          <h2 className="text-3xl font-bold text-black md:text-4xl lg:text-5xl">
             {t("reliabilityTitle")}
           </h2>
 
-          <p className="mt-8 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
+          <p className="mt-8 max-w-[1350px] text-lg leading-9 text-black md:text-xl">
             {t("reliabilityDescription1")}
           </p>
 
-          <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
+          <p className="mt-6 max-w-[1350px] text-lg leading-9 text-black md:text-xl">
             {t("reliabilityDescription2")}
           </p>
         </section>
 
         {/* Son bölüm */}
-        <section className="mt-24 border-t border-white/10 pb-16 pt-12">
+        <section className="mt-24 border-t border-black/10 pb-16 pt-12">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
             TACH MEKANİK
           </p>
 
-          <h2 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+          <h2 className="mt-5 text-3xl font-bold text-black md:text-4xl lg:text-5xl">
             {t("footerTitle")}
           </h2>
 
-          <p className="mt-5 max-w-[1300px] text-lg leading-9 text-gray-300 md:text-xl">
+          <p className="mt-5 max-w-[1300px] text-lg leading-9 text-black md:text-xl">
             {t("footerDescription")}
           </p>
         </section>

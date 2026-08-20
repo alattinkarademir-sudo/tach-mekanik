@@ -23,44 +23,45 @@ export default function KesifPage() {
   return (
     <main
       className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
-      style={{ backgroundColor: "#333333" }}
+      style={{ backgroundColor: "#666666" }}
     >
       <div className="mx-auto max-w-[1400px]">
+
         {/* Başlık */}
         <header className="mb-20">
-          <p className="text-cyan-400 uppercase tracking-[0.35em] font-semibold">
+          <p className="text-black uppercase tracking-[0.35em] font-semibold">
             {t("brand")}
           </p>
 
-          <h1 className="mt-5 text-2xl font-bold text-white md:text-3xl lg:text-4xl">
+          <h1 className="mt-5 text-2xl font-bold text-black md:text-3xl lg:text-4xl">
             {t("title")}
           </h1>
 
-          <div className="mt-6 h-1 w-24 bg-cyan-400" />
+          <div className="mt-6 h-1 w-24 bg-black" />
         </header>
 
         {/* Ana açıklama */}
         <section>
-          <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+          <h2 className="text-3xl font-bold text-black md:text-4xl lg:text-5xl">
             {t("heading")}
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[1400px] text-lg leading-9 text-gray-200 md:text-xl">
+          <p className="mx-auto mt-8 max-w-[1400px] text-lg leading-9 text-black md:text-xl">
             {t("intro1")}
           </p>
 
-          <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-gray-200 md:text-xl">
+          <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-black md:text-xl">
             {t("intro2")}
           </p>
         </section>
 
         {/* Keşif çalışmaları */}
         <section className="mt-24">
-          <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+          <h2 className="text-3xl font-bold text-black md:text-4xl lg:text-5xl">
             {t("scopeTitle")}
           </h2>
 
-          <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-gray-200 md:text-xl">
+          <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-black md:text-xl">
             {t("scopeText")}
           </p>
 
@@ -68,14 +69,14 @@ export default function KesifPage() {
             {kesifler.map((item, index) => (
               <article
                 key={item}
-                className="border border-white/10 bg-white/[0.02] p-6 text-left transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-400/[0.04]"
+                className="border border-black/10 bg-black/[0.02] p-6 text-left transition-all duration-300 hover:border-black/30 hover:bg-black/[0.05]"
               >
                 <div className="flex items-center gap-5">
-                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-cyan-400/10 font-bold text-cyan-400">
+                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-black/10 font-bold text-black">
                     {String(index + 1).padStart(2, "0")}
                   </span>
 
-                  <p className="text-lg leading-8 text-white md:text-xl">
+                  <p className="text-lg leading-8 text-black md:text-xl">
                     {item}
                   </p>
                 </div>
@@ -86,35 +87,36 @@ export default function KesifPage() {
 
         {/* Doğru keşif */}
         <section className="mx-auto mt-28 max-w-[1400px] text-center">
-          <div className="border-l-2 border-cyan-400 pl-6 md:pl-10">
-            <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+          <div className="border-l-2 border-black pl-6 md:pl-10">
+            <h2 className="text-3xl font-bold text-black md:text-4xl lg:text-5xl">
               {t("correctTitle")}
             </h2>
 
-            <p className="mt-8 text-lg leading-9 text-gray-200 md:text-xl">
+            <p className="mt-8 text-lg leading-9 text-black md:text-xl">
               {t("correctText1")}
             </p>
 
-            <p className="mt-6 text-lg leading-9 text-gray-200 md:text-xl">
+            <p className="mt-6 text-lg leading-9 text-black md:text-xl">
               {t("correctText2")}
             </p>
           </div>
         </section>
 
         {/* Son bölüm */}
-        <section className="mt-28 border-t border-white/10 pb-20 pt-14">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
+        <section className="mt-28 border-t border-black/10 pb-20 pt-14">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-black">
             {t("brand")}
           </p>
 
-          <h2 className="mt-5 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+          <h2 className="mt-5 text-3xl font-bold text-black md:text-4xl lg:text-5xl">
             {t("finalTitle")}
           </h2>
 
-          <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-gray-200 md:text-xl">
+          <p className="mx-auto mt-6 max-w-[1400px] text-lg leading-9 text-black md:text-xl">
             {t("finalText")}
           </p>
         </section>
+
       </div>
     </main>
   );
