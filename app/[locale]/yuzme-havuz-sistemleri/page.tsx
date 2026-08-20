@@ -1,6 +1,8 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import havuzImage1 from "./yuzme-havuz-sistemleri-1.png";
+import havuzImage2 from "./yuzme-havuz-sistemleri-2.png";
 
 export default function YuzmeHavuzSistemleriPage() {
   const t = useTranslations("SwimmingPoolPage");
@@ -25,7 +27,8 @@ export default function YuzmeHavuzSistemleriPage() {
       className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
       style={{ backgroundColor: "#242424" }}
     >
-      <div>
+      <div className="mx-auto max-w-[1400px]">
+
         {/* Başlık */}
         <header className="mb-20">
           <p className="font-semibold uppercase tracking-[0.35em] text-cyan-400">
@@ -52,6 +55,25 @@ export default function YuzmeHavuzSistemleriPage() {
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
             {t("mainDescription2")}
           </p>
+
+          {/* Yüzme Havuz Sistemleri Görselleri */}
+          <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2">
+            <div className="overflow-hidden rounded-2xl">
+              <img
+                src={havuzImage1.src}
+                alt="TACH MEKANİK Yüzme Havuz Sistemleri"
+                className="h-full w-full object-cover"
+              />
+            </div>
+
+            <div className="overflow-hidden rounded-2xl">
+              <img
+                src={havuzImage2.src}
+                alt="TACH MEKANİK Havuz Mekanik Sistemleri"
+                className="h-full w-full object-cover"
+              />
+            </div>
+          </div>
         </section>
 
         {/* Sistem kapsamı */}
@@ -113,6 +135,7 @@ export default function YuzmeHavuzSistemleriPage() {
             {t("footerDescription")}
           </p>
         </section>
+
       </div>
     </main>
   );

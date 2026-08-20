@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import sihhiTesisatImage from "./sihhi-tesisat.png";
 
 export default function SihhiTesisatPage() {
   const t = useTranslations("PlumbingPage");
@@ -53,6 +54,15 @@ export default function SihhiTesisatPage() {
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
             {t("intro2")}
           </p>
+
+          {/* Sıhhi tesisat görseli */}
+          <div className="mt-12 overflow-hidden rounded-2xl">
+            <img
+              src={sihhiTesisatImage.src}
+              alt="TACH MEKANİK Sıhhi Tesisat Sistemleri"
+              className="h-auto w-full object-cover"
+            />
+          </div>
         </section>
 
         {/* Sıhhi tesisat kapsamı */}

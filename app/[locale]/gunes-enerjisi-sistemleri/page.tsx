@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import gunesEnerjisiImage from "./gunes-enerjisi.png";
 
 export default function GunesEnerjisiPage() {
   const t = useTranslations("SolarPage");
@@ -50,6 +51,15 @@ export default function GunesEnerjisiPage() {
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
             {t("intro2")}
           </p>
+
+          {/* Güneş Enerjisi Görseli */}
+          <div className="mt-12 overflow-hidden rounded-2xl">
+            <img
+              src={gunesEnerjisiImage.src}
+              alt="TACH MEKANİK Güneş Enerjisi Sistemleri"
+              className="h-auto w-full object-cover"
+            />
+          </div>
         </section>
 
         {/* Sistem kapsamı */}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import medikalGazImage from "./medikal-gaz.png";
 
 export default function MedikalGazSistemleriPage() {
   const t = useTranslations("MedicalGasPage");
@@ -25,7 +26,8 @@ export default function MedikalGazSistemleriPage() {
       className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
       style={{ backgroundColor: "#242424" }}
     >
-      <div>
+      <div className="mx-auto max-w-[1400px]">
+
         {/* Başlık */}
         <header className="mb-20">
           <p className="font-semibold uppercase tracking-[0.35em] text-cyan-400">
@@ -52,6 +54,15 @@ export default function MedikalGazSistemleriPage() {
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-gray-300 md:text-xl">
             {t("mainDescription2")}
           </p>
+
+          {/* Medikal Gaz görseli */}
+          <div className="mt-12 overflow-hidden rounded-2xl">
+            <img
+              src={medikalGazImage.src}
+              alt="TACH MEKANİK Medikal Gaz Sistemleri"
+              className="h-auto w-full object-cover"
+            />
+          </div>
         </section>
 
         {/* Kapsam */}
@@ -113,6 +124,7 @@ export default function MedikalGazSistemleriPage() {
             {t("footerDescription")}
           </p>
         </section>
+
       </div>
     </main>
   );

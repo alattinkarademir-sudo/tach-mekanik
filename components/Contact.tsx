@@ -55,7 +55,7 @@ export default function Contact() {
             </h3>
 
             <p className="text-gray-700 text-lg break-all">
-                  Mersin / TÜRKİYE
+              Yenşehir / Mersin / TÜRKİYE
             </p>
           </div>
 
