@@ -24,7 +24,6 @@ const images = [
   "/slides/hero18.png",
   "/slides/hero19.png",
   "/slides/hero20.png",
-
 ];
 
 export default function HeroSlider() {
@@ -44,10 +43,11 @@ export default function HeroSlider() {
       <img
         src={images[current]}
         alt={`Slide ${current + 1}`}
-      className="absolute inset-0 w-full h-full object-cover object-[center_45%]"
+        className="absolute inset-0 w-full h-full object-cover object-center"
       />
 
       <div className="absolute inset-0 bg-black/40"></div>
+
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
           {t("title")}
