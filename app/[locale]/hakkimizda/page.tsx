@@ -99,7 +99,7 @@ export default function Hakkimizda() {
           <div>
 
             <h3 className="text-5xl font-bold">
-              500+
+             
             </h3>
 
             <p className="mt-3 text-lg">
@@ -122,10 +122,7 @@ export default function Hakkimizda() {
 
           <div>
 
-            <h3 className="text-5xl font-bold">
-              7/24
-            </h3>
-
+           
             <p className="mt-3 text-lg">
               {t("stats.support")}
             </p>
