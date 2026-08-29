@@ -6,7 +6,7 @@ export default function DevamEdenProjeler() {
   const t = useTranslations("Projects");
 
   return (
-    <main className="min-h-screen bg-[#666666] text-white px-6 pt-36 pb-20">
+    <main className="min-h-screen bg-[#DCDCDC] text-black px-6 pt-36 pb-20">
       <div className="mx-auto max-w-7xl text-center">
         <h1 className="text-4xl md:text-5xl font-bold">
           {t("ongoingTitle")}
