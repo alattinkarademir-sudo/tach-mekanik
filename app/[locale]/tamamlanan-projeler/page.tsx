@@ -25,30 +25,30 @@ export default function TamamlananProjeler() {
   const [selectedImage, setSelectedImage] = useState(projectImages[0]);
 
   return (
-    <main className="min-h-screen bg-[#DCDCDC] text-white px-6 pt-36 pb-20">
+    <main className="min-h-screen bg-[#DCDCDC] px-6 pt-36 pb-20">
       <div className="mx-auto max-w-7xl">
 
-        {/* Sayfa Başlığı */}
-        <div className="text-center mb-16">
+        {/* SAYFA BAŞLIĞI */}
+        <div className="text-center mb-14">
           <h1 className="text-4xl md:text-5xl font-bold text-[#242424]">
             {t("completedTitle")}
           </h1>
 
-          <p className="mt-6 text-gray-700 text-lg">
+          <p className="mt-5 text-gray-700 text-lg">
             {t("completedDescription")}
           </p>
         </div>
 
-        {/* Proje Kartı */}
-        <div className="mx-auto max-w-6xl bg-[#242424] rounded-2xl overflow-hidden shadow-xl">
+        {/* PROJE */}
+        <div className="mx-auto max-w-6xl bg-[#242424] rounded-2xl shadow-2xl overflow-hidden">
 
-          <div className="flex flex-col md:flex-row">
+          <div className="flex flex-col lg:flex-row">
 
-            {/* Sol - Fotoğraflar */}
-            <div className="md:w-[38%] p-5">
+            {/* SOL TARAF - FOTOĞRAFLAR */}
+            <div className="w-full lg:w-[42%] p-5 md:p-6">
 
-              {/* Büyük Fotoğraf */}
-              <div className="w-full h-72 md:h-[420px] rounded-xl overflow-hidden">
+              {/* ANA FOTOĞRAF */}
+              <div className="w-full h-[300px] md:h-[420px] rounded-xl overflow-hidden bg-black">
                 <img
                   src={selectedImage}
                   alt="Gökdere Çocuk Yaşam Merkezi"
@@ -56,16 +56,17 @@ export default function TamamlananProjeler() {
                 />
               </div>
 
-              {/* Küçük Fotoğraflar */}
+              {/* KÜÇÜK FOTOĞRAFLAR */}
               <div className="grid grid-cols-4 gap-2 mt-4">
                 {projectImages.map((image, index) => (
                   <button
                     key={image}
+                    type="button"
                     onClick={() => setSelectedImage(image)}
-                    className={`h-20 rounded-lg overflow-hidden border-2 transition ${
+                    className={`h-20 md:h-24 rounded-lg overflow-hidden border-2 transition-all ${
                       selectedImage === image
-                        ? "border-white"
-                        : "border-transparent"
+                        ? "border-white scale-[1.02]"
+                        : "border-transparent hover:border-gray-400"
                     }`}
                   >
                     <img
@@ -79,14 +80,15 @@ export default function TamamlananProjeler() {
 
             </div>
 
-            {/* Sağ - Proje Bilgileri */}
-            <div className="flex-1 p-8 md:p-10">
+            {/* SAĞ TARAF - PROJE BİLGİLERİ */}
+            <div className="w-full lg:w-[58%] p-7 md:p-10">
 
-              <h2 className="text-2xl md:text-3xl font-bold text-white">
+              <h2 className="text-3xl md:text-4xl font-bold text-white">
                 Gökdere Çocuk Yaşam Merkezi
               </h2>
 
-              <div className="mt-5 space-y-2 text-gray-300">
+              {/* TARİH VE LOKASYON */}
+              <div className="mt-6 space-y-3 text-gray-300">
 
                 <p>
                   <span className="font-semibold text-white">
@@ -97,21 +99,22 @@ export default function TamamlananProjeler() {
 
                 <p>
                   <span className="font-semibold text-white">
-                    Başlangıç:
+                    Proje Başlangıcı:
                   </span>{" "}
                   2012
                 </p>
 
                 <p>
                   <span className="font-semibold text-white">
-                    Bitiş:
+                    Proje Bitişi:
                   </span>{" "}
                   2023
                 </p>
 
               </div>
 
-              <div className="mt-7 text-gray-300 leading-7">
+              {/* AÇIKLAMA */}
+              <div className="mt-8 text-gray-300 leading-7 text-base md:text-lg">
 
                 <p>
                   Türkmenistan’ın Aşkabat şehrinde, Gökdere mevkiinde
@@ -124,21 +127,21 @@ export default function TamamlananProjeler() {
 
                 <p className="mt-5">
                   Proje kapsamında mekanik tesisat uygulamaları ve saha
-                  çalışmaları titizlikle yürütülerek, kompleksin ihtiyaç
+                  çalışmaları titizlikle yürütülmüş, kompleksin ihtiyaç
                   duyduğu mekanik sistemlerin güvenilir ve bütünleşik şekilde
                   çalışması sağlanmıştır.
                 </p>
 
               </div>
 
-              {/* Proje Özeti */}
+              {/* PROJE KAPSAMI */}
               <div className="mt-8 pt-6 border-t border-gray-600">
 
-                <h3 className="text-lg font-semibold text-white mb-4">
+                <h3 className="text-xl font-semibold text-white mb-5">
                   Proje Kapsamı
                 </h3>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-gray-300">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6 text-gray-300">
 
                   <div>• Kapalı yüzme havuzu</div>
                   <div>• Açık yüzme havuzu</div>
@@ -147,7 +150,7 @@ export default function TamamlananProjeler() {
                   <div>• İdari bina</div>
                   <div>• Yemekhane</div>
                   <div>• Amfi tiyatro</div>
-                  <div>• Mekanik tesisat sistemleri</div>
+                  <div>• Tüm mekanik tesisat sistemleri</div>
 
                 </div>
 
