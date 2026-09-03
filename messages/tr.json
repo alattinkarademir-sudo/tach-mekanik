@@ -1,29 +1,29 @@
 {
- "menu": {
-  "home": "Ana Sayfa",
-  "about": "Hakkımızda",
-  "services": "Hizmetler",
-  "gallery": "Galeri",
-  "projects": "Projeler",
-  "ongoingProjects": "Devam Eden Projeler",
-  "completedProjects": "Tamamlanan Projeler",
-  "contact": "İletişim",
-  "quote": "Teklif Al",
+  "menu": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "gallery": "Galeri",
+    "projects": "Projeler",
+    "ongoingProjects": "Devam Eden Projeler",
+    "completedProjects": "Tamamlanan Projeler",
+    "contact": "İletişim",
+    "quote": "Teklif Al",
 
-  "projelendirme": "Projelendirme",
-  "kesif": "Keşif",
-  "sihhiTesisat": "Sıhhi Tesisat",
-  "gunesEnerjisi": "Güneş Enerjisi Sistemleri",
-  "yanginTesisat": "Yangın Tesisatı",
-  "havalandirma": "Havalandırma",
-  "isitmaSogutma": "Isıtma & Soğutma",
-  "vrfSistemleri": "VRF Sistemleri",
-  "medikalGaz": "Medikal Gaz",
-  "havuzSistemleri": "Yüzme Havuz Sistemleri",
-  "peyzaj": "Peyzaj Sulama",
-  "aritma": "Arıtma Sistemleri",
-  "altyapi": "Altyapı Sistemleri"
-},
+    "projelendirme": "Projelendirme",
+    "kesif": "Keşif",
+    "sihhiTesisat": "Sıhhi Tesisat",
+    "gunesEnerjisi": "Güneş Enerjisi Sistemleri",
+    "yanginTesisat": "Yangın Tesisatı",
+    "havalandirma": "Havalandırma",
+    "isitmaSogutma": "Isıtma & Soğutma",
+    "vrfSistemleri": "VRF Sistemleri",
+    "medikalGaz": "Medikal Gaz",
+    "havuzSistemleri": "Yüzme Havuz Sistemleri",
+    "peyzaj": "Peyzaj Sulama",
+    "aritma": "Arıtma Sistemleri",
+    "altyapi": "Altyapı Sistemleri"
+  },
 
   "HeroSlider": {
     "title": "TACH MEKANİK",
@@ -73,10 +73,9 @@
         "description": "TACH MEKANİK olarak, yaşam alanlarının ve endüstriyel tesislerin temel ihtiyaçlarından biri olan sıhhi tesisat sistemlerinde güvenilir, verimli ve sürdürülebilir mühendislik çözümleri sunmaktayız. Temiz su, atık su, yağmur suyu ve sıcak su sistemlerini; doğru mühendislik hesapları, kaliteli malzeme seçimi ve profesyonel uygulama anlayışıyla projelendiriyor ve hayata geçiriyoruz.\n\nKonut, ticari yapılar, oteller, hastaneler, endüstriyel tesisler ve özel projelerde sıhhi tesisat sistemlerinin tasarımından uygulamasına kadar tüm süreçleri titizlikle yönetiyoruz. Su kullanım verimliliği, hijyen standartları, enerji tasarrufu ve işletme kolaylığını ön planda tutarak modern yapıların ihtiyaçlarına uygun çözümler geliştiriyoruz.\n\nTemiz su dağıtım sistemleri, pis su ve atık su tesisatları, yağmur suyu toplama sistemleri, hidrofor sistemleri ve sıcak kullanım suyu çözümlerinde ulusal ve uluslararası uygulama standartlarına uygun çalışmalar gerçekleştiriyoruz.\n\nHer projede kalite, dayanıklılık ve uzun ömürlü kullanım hedefleriyle hareket ederek; güvenilir, sürdürülebilir ve yüksek performanslı sıhhi tesisat sistemleri ile müşterilerimize profesyonel hizmet sunuyoruz."
       },
       "solar": {
-      "title": "Güneş Enerjisi Sistemleri",
+        "title": "Güneş Enerjisi Sistemleri",
         "description": "Güneş enerjisinden verimli şekilde yararlanmak amacıyla projelendirme, sistem tasarımı ve uygulama çözümleri sunuyoruz."
       },
-
       "fire": {
         "title": "Yangın Söndürme Sistemleri",
         "description": "TACH MEKANİK olarak, yapıların can ve mal güvenliğini korumaya yönelik modern yangın söndürme sistemleri tasarlıyor, projelendiriyor ve uyguluyoruz. Yangın güvenliği alanında uluslararası kabul görmüş NFPA, EN ve ISO standartlarını esas alarak; endüstriyel tesisler, ticari yapılar, hastaneler, oteller ve özel projeler için güvenilir mühendislik çözümleri sunmaktayız.\n\nSprinkler (yağmurlama) sistemleri, yangın dolapları, hidrant sistemleri, yangın pompaları, yangın alarm ve özel söndürme sistemlerinde; proje tasarımından ekipman seçimine, montajdan test ve devreye alma süreçlerine kadar tüm aşamaları profesyonel olarak yönetiyoruz.\n\nNFPA 13, NFPA 20, NFPA 72 ve NFPA 2001 standartları ile EN 12845, EN 15004 ve CEN/TS 54-14 kriterlerine uygun çözümler geliştirerek, yangın risklerine karşı yüksek performanslı, sürdürülebilir ve uzun ömürlü sistemler oluşturuyoruz.\n\nHer projede güvenilirlik, hızlı müdahale, kalite ve işletme sürekliliğini ön planda tutarak; müşterilerimize uluslararası standartlarda etkin yangın koruma çözümleri sağlamaktayız."
@@ -121,7 +120,6 @@
       "title": "Hakkımızda",
       "subtitle": "1987 yılından bu yana mekanik tesisat sektöründe güven, kalite ve mühendisliği bir araya getiriyoruz."
     },
-
     "intro": {
       "year": "1987'DEN GÜNÜMÜZE",
       "title": "Tecrübenin Gücüyle Geleceği İnşa Ediyoruz",
@@ -129,24 +127,20 @@
       "text2": "Sürekli gelişen teknolojiyi yakından takip ediyor, mekanik tesisat sistemlerinde uluslararası standartlara uygun, enerji verimliliğini ön planda tutan modern çözümler geliştiriyoruz. Her projeye aynı titizlikle yaklaşarak estetik, güvenlik, sürdürülebilirlik ve uzun ömürlü kullanım ilkelerini bir arada sunuyoruz.",
       "text3": "Bugün 39 yılı aşkın sektör deneyimimizle yalnızca mekanik tesisat uygulayan bir firma değil; projelerine değer katan, mühendislik bakış açısıyla çözüm üreten güvenilir bir iş ortağı olmanın haklı gururunu yaşıyoruz."
     },
-
     "stats": {
       "experience": "Yıllık Deneyim",
       "projects": "Tamamlanan Proje",
       "satisfaction": "Müşteri Memnuniyeti",
       "support": "Teknik Destek"
     },
-
     "mission": {
       "title": "Misyonumuz",
       "text": "Mekanik tesisat alanında güvenilir, kaliteli ve sürdürülebilir çözümler sunarak müşterilerimizin beklentilerini en üst seviyede karşılamak; mühendislik ilkelerinden ödün vermeden her projeye değer katmak."
     },
-
     "vision": {
       "title": "Vizyonumuz",
       "text": "Yenilikçi teknolojileri takip eden, enerji verimliliğini esas alan, uluslararası standartlarda projeler üreten ve sektöründe güvenilirliğiyle örnek gösterilen lider firmalardan biri olmak."
     },
-
     "expertise": {
       "title": "Uzmanlık Alanlarımız",
       "items": {
@@ -162,7 +156,6 @@
         "consulting": "Teknik Danışmanlık"
       }
     },
-
     "why": {
       "title": "Neden TACH MEKANİK?",
       "text": "Yaklaşık kırk yıllık sektör tecrübemiz, uzman mühendis kadromuz, kaliteli malzeme anlayışımız ve zamanında teslim prensibimizle müşterilerimize uzun ömürlü mekanik tesisat çözümleri sunuyoruz. Her projeye ilk günkü heyecanımızla yaklaşırken güvenilirlik ve müşteri memnuniyetini en önemli değerimiz olarak görüyoruz."
@@ -179,126 +172,128 @@
     "projects": "Tamamlanan Proje"
   },
 
- "Contact": {
-  "brand": "TACH MEKANİK",
-  "title": "İletişim",
-  "description": "Projeleriniz için bizimle iletişime geçin. Uzman ekibimiz en kısa sürede size dönüş sağlayacaktır.",
-  "phone": "Telefon",
-  "email": "E-posta",
-  "address": "Adres",
-  "website": "Web Sitemiz",
-  "quoteTitle": "PROJELERİNİZ İÇİN TEKLİF ALIN",
-  "quoteDescription": "İhtiyaçlarınızı değerlendirelim, size özel mekanik çözümler sunalım.",
-  "quoteButton": "TEKLİF AL"
-},
-"Projects": {
-  "ongoingTitle": "Devam Eden Projeler",
-  "ongoingDescription": "Devam eden projelerimiz burada yer alacaktır.",
-  "completedTitle": "Tamamlanan Projeler",
-  "completedDescription": "Tamamlanan projelerimiz burada yer alacaktır."
-},
-
-"QuotePage": {
-  "brand": "TACH MEKANİK",
-  "title": "Teklif Al",
-  "description": "Projenizi bize anlatın. Deneyimli ekibimiz talebinizi inceleyerek en kısa sürede sizinle iletişime geçecektir.",
-  "formTitle": "Teklif Talebi",
-  "formDescription": "Size en uygun çözümü hazırlayabilmemiz için lütfen projenizle ilgili detayları paylaşın.",
-
-  "name": "Ad Soyad",
-  "namePlaceholder": "Adınız ve soyadınız",
-
-  "company": "Firma Adı",
-  "companyPlaceholder": "Firma adınız",
-
-  "phone": "Telefon",
-
-  "email": "E-posta",
-
-  "projectType": "Proje Türü",
-  "projectTypePlaceholder": "Proje türünü seçiniz",
-
-  "residential": "Konut",
-  "hotel": "Otel",
-  "hospital": "Hastane",
-  "industrial": "Endüstriyel Tesis",
-  "commercial": "Ticari Yapı",
-  "other": "Diğer",
-
-  "service": "İlgilendiğiniz Hizmet",
-  "servicePlaceholder": "Hizmet seçiniz",
-
-  "project": "Mekanik Projelendirme",
-  "heatingCooling": "Isıtma ve Soğutma",
-  "ventilation": "Havalandırma",
-  "fire": "Yangın Sistemleri",
-  "plumbing": "Sıhhi Tesisat",
-  "solar": "Güneş Enerjisi Sistemleri",
-  "vrf": "VRF Sistemleri",
-  "medical": "Medikal Gaz Sistemleri",
-  "infrastructure": "Altyapı Sistemleri",
-
-  "projectDescription": "Proje Açıklaması",
-  "projectDescriptionPlaceholder": "Projeniz hakkında kısa bilgi verebilirsiniz...",
-
-  "submit": "TEKLİF TALEBİ GÖNDER",
-"successMessage": "Teklif talebiniz başarıyla gönderildi.",
-"errorMessage": "Teklif gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
-},
-
-  "ProjectPage": {
-  "brand": "TACH MEKANİK",
-  "title": "MEKANİK PROJELENDİRME",
-  "heading": "Profesyonel Mekanik Tesisat Projelendirme",
-
-  "intro1": "TACH MEKANİK olarak her binanın ihtiyaçlarına ve kullanım amacına uygun, güvenli, verimli ve sürdürülebilir mekanik tesisat projeleri hazırlıyoruz. Projelendirme sürecini yalnızca teknik çizimlerden ibaret görmüyor; mimari, elektrik ve diğer disiplinlerle uyumlu, uygulama aşamasında oluşabilecek sorunları önleyen kapsamlı çözümler geliştiriyoruz.",
-
-  "intro2": "Mühendislik deneyimimizi modern proje teknikleriyle birleştirerek konut ve ticari yapılardan endüstriyel tesislere ve büyük ölçekli projelere kadar farklı yapı türlerine özel mekanik sistemler tasarlıyoruz.",
-
-  "scopeTitle": "Projelendirme Kapsamımız",
-
-  "scopeText": "Her projeyi kendine özgü teknik gereksinimlerine göre değerlendiriyor ve tüm mekanik sistemlerin uyumlu şekilde çalışmasını sağlayan kapsamlı çözümler geliştiriyoruz.",
-
-  "scope": {
-    "heatingCooling": "Isıtma ve soğutma sistemleri projelendirmesi",
-    "plumbing": "Sıhhi tesisat sistemleri projelendirmesi",
-    "solar": "Güneş enerjisi sistemleri projelendirmesi",
-    "fire": "Yangın koruma sistemleri projelendirmesi",
-    "ventilation": "Havalandırma sistemleri projelendirmesi",
-    "vrf": "VRF sistemleri projelendirmesi",
-    "medical": "Medikal gaz sistemleri projelendirmesi",
-    "infrastructure": "Mekanik altyapı sistemleri projelendirmesi",
-    "pump": "Pompa ve hidrofor sistemleri projelendirmesi",
-    "technical": "Teknik hacim ve ekipman yerleşimleri",
-    "piping": "Boru ve kanal sistemleri projelendirmesi",
-    "calculations": "Sistem kapasite ve debi hesaplamaları",
-    "application": "Uygulama ve detay projeleri"
+  "Contact": {
+    "brand": "TACH MEKANİK",
+    "title": "İletişim",
+    "description": "Projeleriniz için bizimle iletişime geçin. Uzman ekibimiz en kısa sürede size dönüş sağlayacaktır.",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "address": "Adres",
+    "website": "Web Sitemiz",
+    "quoteTitle": "PROJELERİNİZ İÇİN TEKLİF ALIN",
+    "quoteDescription": "İhtiyaçlarınızı değerlendirelim, size özel mekanik çözümler sunalım.",
+    "quoteButton": "TEKLİF AL"
   },
 
-  "correctTitle": "Doğru Proje, Doğru Uygulama",
+  "Projects": {
+    "ongoingTitle": "Devam Eden Projeler",
+    "ongoingDescription": "Devam eden projelerimiz burada yer alacaktır.",
+    "completedTitle": "Tamamlanan Projeler",
+    "completedDescription": "Başarıyla tamamladığımız projelerden bazıları.",
+    "labels": {
+      "location": "Lokasyon",
+      "startDate": "Proje Başlangıcı",
+      "endDate": "Proje Bitişi",
+      "scope": "Proje Kapsamı"
+    },
+    "gokdere": {
+      "title": "Gökdere Çocuk Yaşam Merkezi",
+      "location": "Gökdere, Aşkabat, Türkmenistan",
+      "startDate": "2012",
+      "endDate": "2023",
+      "desc1": "Türkmenistan’ın Aşkabat şehrinde, Gökdere mevkiinde gerçekleştirilen 300 öğrenci kapasiteli Çocuk Yaşam Merkezi projesinde; kapalı ve açık yüzme havuzları, yatakhaneler, tiyatro salonu, idari bina, yemekhane ve amfi tiyatro gibi farklı kullanım alanlarının tüm mekanik tesisat sistemleri tarafımızca gerçekleştirilmiştir.",
+      "desc2": "Proje kapsamında mekanik tesisat uygulamaları ve saha çalışmaları titizlikle yürütülmüş, kompleksin ihtiyaç duyduğu mekanik sistemlerin güvenilir ve bütünleşik şekilde çalışması sağlanmıştır.",
+      "scopeItems": {
+        "indoorPool": "Kapalı yüzme havuzu",
+        "outdoorPool": "Açık yüzme havuzu",
+        "dormitories": "Yatakhaneler",
+        "theater": "Tiyatro salonu",
+        "adminBuilding": "İdari bina",
+        "diningHall": "Yemekhane",
+        "amphitheater": "Amfi tiyatro",
+        "allMechanical": "Tüm mekanik tesisat sistemleri"
+      }
+    }
+  },
 
-  "correctText1": "İyi hazırlanmış bir mekanik tesisat projesi, uygulama sürecinin temelini oluşturur. TACH MEKANİK, projelendirme aşamasında olası uygulama sorunlarını değerlendirerek malzeme, ekipman, kapasite ve sistem seçimlerini doğru şekilde planlar.",
+  "QuotePage": {
+    "brand": "TACH MEKANİK",
+    "title": "Teklif Al",
+    "description": "Projenizi bize anlatın. Deneyimli ekibimiz talebinizi inceleyerek en kısa sürede sizinle iletişime geçecektir.",
+    "formTitle": "Teklif Talebi",
+    "formDescription": "Size en uygun çözümü hazırlayabilmemiz için lütfen projenizle ilgili detayları paylaşın.",
+    "name": "Ad Soyad",
+    "namePlaceholder": "Adınız ve soyadınız",
+    "company": "Firma Adı",
+    "companyPlaceholder": "Firma adınız",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "projectType": "Proje Türü",
+    "projectTypePlaceholder": "Proje türünü seçiniz",
+    "residential": "Konut",
+    "hotel": "Otel",
+    "hospital": "Hastane",
+    "industrial": "Endüstriyel Tesis",
+    "commercial": "Ticari Yapı",
+    "other": "Diğer",
+    "service": "İlgilendiğiniz Hizmet",
+    "servicePlaceholder": "Hizmet seçiniz",
+    "project": "Mekanik Projelendirme",
+    "heatingCooling": "Isıtma ve Soğutma",
+    "ventilation": "Havalandırma",
+    "fire": "Yangın Sistemleri",
+    "plumbing": "Sıhhi Tesisat",
+    "solar": "Güneş Enerjisi Sistemleri",
+    "vrf": "VRF Sistemleri",
+    "medical": "Medikal Gaz Sistemleri",
+    "infrastructure": "Altyapı Sistemleri",
+    "projectDescription": "Proje Açıklaması",
+    "projectDescriptionPlaceholder": "Projeniz hakkında kısa bilgi verebilirsiniz...",
+    "submit": "TEKLİF TALEBİ GÖNDER",
+    "successMessage": "Teklif talebiniz başarıyla gönderildi.",
+    "errorMessage": "Teklif gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
+  },
 
-  "correctText2": "Amacımız yalnızca çalışan sistemler oluşturmak değil; uzun yıllar güvenilir şekilde çalışacak, işletme maliyetlerini azaltacak ve enerji verimliliğini destekleyecek mekanik tesisat çözümleri sunmaktır.",
-
-  "finalTitle": "Mühendislik Deneyimiyle Güvenilir Mekanik Çözümler",
-
-  "finalText": "Projelendirmeden uygulamaya kadar doğru planlama ve doğru mühendislik yaklaşımıyla uzun ömürlü sistemler tasarlıyoruz.",
-
-  "applicationsTitle": "Nerelerde Uygulanır?",
-
-  "applicationsText": "Mekanik tesisat projelendirme hizmetlerimizi farklı yapı ve kullanım alanlarının teknik gereksinimlerine uygun olarak sunuyoruz.",
-
-  "applications": {
-    "residential": "Konut ve Rezidans Projeleri",
-    "hotel": "Otel ve Turizm Tesisleri",
-    "hospital": "Hastane ve Sağlık Tesisleri",
-    "industrial": "Endüstriyel Tesisler",
-    "commercial": "AVM, Ofis ve Ticari Yapılar",
-    "education": "Eğitim ve Kamu Binaları",
-    "infrastructure": "Altyapı ve Üstyapı Projeleri"
-  }
-},
+  "ProjectPage": {
+    "brand": "TACH MEKANİK",
+    "title": "MEKANİK PROJELENDİRME",
+    "heading": "Profesyonel Mekanik Tesisat Projelendirme",
+    "intro1": "TACH MEKANİK olarak her binanın ihtiyaçlarına ve kullanım amacına uygun, güvenli, verimli ve sürdürülebilir mekanik tesisat projeleri hazırlıyoruz. Projelendirme sürecini yalnızca teknik çizimlerden ibaret görmüyor; mimari, elektrik ve diğer disiplinlerle uyumlu, uygulama aşamasında oluşabilecek sorunları önleyen kapsamlı çözümler geliştiriyoruz.",
+    "intro2": "Mühendislik deneyimimizi modern proje teknikleriyle birleştirerek konut ve ticari yapılardan endüstriyel tesislere ve büyük ölçekli projelere kadar farklı yapı türlerine özel mekanik sistemler tasarlıyoruz.",
+    "scopeTitle": "Projelendirme Kapsamımız",
+    "scopeText": "Her projeyi kendine özgü teknik gereksinimlerine göre değerlendiriyor ve tüm mekanik sistemlerin uyumlu şekilde çalışmasını sağlayan kapsamlı çözümler geliştiriyoruz.",
+    "scope": {
+      "heatingCooling": "Isıtma ve soğutma sistemleri projelendirmesi",
+      "plumbing": "Sıhhi tesisat sistemleri projelendirmesi",
+      "solar": "Güneş enerjisi sistemleri projelendirmesi",
+      "fire": "Yangın koruma sistemleri projelendirmesi",
+      "ventilation": "Havalandırma sistemleri projelendirmesi",
+      "vrf": "VRF sistemleri projelendirmesi",
+      "medical": "Medikal gaz sistemleri projelendirmesi",
+      "infrastructure": "Mekanik altyapı sistemleri projelendirmesi",
+      "pump": "Pompa ve hidrofor sistemleri projelendirmesi",
+      "technical": "Teknik hacim ve ekipman yerleşimleri",
+      "piping": "Boru ve kanal sistemleri projelendirmesi",
+      "calculations": "Sistem kapasite ve debi hesaplamaları",
+      "application": "Uygulama ve detay projeleri"
+    },
+    "correctTitle": "Doğru Proje, Doğru Uygulama",
+    "correctText1": "İyi hazırlanmış bir mekanik tesisat projesi, uygulama sürecinin temelini oluşturur. TACH MEKANİK, projelendirme aşamasında olası uygulama sorunlarını değerlendirerek malzeme, ekipman, kapasite ve sistem seçimlerini doğru şekilde planlar.",
+    "correctText2": "Amacımız yalnızca çalışan sistemler oluşturmak değil; uzun yıllar güvenilir şekilde çalışacak, işletme maliyetlerini azaltacak ve enerji verimliliğini destekleyecek mekanik tesisat çözümleri sunmaktır.",
+    "finalTitle": "Mühendislik Deneyimiyle Güvenilir Mekanik Çözümler",
+    "finalText": "Projelendirmeden uygulamaya kadar doğru planlama ve doğru mühendislik yaklaşımıyla uzun ömürlü sistemler tasarlıyoruz.",
+    "applicationsTitle": "Nerelerde Uygulanır?",
+    "applicationsText": "Mekanik tesisat projelendirme hizmetlerimizi farklı yapı ve kullanım alanlarının teknik gereksinimlerine uygun olarak sunuyoruz.",
+    "applications": {
+      "residential": "Konut ve Rezidans Projeleri",
+      "hotel": "Otel ve Turizm Tesisleri",
+      "hospital": "Hastane ve Sağlık Tesisleri",
+      "industrial": "Endüstriyel Tesisler",
+      "commercial": "AVM, Ofis ve Ticari Yapılar",
+      "education": "Eğitim ve Kamu Binaları",
+      "infrastructure": "Altyapı ve Üstyapı Projeleri"
+    }
+  },
 
   "ExplorationPage": {
     "brand": "TACH MEKANİK",
@@ -441,218 +436,210 @@
     "footerTitle": "Her Yapı İçin İklimlendirme Çözümleri",
     "footerDescription": "Doğru mühendislik, kaliteli ekipman ve profesyonel uygulama ile konforlu, verimli ve uzun ömürlü ısıtma ve soğutma sistemleri oluşturuyoruz."
   },
+
   "VRFPage": {
-  "title": "VRF SİSTEMLERİ",
-  "mainTitle": "Profesyonel VRF Sistemleri",
-  "mainDescription1": "TACH MEKANİK olarak farklı yapıların ısıtma ve soğutma ihtiyaçlarına yönelik yüksek verimli VRF sistemleri tasarlıyor ve uyguluyoruz. Konutlar, ofisler, oteller, ticari yapılar ve büyük ölçekli projeler için uygun çözümler sunuyoruz.",
-  "mainDescription2": "Her binanın kullanım amacı, kapasitesi ve mimari özelliklerini değerlendirerek uygun dış ve iç ünite kombinasyonlarını belirliyoruz. Enerji verimliliğini ve kullanıcı konforunu birlikte değerlendiriyoruz.",
-  "scopeTitle": "VRF Sistemlerimiz",
-  "scopeDescription": "VRF sistemlerinin projelendirilmesinden montajına kadar tüm süreçleri mühendislik prensiplerine ve her projenin teknik gereksinimlerine uygun şekilde yürütüyoruz.",
-  "systems": {
-    "1": "VRF sistemleri projelendirmesi",
-    "2": "VRF dış ünite sistemleri",
-    "3": "VRF iç ünite sistemleri",
-    "4": "Kaset tipi iç üniteler",
-    "5": "Duvar tipi iç üniteler",
-    "6": "Kanal tipi iç üniteler",
-    "7": "Gizli tavan tipi iç üniteler",
-    "8": "VRF bakır borulama sistemleri",
-    "9": "Kondens drenaj sistemleri",
-    "10": "Kontrol ve yönetim sistemleri",
-    "11": "VRF uygulama ve detay projeleri",
-    "12": "Devreye alma ve sistem kontrolleri"
+    "title": "VRF SİSTEMLERİ",
+    "mainTitle": "Profesyonel VRF Sistemleri",
+    "mainDescription1": "TACH MEKANİK olarak farklı yapıların ısıtma ve soğutma ihtiyaçlarına yönelik yüksek verimli VRF sistemleri tasarlıyor ve uyguluyoruz. Konutlar, ofisler, oteller, ticari yapılar ve büyük ölçekli projeler için uygun çözümler sunuyoruz.",
+    "mainDescription2": "Her binanın kullanım amacı, kapasitesi ve mimari özelliklerini değerlendirerek uygun dış ve iç ünite kombinasyonlarını belirliyoruz. Enerji verimliliğini ve kullanıcı konforunu birlikte değerlendiriyoruz.",
+    "scopeTitle": "VRF Sistemlerimiz",
+    "scopeDescription": "VRF sistemlerinin projelendirilmesinden montajına kadar tüm süreçleri mühendislik prensiplerine ve her projenin teknik gereksinimlerine uygun şekilde yürütüyoruz.",
+    "systems": {
+      "1": "VRF sistemleri projelendirmesi",
+      "2": "VRF dış ünite sistemleri",
+      "3": "VRF iç ünite sistemleri",
+      "4": "Kaset tipi iç üniteler",
+      "5": "Duvar tipi iç üniteler",
+      "6": "Kanal tipi iç üniteler",
+      "7": "Gizli tavan tipi iç üniteler",
+      "8": "VRF bakır borulama sistemleri",
+      "9": "Kondens drenaj sistemleri",
+      "10": "Kontrol ve yönetim sistemleri",
+      "11": "VRF uygulama ve detay projeleri",
+      "12": "Devreye alma ve sistem kontrolleri"
+    },
+    "efficiencyTitle": "Konfor ve Enerji Verimliliği",
+    "efficiencyDescription1": "VRF sistemleri, farklı alanların ihtiyaçlarına göre bağımsız olarak kontrol edilmesine olanak sağlayarak enerji tüketiminin optimize edilmesine yardımcı olur. Doğru sistem tasarımı, ekipman seçimi ve profesyonel montaj ile yüksek konfor sağlanabilir.",
+    "efficiencyDescription2": "TACH MEKANİK, sistem kapasitesini ve alan ihtiyaçlarını değerlendirerek kullanıcı konforunu ve enerji verimliliğini ön planda tutan dengeli VRF çözümleri oluşturur.",
+    "footerTitle": "Modern Yapılar İçin Akıllı İklimlendirme",
+    "footerDescription": "Doğru mühendislik, uygun sistem seçimi ve profesyonel uygulama ile verimli, konforlu ve uzun ömürlü VRF sistemleri oluşturuyoruz."
   },
-  "efficiencyTitle": "Konfor ve Enerji Verimliliği",
-  "efficiencyDescription1": "VRF sistemleri, farklı alanların ihtiyaçlarına göre bağımsız olarak kontrol edilmesine olanak sağlayarak enerji tüketiminin optimize edilmesine yardımcı olur. Doğru sistem tasarımı, ekipman seçimi ve profesyonel montaj ile yüksek konfor sağlanabilir.",
-  "efficiencyDescription2": "TACH MEKANİK, sistem kapasitesini ve alan ihtiyaçlarını değerlendirerek kullanıcı konforunu ve enerji verimliliğini ön planda tutan dengeli VRF çözümleri oluşturur.",
-  "footerTitle": "Modern Yapılar İçin Akıllı İklimlendirme",
-  "footerDescription": "Doğru mühendislik, uygun sistem seçimi ve profesyonel uygulama ile verimli, konforlu ve uzun ömürlü VRF sistemleri oluşturuyoruz."
-},
 
-"MedicalGasPage": {
-  "title": "MEDİKAL GAZ SİSTEMLERİ",
-  "mainTitle": "Profesyonel Medikal Gaz Sistemleri",
-  "mainDescription1": "TACH MEKANİK olarak sağlık tesislerinde ihtiyaç duyulan medikal gaz sistemlerinin projelendirme, mühendislik ve uygulama süreçlerini mühendislik prensiplerine uygun şekilde gerçekleştiriyoruz.",
-  "mainDescription2": "Hastaneler, sağlık merkezleri, ameliyathaneler, yoğun bakım üniteleri ve diğer sağlık tesislerinin teknik gereksinimlerini değerlendirerek güvenilir, kontrollü ve uzun ömürlü medikal gaz tesisatları oluşturuyoruz.",
-  "scopeTitle": "Medikal Gaz Sistemlerimiz",
-  "scopeDescription": "Medikal gaz altyapısını projenin kullanım amacı ve sağlık tesisinin teknik gereksinimlerine göre bir bütün olarak ele alıyor, güvenli ve güvenilir şekilde çalışan sistemler tasarlıyoruz.",
-  "systems": {
-    "1": "Medikal oksijen sistemleri",
-    "2": "Medikal vakum sistemleri",
-    "3": "Medikal basınçlı hava sistemleri",
-    "4": "Azot ve diğer medikal gaz sistemleri",
-    "5": "Medikal gaz borulama sistemleri",
-    "6": "Medikal gaz prizleri ve terminal üniteleri",
-    "7": "Ameliyathane medikal gaz sistemleri",
-    "8": "Yoğun bakım medikal gaz sistemleri",
-    "9": "Hasta odası medikal gaz sistemleri",
-    "10": "Medikal gaz alarm ve kontrol sistemleri",
-    "11": "Medikal gaz uygulama ve detay projeleri",
-    "12": "Sistem testleri ve devreye alma çalışmaları"
+  "MedicalGasPage": {
+    "title": "MEDİKAL GAZ SİSTEMLERİ",
+    "mainTitle": "Profesyonel Medikal Gaz Sistemleri",
+    "mainDescription1": "TACH MEKANİK olarak sağlık tesislerinde ihtiyaç duyulan medikal gaz sistemlerinin projelendirme, mühendislik ve uygulama süreçlerini mühendislik prensiplerine uygun şekilde gerçekleştiriyoruz.",
+    "mainDescription2": "Hastaneler, sağlık merkezleri, ameliyathaneler, yoğun bakım üniteleri ve diğer sağlık tesislerinin teknik gereksinimlerini değerlendirerek güvenilir, kontrollü ve uzun ömürlü medikal gaz tesisatları oluşturuyoruz.",
+    "scopeTitle": "Medikal Gaz Sistemlerimiz",
+    "scopeDescription": "Medikal gaz altyapısını projenin kullanım amacı ve sağlık tesisinin teknik gereksinimlerine göre bir bütün olarak ele alıyor, güvenli ve güvenilir şekilde çalışan sistemler tasarlıyoruz.",
+    "systems": {
+      "1": "Medikal oksijen sistemleri",
+      "2": "Medikal vakum sistemleri",
+      "3": "Medikal basınçlı hava sistemleri",
+      "4": "Azot ve diğer medikal gaz sistemleri",
+      "5": "Medikal gaz borulama sistemleri",
+      "6": "Medikal gaz prizleri ve terminal üniteleri",
+      "7": "Ameliyathane medikal gaz sistemleri",
+      "8": "Yoğun bakım medikal gaz sistemleri",
+      "9": "Hasta odası medikal gaz sistemleri",
+      "10": "Medikal gaz alarm ve kontrol sistemleri",
+      "11": "Medikal gaz uygulama ve detay projeleri",
+      "12": "Sistem testleri ve devreye alma çalışmaları"
+    },
+    "safetyTitle": "Güvenli ve Kontrollü Sistemler",
+    "safetyDescription1": "Medikal gaz sistemlerinde güvenilirlik ve süreklilik büyük önem taşır. Doğru sistem tasarımı, uygun malzemelerin kullanılması ve teknik standartlara uygun montaj, sağlık tesislerinin güvenli şekilde işletilmesi için temel unsurlardır.",
+    "safetyDescription2": "TACH MEKANİK, medikal gaz altyapısının tüm bileşenlerini birlikte değerlendirerek kontrollü, düzenli ve güvenilir sistemler oluşturmayı hedefler.",
+    "footerTitle": "Sağlık Tesisleri İçin Güvenilir Medikal Gaz Sistemleri",
+    "footerDescription": "Doğru mühendislik, uygun malzemeler ve profesyonel uygulama ile sağlık tesislerinin ihtiyaçlarına uygun güvenilir medikal gaz sistemleri oluşturuyoruz."
   },
-  "safetyTitle": "Güvenli ve Kontrollü Sistemler",
-  "safetyDescription1": "Medikal gaz sistemlerinde güvenilirlik ve süreklilik büyük önem taşır. Doğru sistem tasarımı, uygun malzemelerin kullanılması ve teknik standartlara uygun montaj, sağlık tesislerinin güvenli şekilde işletilmesi için temel unsurlardır.",
-  "safetyDescription2": "TACH MEKANİK, medikal gaz altyapısının tüm bileşenlerini birlikte değerlendirerek kontrollü, düzenli ve güvenilir sistemler oluşturmayı hedefler.",
-  "footerTitle": "Sağlık Tesisleri İçin Güvenilir Medikal Gaz Sistemleri",
-  "footerDescription": "Doğru mühendislik, uygun malzemeler ve profesyonel uygulama ile sağlık tesislerinin ihtiyaçlarına uygun güvenilir medikal gaz sistemleri oluşturuyoruz."
-},
 
-"SwimmingPoolPage": {
-  "title": "YÜZME HAVUZ SİSTEMLERİ",
-  "mainTitle": "Profesyonel Yüzme Havuz Sistemleri",
-  "mainDescription1": "TACH MEKANİK olarak yüzme havuzlarının mekanik tesisat, filtrasyon, sirkülasyon ve su arıtma ihtiyaçlarına yönelik güvenilir ve verimli sistemler tasarlıyor ve uyguluyoruz.",
-  "mainDescription2": "Konutlar, oteller, spor tesisleri, sosyal tesisler ve büyük ölçekli projelerde havuzların kullanım amacı ve kapasitesine uygun mühendislik çözümleri sunuyoruz.",
-  "scopeTitle": "Yüzme Havuz Sistemlerimiz",
-  "scopeDescription": "Havuzun tüm mekanik gereksinimlerini bir bütün olarak değerlendiriyor, suyun doğru şekilde sirküle edilmesini, filtrelenmesini ve kontrol altında tutulmasını sağlayan uygun sistemler oluşturuyoruz.",
-  "systems": {
-    "1": "Havuz sirkülasyon sistemleri",
-    "2": "Havuz filtrasyon sistemleri",
-    "3": "Havuz pompa sistemleri",
-    "4": "Denge tankı sistemleri",
-    "5": "Havuz ısıtma sistemleri",
-    "6": "Havuz suyu arıtma sistemleri",
-    "7": "Kimyasal dozaj sistemleri",
-    "8": "Havuz taşma ve dönüş sistemleri",
-    "9": "Havuz drenaj sistemleri",
-    "10": "Havuz mekanik tesisat borulaması",
-    "11": "Havuz ekipman ve kontrol sistemleri",
-    "12": "Yüzme havuzu uygulama ve detay projeleri"
+  "SwimmingPoolPage": {
+    "title": "YÜZME HAVUZ SİSTEMLERİ",
+    "mainTitle": "Profesyonel Yüzme Havuz Sistemleri",
+    "mainDescription1": "TACH MEKANİK olarak yüzme havuzlarının mekanik tesisat, filtrasyon, sirkülasyon ve su arıtma ihtiyaçlarına yönelik güvenilir ve verimli sistemler tasarlıyor ve uyguluyoruz.",
+    "mainDescription2": "Konutlar, oteller, spor tesisleri, sosyal tesisler ve büyük ölçekli projelerde havuzların kullanım amacı ve kapasitesine uygun mühendislik çözümleri sunuyoruz.",
+    "scopeTitle": "Yüzme Havuz Sistemlerimiz",
+    "scopeDescription": "Havuzun tüm mekanik gereksinimlerini bir bütün olarak değerlendiriyor, suyun doğru şekilde sirküle edilmesini, filtrelenmesini ve kontrol altında tutulmasını sağlayan uygun sistemler oluşturuyoruz.",
+    "systems": {
+      "1": "Havuz sirkülasyon sistemleri",
+      "2": "Havuz filtrasyon sistemleri",
+      "3": "Havuz pompa sistemleri",
+      "4": "Denge tankı sistemleri",
+      "5": "Havuz ısıtma sistemleri",
+      "6": "Havuz suyu arıtma sistemleri",
+      "7": "Kimyasal dozaj sistemleri",
+      "8": "Havuz taşma ve dönüş sistemleri",
+      "9": "Havuz drenaj sistemleri",
+      "10": "Havuz mekanik tesisat borulaması",
+      "11": "Havuz ekipman ve kontrol sistemleri",
+      "12": "Yüzme havuzu uygulama ve detay projeleri"
+    },
+    "hygieneTitle": "Hijyenik ve Verimli Havuz Sistemleri",
+    "hygieneDescription1": "Yüzme havuzlarında su kalitesinin korunması ve kullanıcı konforunun sağlanması için doğru sirkülasyon ve filtrasyon sistemleri büyük önem taşır.",
+    "hygieneDescription2": "TACH MEKANİK, havuz kapasitesini ve çalışma koşullarını değerlendirerek uygun pompa, filtre, borulama ve kontrol sistemlerini belirler. Enerji verimliliğini ve işletme maliyetlerini de dikkate alarak sürdürülebilir çözümler sunar.",
+    "footerTitle": "Sağlıklı ve Konforlu Yüzme Havuzları",
+    "footerDescription": "Doğru mühendislik, kaliteli ekipman ve profesyonel uygulama ile güvenilir, verimli ve uzun ömürlü yüzme havuz sistemleri oluşturuyoruz."
   },
-  "hygieneTitle": "Hijyenik ve Verimli Havuz Sistemleri",
-  "hygieneDescription1": "Yüzme havuzlarında su kalitesinin korunması ve kullanıcı konforunun sağlanması için doğru sirkülasyon ve filtrasyon sistemleri büyük önem taşır.",
-  "hygieneDescription2": "TACH MEKANİK, havuz kapasitesini ve çalışma koşullarını değerlendirerek uygun pompa, filtre, borulama ve kontrol sistemlerini belirler. Enerji verimliliğini ve işletme maliyetlerini de dikkate alarak sürdürülebilir çözümler sunar.",
-  "footerTitle": "Sağlıklı ve Konforlu Yüzme Havuzları",
-  "footerDescription": "Doğru mühendislik, kaliteli ekipman ve profesyonel uygulama ile güvenilir, verimli ve uzun ömürlü yüzme havuz sistemleri oluşturuyoruz."
-},
 
-"LandscapePage": {
-  "title": "PEYZAJ SULAMA SİSTEMLERİ",
-  "mainTitle": "Profesyonel Peyzaj Sulama Sistemleri",
-  "mainDescription1": "TACH MEKANİK olarak yeşil alanların ve peyzaj uygulamalarının sulama ihtiyaçlarına yönelik modern, verimli ve uzun ömürlü sulama sistemleri tasarlıyor ve uyguluyoruz. Konut ve ticari yapılardan otellere ve büyük ölçekli peyzaj projelerine kadar farklı alanlara uygun çözümler sunuyoruz.",
-  "mainDescription2": "Alan büyüklüğünü, bitki türlerini, su ihtiyaçlarını ve çalışma koşullarını değerlendirerek uygun sulama yöntemini belirliyor, kontrollü ve dengeli su dağılımı sağlayan sistemler oluşturuyoruz.",
-  "scopeTitle": "Peyzaj Sistemlerimiz",
-  "scopeDescription": "Peyzaj alanlarının sulama ihtiyaçlarını bir bütün olarak değerlendiriyor, otomatik ve kontrollü sulama sistemleriyle sürdürülebilir çözümler geliştiriyoruz.",
-  "systems": {
-    "1": "Otomatik peyzaj sulama sistemleri",
-    "2": "Damla sulama sistemleri",
-    "3": "Yağmurlama sulama sistemleri",
-    "4": "Çim sulama sistemleri",
-    "5": "Bahçe sulama sistemleri",
-    "6": "Ağaç ve bitki sulama sistemleri",
-    "7": "Sulama pompa sistemleri",
-    "8": "Su depolama ve dağıtım sistemleri",
-    "9": "Sulama borulama sistemleri",
-    "10": "Otomatik sulama kontrol sistemleri",
-    "11": "Yağmur sensörü ve kontrol sistemleri",
-    "12": "Peyzaj sulama uygulama ve detay projeleri"
+  "LandscapePage": {
+    "title": "PEYZAJ SULAMA SİSTEMLERİ",
+    "mainTitle": "Profesyonel Peyzaj Sulama Sistemleri",
+    "mainDescription1": "TACH MEKANİK olarak yeşil alanların ve peyzaj uygulamalarının sulama ihtiyaçlarına yönelik modern, verimli ve uzun ömürlü sulama sistemleri tasarlıyor ve uyguluyoruz. Konut ve ticari yapılardan otellere ve büyük ölçekli peyzaj projelerine kadar farklı alanlara uygun çözümler sunuyoruz.",
+    "mainDescription2": "Alan büyüklüğünü, bitki türlerini, su ihtiyaçlarını ve çalışma koşullarını değerlendirerek uygun sulama yöntemini belirliyor, kontrollü ve dengeli su dağılımı sağlayan sistemler oluşturuyoruz.",
+    "scopeTitle": "Peyzaj Sistemlerimiz",
+    "scopeDescription": "Peyzaj alanlarının sulama ihtiyaçlarını bir bütün olarak değerlendiriyor, otomatik ve kontrollü sulama sistemleriyle sürdürülebilir çözümler geliştiriyoruz.",
+    "systems": {
+      "1": "Otomatik peyzaj sulama sistemleri",
+      "2": "Damla sulama sistemleri",
+      "3": "Yağmurlama sulama sistemleri",
+      "4": "Çim sulama sistemleri",
+      "5": "Bahçe sulama sistemleri",
+      "6": "Ağaç ve bitki sulama sistemleri",
+      "7": "Sulama pompa sistemleri",
+      "8": "Su depolama ve dağıtım sistemleri",
+      "9": "Sulama borulama sistemleri",
+      "10": "Otomatik sulama kontrol sistemleri",
+      "11": "Yağmur sensörü ve kontrol sistemleri",
+      "12": "Peyzaj sulama uygulama ve detay projeleri"
+    },
+    "efficiencyTitle": "Su Tasarrufu ve Verimli Sulama",
+    "efficiencyDescription1": "Peyzaj sulama sistemlerinin doğru projelendirilmesi, gereksiz su kullanımının önlenmesi ve bitkilerin ihtiyaç duyduğu suyun doğru zamanda sağlanması açısından büyük önem taşır.",
+    "efficiencyDescription2": "TACH MEKANİK, sulama bölgelerini ve su ihtiyaçlarını ayrı ayrı değerlendirerek kontrollü sistemler oluşturur. Otomatik kontrol ve uygun sulama ekipmanları su tüketiminin verimli şekilde yönetilmesine yardımcı olur.",
+    "footerTitle": "Yeşil Alanlar İçin Akıllı Sulama",
+    "footerDescription": "Doğru mühendislik, uygun ekipman ve profesyonel uygulama ile verimli, kontrollü ve uzun ömürlü peyzaj sulama sistemleri oluşturuyoruz."
   },
-  "efficiencyTitle": "Su Tasarrufu ve Verimli Sulama",
-  "efficiencyDescription1": "Peyzaj sulama sistemlerinin doğru projelendirilmesi, gereksiz su kullanımının önlenmesi ve bitkilerin ihtiyaç duyduğu suyun doğru zamanda sağlanması açısından büyük önem taşır.",
-  "efficiencyDescription2": "TACH MEKANİK, sulama bölgelerini ve su ihtiyaçlarını ayrı ayrı değerlendirerek kontrollü sistemler oluşturur. Otomatik kontrol ve uygun sulama ekipmanları su tüketiminin verimli şekilde yönetilmesine yardımcı olur.",
-  "footerTitle": "Yeşil Alanlar İçin Akıllı Sulama",
-  "footerDescription": "Doğru mühendislik, uygun ekipman ve profesyonel uygulama ile verimli, kontrollü ve uzun ömürlü peyzaj sulama sistemleri oluşturuyoruz."
-},
 
-"WaterTreatmentPage": {
-  "title": "ARITMA SİSTEMLERİ",
-  "mainTitle": "Profesyonel Arıtma Sistemleri",
-  "mainDescription1": "TACH MEKANİK olarak binaların ve işletmelerin su ihtiyaçlarına yönelik güvenilir ve verimli su arıtma sistemleri tasarlıyor ve uyguluyoruz. Kullanım amacı ve su kalitesine uygun çözümler sunarak sürdürülebilir sistemler geliştiriyoruz.",
-  "mainDescription2": "Konut ve ticari yapılardan otellere ve endüstriyel tesislere kadar farklı yapıların ihtiyaçlarını değerlendiriyor, doğru kapasite, ekipman ve sistem tasarımı ile uzun ömürlü çözümler sunuyoruz.",
-  "scopeTitle": "Arıtma Sistemlerimiz",
-  "scopeDescription": "Su kalitesi ve kullanım gereksinimlerini birlikte değerlendirerek uygun arıtma yöntemlerini belirliyor ve sistemin tüm mekanik bileşenlerini bir bütün olarak ele alıyoruz.",
-  "systems": {
-    "1": "Su arıtma sistemleri",
-    "2": "İçme ve kullanma suyu arıtma sistemleri",
-    "3": "Filtrasyon sistemleri",
-    "4": "Kum ve karbon filtre sistemleri",
-    "5": "Su yumuşatma sistemleri",
-    "6": "Ters ozmoz sistemleri",
-    "7": "Ultrafiltrasyon sistemleri",
-    "8": "Su depolama ve dağıtım sistemleri",
-    "9": "Su arıtma pompa sistemleri",
-    "10": "Kimyasal dozaj sistemleri",
-    "11": "Su arıtma borulama ve montaj sistemleri",
-    "12": "Su arıtma uygulama ve detay projeleri"
+  "WaterTreatmentPage": {
+    "title": "ARITMA SİSTEMLERİ",
+    "mainTitle": "Profesyonel Arıtma Sistemleri",
+    "mainDescription1": "TACH MEKANİK olarak binaların ve işletmelerin su ihtiyaçlarına yönelik güvenilir ve verimli su arıtma sistemleri tasarlıyor ve uyguluyoruz. Kullanım amacı ve su kalitesine uygun çözümler sunarak sürdürülebilir sistemler geliştiriyoruz.",
+    "mainDescription2": "Konut ve ticari yapılardan otellere ve endüstriyel tesislere kadar farklı yapıların ihtiyaçlarını değerlendiriyor, doğru kapasite, ekipman ve sistem tasarımı ile uzun ömürlü çözümler sunuyoruz.",
+    "scopeTitle": "Arıtma Sistemlerimiz",
+    "scopeDescription": "Su kalitesi ve kullanım gereksinimlerini birlikte değerlendirerek uygun arıtma yöntemlerini belirliyor ve sistemin tüm mekanik bileşenlerini bir bütün olarak ele alıyoruz.",
+    "systems": {
+      "1": "Su arıtma sistemleri",
+      "2": "İçme ve kullanma suyu arıtma sistemleri",
+      "3": "Filtrasyon sistemleri",
+      "4": "Kum ve karbon filtre sistemleri",
+      "5": "Su yumuşatma sistemleri",
+      "6": "Ters ozmoz sistemleri",
+      "7": "Ultrafiltrasyon sistemleri",
+      "8": "Su depolama ve dağıtım sistemleri",
+      "9": "Su arıtma pompa sistemleri",
+      "10": "Kimyasal dozaj sistemleri",
+      "11": "Su arıtma borulama ve montaj sistemleri",
+      "12": "Su arıtma uygulama ve detay projeleri"
+    },
+    "qualityTitle": "Temiz ve Güvenilir Su İçin",
+    "qualityDescription1": "Su arıtma sistemlerinde doğru proses seçimi ve uygun ekipmanların kullanılması, su kalitesi ve işletme verimliliği açısından büyük önem taşır.",
+    "qualityDescription2": "TACH MEKANİK, suyun kullanım amacı ve mevcut özelliklerine göre arıtma çözümleri geliştirir. Sistemlerin güvenilir, kontrollü ve sürdürülebilir şekilde çalışmasını hedefliyoruz.",
+    "footerTitle": "Su Kalitesi İçin Güvenilir Çözümler",
+    "footerDescription": "Doğru mühendislik, uygun ekipman ve profesyonel uygulama ile verimli, güvenilir ve uzun ömürlü arıtma sistemleri oluşturuyoruz."
   },
-  "qualityTitle": "Temiz ve Güvenilir Su İçin",
-"qualityDescription1": "Su arıtma sistemlerinde doğru proses seçimi ve uygun ekipmanların kullanılması, su kalitesi ve işletme verimliliği açısından büyük önem taşır.",
-"qualityDescription2": "TACH MEKANİK, suyun kullanım amacı ve mevcut özelliklerine göre arıtma çözümleri geliştirir. Sistemlerin güvenilir, kontrollü ve sürdürülebilir şekilde çalışmasını hedefliyoruz.",
-"footerTitle": "Su Kalitesi İçin Güvenilir Çözümler",
-"footerDescription": "Doğru mühendislik, uygun ekipman ve profesyonel uygulama ile verimli, güvenilir ve uzun ömürlü arıtma sistemleri oluşturuyoruz."
-},
 
-"InfrastructurePage": {
-  "title": "ALTYAPI SİSTEMLERİ",
-  "mainTitle": "Profesyonel Altyapı Sistemleri",
-  "mainDescription1": "TACH MEKANİK olarak binalar ve farklı projeler için güvenilir, dayanıklı ve uzun ömürlü mekanik altyapı sistemleri tasarlıyor ve uyguluyoruz. Konut ve ticari yapılardan endüstriyel tesislere ve büyük ölçekli projelere kadar farklı ihtiyaçlara uygun çözümler sunuyoruz.",
-  "mainDescription2": "Projenin mevcut koşullarını, arazi özelliklerini ve işletme gereksinimlerini değerlendirerek altyapı sistemlerini bir bütün olarak ele alıyoruz. Doğru kapasite hesapları, uygun malzemeler ve profesyonel uygulama ile güvenilir çözümler oluşturuyoruz.",
-  "scopeTitle": "Altyapı Sistemlerimiz",
-  "scopeDescription": "Altyapının tüm bileşenlerini projenin teknik gereksinimlerine göre değerlendiriyor ve güvenli, verimli sistemler geliştiriyoruz.",
-  "systems": {
-    "1": "Temiz su altyapı sistemleri",
-    "2": "Atık su altyapı sistemleri",
-    "3": "Yağmur suyu kanalizasyon sistemleri",
-    "4": "Drenaj sistemleri",
-    "5": "Kanalizasyon ve atık su sistemleri",
-    "6": "Su dağıtım ve besleme hatları",
-    "7": "Pompa ve hidrofor sistemleri",
-    "8": "Su depolama sistemleri",
-    "9": "Boru altyapı sistemleri",
-    "10": "Rögar ve bağlantı sistemleri",
-    "11": "Mekanik altyapı montaj çalışmaları",
-    "12": "Altyapı uygulama ve detay projeleri"
+  "InfrastructurePage": {
+    "title": "ALTYAPI SİSTEMLERİ",
+    "mainTitle": "Profesyonel Altyapı Sistemleri",
+    "mainDescription1": "TACH MEKANİK olarak binalar ve farklı projeler için güvenilir, dayanıklı ve uzun ömürlü mekanik altyapı sistemleri tasarlıyor ve uyguluyoruz. Konut ve ticari yapılardan endüstriyel tesislere ve büyük ölçekli projelere kadar farklı ihtiyaçlara uygun çözümler sunuyoruz.",
+    "mainDescription2": "Projenin mevcut koşullarını, arazi özelliklerini ve işletme gereksinimlerini değerlendirerek altyapı sistemlerini bir bütün olarak ele alıyoruz. Doğru kapasite hesapları, uygun malzemeler ve profesyonel uygulama ile güvenilir çözümler oluşturuyoruz.",
+    "scopeTitle": "Altyapı Sistemlerimiz",
+    "scopeDescription": "Altyapının tüm bileşenlerini projenin teknik gereksinimlerine göre değerlendiriyor ve güvenli, verimli sistemler geliştiriyoruz.",
+    "systems": {
+      "1": "Temiz su altyapı sistemleri",
+      "2": "Atık su altyapı sistemleri",
+      "3": "Yağmur suyu kanalizasyon sistemleri",
+      "4": "Drenaj sistemleri",
+      "5": "Kanalizasyon ve atık su sistemleri",
+      "6": "Su dağıtım ve besleme hatları",
+      "7": "Pompa ve hidrofor sistemleri",
+      "8": "Su depolama sistemleri",
+      "9": "Boru altyapı sistemleri",
+      "10": "Rögar ve bağlantı sistemleri",
+      "11": "Mekanik altyapı montaj çalışmaları",
+      "12": "Altyapı uygulama ve detay projeleri"
+    },
+    "reliabilityTitle": "Dayanıklı ve Güvenilir Altyapı",
+    "reliabilityDescription1": "Altyapı sistemleri, yapıların uzun yıllar güvenli ve kesintisiz şekilde işletilmesi için temel öneme sahiptir. Bu nedenle doğru projelendirme, uygun malzeme seçimi ve kaliteli uygulama büyük önem taşır.",
+    "reliabilityDescription2": "TACH MEKANİK, altyapı sistemlerinin kapasitesini ve işletme gereksinimlerini değerlendirerek sürdürülebilir, güvenilir ve uzun ömürlü mekanik çözümler sunar.",
+    "footerTitle": "Sağlam Yapılar İçin Güvenilir Altyapı",
+    "footerDescription": "Doğru mühendislik, kaliteli malzemeler ve profesyonel uygulama ile güvenilir ve uzun ömürlü altyapı sistemleri oluşturuyoruz."
   },
-  "reliabilityTitle": "Dayanıklı ve Güvenilir Altyapı",
-  "reliabilityDescription1": "Altyapı sistemleri, yapıların uzun yıllar güvenli ve kesintisiz şekilde işletilmesi için temel öneme sahiptir. Bu nedenle doğru projelendirme, uygun malzeme seçimi ve kaliteli uygulama büyük önem taşır.",
-  "reliabilityDescription2": "TACH MEKANİK, altyapı sistemlerinin kapasitesini ve işletme gereksinimlerini değerlendirerek sürdürülebilir, güvenilir ve uzun ömürlü mekanik çözümler sunar.",
-  "footerTitle": "Sağlam Yapılar İçin Güvenilir Altyapı",
-  "footerDescription": "Doğru mühendislik, kaliteli malzemeler ve profesyonel uygulama ile güvenilir ve uzun ömürlü altyapı sistemleri oluşturuyoruz."
-},
 
-"HomePage": {
-  "title": "1987'den Günümüze Güvenilir Mekanik Çözümler",
-  "paragraph1": "TACH MEKANİK olarak, mekanik tesisat sektöründe 1987 yılından bu yana edindiğimiz deneyim ve uzmanlıkla projelendirme, uygulama ve danışmanlık hizmetleri sunuyoruz.",
-  "paragraph2": "Türkiye'nin ve dünyanın dört bir yanında gerçekleştirilen üstyapı ve altyapı projelerinde güvenin, kalitenin ve profesyonel mekanik çözümlerin adresiyiz.",
-  "paragraph3": "Modern mühendislik anlayışımız, deneyimli kadromuz ve kaliteli uygulamalarımızla her projeye sürdürülebilir ve güvenilir çözümler sunuyoruz.",
-  "experience": "Yıllık Tecrübe",
-  "professional": "Profesyonel",
-  "engineering": "Mühendislik",
-  "reliable": "Güvenilir",
-  "mechanicalSolutions": "Mekanik Çözümler"
+  "HomePage": {
+    "title": "1987'den Günümüze Güvenilir Mekanik Çözümler",
+    "paragraph1": "TACH MEKANİK olarak, mekanik tesisat sektöründe 1987 yılından bu yana edindiğimiz deneyim ve uzmanlıkla projelendirme, uygulama ve danışmanlık hizmetleri sunuyoruz.",
+    "paragraph2": "Türkiye'nin ve dünyanın dört bir yanında gerçekleştirilen üstyapı ve altyapı projelerinde güvenin, kalitenin ve profesyonel mekanik çözümlerin adresiyiz.",
+    "paragraph3": "Modern mühendislik anlayışımız, deneyimli kadromuz ve kaliteli uygulamalarımızla her projeye sürdürülebilir ve güvenilir çözümler sunuyoruz.",
+    "experience": "Yıllık Tecrübe",
+    "professional": "Profesyonel",
+    "engineering": "Mühendislik",
+    "reliable": "Güvenilir",
+    "mechanicalSolutions": "Mekanik Çözümler"
   },
+
   "SolarPage": {
-  "brand": "TACH MEKANİK",
-  "title": "Güneş Enerjisi Sistemleri",
-  "heading": "Verimli ve Sürdürülebilir Güneş Enerjisi Çözümleri",
-
-  "intro1": "TACH MEKANİK olarak, güneş enerjisinden etkin ve verimli şekilde yararlanılması amacıyla mekanik sistemlerin projelendirilmesi, sistem tasarımı ve uygulama çözümleri sunuyoruz.",
-
-  "intro2": "İhtiyaca ve proje koşullarına uygun olarak tasarlanan güneş enerjisi sistemleriyle enerji maliyetlerinin azaltılmasına, enerji verimliliğinin artırılmasına ve sürdürülebilir çözümler oluşturulmasına katkı sağlıyoruz.",
-
-  "scopeTitle": "Güneş Enerjisi Sistemleri Kapsamımız",
-
-  "scopeText": "Projelerimizin ihtiyaçlarına göre güneş enerjisi sistemlerinin mekanik altyapısını bütüncül bir yaklaşımla ele alıyor, sistemlerin güvenli, verimli ve uzun ömürlü şekilde çalışmasını hedefliyoruz.",
-
-  "items": {
-    "systemDesign": "Güneş enerjisi sistemlerinin projelendirilmesi ve sistem tasarımı",
-    "panelSystems": "Güneş enerjisi kollektörleri ve ilgili ekipmanların seçimi",
-    "hotWater": "Güneş enerjisi destekli sıcak su sistemleri",
-    "circulation": "Sirkülasyon ve pompa sistemleri",
-    "storage": "Sıcak su depolama ve akümülasyon sistemleri",
-    "pumpSystems": "Pompa, hidrofor ve yardımcı mekanik ekipmanlar",
-    "automation": "Otomasyon, kontrol ve sistem izleme çözümleri",
-    "efficiency": "Enerji verimliliğine yönelik sistem optimizasyonları",
-    "application": "Uygulama, test ve devreye alma çalışmaları"
-  },
-
-  "reliableTitle": "Güvenilir ve Verimli Sistemler",
-
-  "reliableText1": "Her projeyi kendi ihtiyaçları ve kullanım koşulları doğrultusunda değerlendiriyor, güneş enerjisinden maksimum verim alınmasını hedefleyen çözümler geliştiriyoruz.",
-
-  "reliableText2": "Kaliteli ekipman seçimi, doğru mühendislik yaklaşımı ve profesyonel uygulama ile sistemlerin güvenli, verimli ve sürdürülebilir şekilde çalışmasına önem veriyoruz.",
-
-  "finalTitle": "Güneş Enerjisinde Profesyonel Mekanik Çözümler",
-
-  "finalText": "TACH MEKANİK olarak güneş enerjisi sistemlerinde projelendirme, mekanik sistem tasarımı ve uygulama süreçlerini profesyonel bir anlayışla ele alıyor, projelerin ihtiyaçlarına uygun güvenilir çözümler sunuyoruz."
-}
+    "brand": "TACH MEKANİK",
+    "title": "Güneş Enerjisi Sistemleri",
+    "heading": "Verimli ve Sürdürülebilir Güneş Enerjisi Çözümleri",
+    "intro1": "TACH MEKANİK olarak, güneş enerjisinden etkin ve verimli şekilde yararlanılması amacıyla mekanik sistemlerin projelendirilmesi, sistem tasarımı ve uygulama çözümleri sunuyoruz.",
+    "intro2": "İhtiyaca ve proje koşullarına uygun olarak tasarlanan güneş enerjisi sistemleriyle enerji maliyetlerinin azaltılmasına, enerji verimliliğinin artırılmasına ve sürdürülebilir çözümler oluşturulmasına katkı sağlıyoruz.",
+    "scopeTitle": "Güneş Enerjisi Sistemleri Kapsamımız",
+    "scopeText": "Projelerimizin ihtiyaçlarına göre güneş enerjisi sistemlerinin mekanik altyapısını bütüncül bir yaklaşımla ele alıyor, sistemlerin güvenli, verimli ve uzun ömürlü şekilde çalışmasını hedefliyoruz.",
+    "items": {
+      "systemDesign": "Güneş enerjisi sistemlerinin projelendirilmesi ve sistem tasarımı",
+      "panelSystems": "Güneş enerjisi kollektörleri ve ilgili ekipmanların seçimi",
+      "hotWater": "Güneş enerjisi destekli sıcak su sistemleri",
+      "circulation": "Sirkülasyon ve pompa sistemleri",
+      "storage": "Sıcak su depolama ve akümülasyon sistemleri",
+      "pumpSystems": "Pompa, hidrofor ve yardımcı mekanik ekipmanlar",
+      "automation": "Otomasyon, kontrol ve sistem izleme çözümleri",
+      "efficiency": "Enerji verimliliğine yönelik sistem optimizasyonları",
+      "application": "Uygulama, test ve devreye alma çalışmaları"
+    },
+    "reliableTitle": "Güvenilir ve Verimli Sistemler",
+    "reliableText1": "Her projeyi kendi ihtiyaçları ve kullanım koşulları doğrultusunda değerlendiriyor, güneş enerjisinden maksimum verim alınmasını hedefleyen çözümler geliştiriyoruz.",
+    "reliableText2": "Kaliteli ekipman seçimi, doğru mühendislik yaklaşımı ve profesyonel uygulama ile sistemlerin güvenli, verimli ve sürdürülebilir şekilde çalışmasına önem veriyoruz.",
+    "finalTitle": "Güneş Enerjisinde Profesyonel Mekanik Çözümler",
+    "finalText": "TACH MEKANİK olarak güneş enerjisi sistemlerinde projelendirme, mekanik sistem tasarımı ve uygulama süreçlerini profesyonel bir anlayışla ele alıyor, projelerin ihtiyaçlarına uygun güvenilir çözümler sunuyoruz."
+  }
 }
