@@ -59,94 +59,94 @@ export default function Navbar() {
             </div>
 
             {/* HİZMETLER ALT MENÜSÜ */}
-            <div className="invisible absolute left-1/2 top-full z-50 mt-3 w-80 -translate-x-1/2 translate-y-2 rounded-xl border border-cyan-400/20 bg-black/95 p-2 opacity-0 shadow-2xl backdrop-blur-xl transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+            <div className="invisible absolute left-1/2 top-full z-50 mt-3 w-40 -translate-x-1/2 translate-y-2 rounded-xl border border-cyan-400/20 bg-black/95 p-2 opacity-0 shadow-2xl backdrop-blur-xl transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
               <Link
                 href={`/${locale}/projelendirme`}
-                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-4 py-0,5 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
                 {t("projelendirme")}
               </Link>
 
               <Link
                 href={`/${locale}/kesif`}
-                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-4 py-0,5 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
                 {t("kesif")}
               </Link>
 
               <Link
                 href={`/${locale}/sihhi-tesisat`}
-                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-4 py-0,5 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
                 {t("sihhiTesisat")}
               </Link>
 
               <Link
                 href={`/${locale}/gunes-enerjisi-sistemleri`}
-                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-4 py-0,5 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
 >
                 {t("gunesEnerjisi")}
               </Link>
 
               <Link
                 href={`/${locale}/yangin-tesisat`}
-                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-4 py-0,5 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
                 {t("yanginTesisat")}
               </Link>
 
               <Link
                 href={`/${locale}/havalandirma-sistemleri`}
-                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-4 py-0,5 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
                 {t("havalandirma")}
               </Link>
 
               <Link
                 href={`/${locale}/isitma-sogutma-sistemleri`}
-                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-4 py-0,5 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
                 {t("isitmaSogutma")}
               </Link>
 
               <Link
                 href={`/${locale}/vrf-sistemleri`}
-                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-4 py-0,5 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
                 {t("vrfSistemleri")}
               </Link>
 
               <Link
                 href={`/${locale}/medikal-gaz-sistemleri`}
-                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-4 py-0,5 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
                 {t("medikalGaz")}
               </Link>
 
               <Link
                 href={`/${locale}/yuzme-havuz-sistemleri`}
-                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-4 py-0,5 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
                 {t("havuzSistemleri")}
               </Link>
 
               <Link
                 href={`/${locale}/peyzaj-sulama-sistemleri`}
-                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-4 py-0,5 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
                 {t("peyzaj")}
               </Link>
 
               <Link
                 href={`/${locale}/aritma-sistemleri`}
-                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-4 py-0,5 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
                 {t("aritma")}
               </Link>
 
               <Link
                 href={`/${locale}/altyapi-sistemleri`}
-                className="block rounded-lg px-4 py-1 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-4 py-0,5 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
               >
                 {t("altyapi")}
               </Link>
@@ -155,14 +155,14 @@ export default function Navbar() {
 
           <Link
             href={`/${locale}/galeri`}
-            className="whitespace-nowrap py-2 text-sm font-semibold text-white transition hover:text-cyan-400"
+            className="whitespace-nowrap py-0,5 text-sm font-semibold text-white transition hover:text-cyan-400"
           >
             {t("gallery")}
           </Link>
 
           {/* PROJELER */}
 <div className="group relative">
-  <div className="flex cursor-default items-center gap-1 whitespace-nowrap py-2 text-sm font-semibold text-white transition hover:text-cyan-400">
+  <div className="flex cursor-default items-center gap-1 whitespace-nowrap py-0,5 text-sm font-semibold text-white transition hover:text-cyan-400">
     {t("projects")}
 
     <span className="text-xs transition-transform duration-300 group-hover:rotate-180">
@@ -171,7 +171,7 @@ export default function Navbar() {
   </div>
 
   {/* PROJELER ALT MENÜSÜ */}
-  <div className="invisible absolute left-1/2 top-full z-50 mt-3 w-64 -translate-x-1/2 translate-y-2 rounded-xl border border-cyan-400/20 bg-black/95 p-2 opacity-0 shadow-2xl backdrop-blur-xl transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+  <div className="invisible absolute left-1/2 top-full z-50 mt-3 w-50 -translate-x-1/2 translate-y-2 rounded-xl border border-cyan-400/20 bg-black/95 p-2 opacity-0 shadow-2xl backdrop-blur-xl transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
     <Link
       href={`/${locale}/devam-eden-projeler`}
       className="block rounded-lg px-4 py-2 text-sm text-white transition hover:bg-cyan-400/10 hover:text-cyan-300"
@@ -408,7 +408,7 @@ export default function Navbar() {
               <Link
                 href={`/${locale}/altyapi-sistemleri`}
                 onClick={closeMobileMenu}
-                className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+                className="block rounded-lg px-3 py-1 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
               >
                 {t("altyapi")}
               </Link>
@@ -425,7 +425,7 @@ export default function Navbar() {
 
           {/* MOBİL PROJELER */}
 <div className="border-t border-white/5 pt-1">
-  <div className="block rounded-lg px-3 py-2 font-medium text-white">
+  <div className="block rounded-lg px-3 py-1 font-medium text-white">
     {t("projects")}
   </div>
 
@@ -433,7 +433,7 @@ export default function Navbar() {
     <Link
       href={`/${locale}/devam-eden-projeler`}
       onClick={closeMobileMenu}
-      className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+      className="block rounded-lg px-3 py-1 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
     >
       {t("ongoingProjects")}
     </Link>
@@ -441,7 +441,7 @@ export default function Navbar() {
     <Link
       href={`/${locale}/tamamlanan-projeler`}
       onClick={closeMobileMenu}
-      className="block rounded-lg px-3 py-2 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
+      className="block rounded-lg px-3 py-1 text-sm text-gray-300 hover:bg-cyan-400/10 hover:text-cyan-300"
     >
       {t("completedProjects")}
     </Link>
