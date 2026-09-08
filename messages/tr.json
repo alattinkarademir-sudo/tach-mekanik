@@ -325,33 +325,45 @@
   },
 
   "PlumbingPage": {
-    "brand": "TACH MEKANİK",
-    "title": "SIHHİ TESİSAT",
-    "heading": "Profesyonel Sıhhi Tesisat Sistemleri",
-    "intro1": "TACH MEKANİK olarak binaların temiz su, sıcak su, atık su ve yağmur suyu ihtiyaçlarına yönelik güvenilir ve uzun ömürlü sıhhi tesisat sistemleri tasarlıyor ve uyguluyoruz. Konut ve ticari projelerden endüstriyel tesislere ve büyük ölçekli yapılara kadar farklı yapı türlerine uygun çözümler sunuyoruz.",
-    "intro2": "Sistem projelendirmesinden uygulamaya kadar tüm süreci mühendislik prensiplerine uygun şekilde yürütüyor; doğru boru çapları, uygun malzeme seçimi ve yeterli basınç ve debi hesaplamalarıyla güvenli ve verimli tesisatlar oluşturuyoruz.",
-    "scopeTitle": "Sıhhi Tesisat Kapsamımız",
-    "scopeText": "Her projeyi kendine özgü teknik gereksinimlerine göre değerlendiriyor ve bina genelinde güvenli, hijyenik ve verimli sıhhi tesisat sistemleri için kapsamlı çözümler geliştiriyoruz.",
-    "items": {
-      "cleanWater": "Temiz su besleme sistemleri",
-      "hotWater": "Kullanım sıcak suyu sistemleri",
-      "coldWater": "Soğuk su sistemleri",
-      "wasteWater": "Atık su sistemleri",
-      "rainWater": "Yağmur suyu sistemleri",
-      "sewage": "Kanalizasyon ve drenaj sistemleri",
-      "drainage": "Drenaj sistemleri",
-      "pump": "Pompa ve hidrofor sistemleri",
-      "storage": "Su depolama ve dağıtım sistemleri",
-      "pressurization": "Su basınçlandırma sistemleri",
-      "calculations": "Boru çapı, debi ve basınç hesaplamaları",
-      "detail": "Sıhhi tesisat uygulama ve detay projeleri"
-    },
-    "safetyTitle": "Güvenli ve Hijyenik Sıhhi Tesisat Sistemleri",
-    "safetyText1": "Sıhhi tesisat sistemleri, binaların günlük kullanımında doğrudan ihtiyaç duyulan temel mekanik sistemler arasında yer alır. Bu nedenle doğru sistem tasarımı ve kaliteli malzemelerle yapılan uygulama büyük önem taşır.",
-    "safetyText2": "TACH MEKANİK, sistemlerin uzun yıllar güvenilir şekilde çalışmasını sağlamak amacıyla uygun malzeme ve ekipmanları seçer. Su kayıplarını, basınç problemlerini ve olası teknik sorunları önceden değerlendirerek sürdürülebilir çözümler sunar.",
-    "finalTitle": "Sağlıklı Yapılar İçin Güvenilir Sıhhi Tesisat",
-    "finalText": "Doğru mühendislik, kaliteli malzemeler ve profesyonel uygulama ile uzun ömürlü sıhhi tesisat sistemleri oluşturuyoruz."
+  "brand": "TACH MEKANİK",
+
+  "title": "SIHHİ TESİSAT",
+
+  "heading": "Profesyonel Sıhhi Tesisat Sistemleri",
+
+  "intro1": "TACH MEKANİK olarak binaların temiz su, sıcak su, atık su ve yağmur suyu ihtiyaçlarına yönelik güvenilir ve uzun ömürlü sıhhi tesisat sistemleri tasarlıyor ve uyguluyoruz. Konut ve ticari projelerden endüstriyel tesislere ve büyük ölçekli yapılara kadar farklı yapı türlerine uygun çözümler sunuyoruz.",
+
+  "intro2": "Sistem projelendirmesinden uygulamaya kadar tüm süreci mühendislik prensiplerine uygun şekilde yürütüyor; doğru boru çapları, uygun malzeme seçimi ve yeterli basınç ve debi hesaplamalarıyla güvenli ve verimli tesisatlar oluşturuyoruz.",
+
+  "scopeTitle": "Sıhhi Tesisat Kapsamımız",
+
+  "scopeText": "Her projeyi kendine özgü teknik gereksinimlerine göre değerlendiriyor ve bina genelinde güvenli, hijyenik ve verimli sıhhi tesisat sistemleri için kapsamlı çözümler geliştiriyoruz.",
+
+  "items": {
+    "cleanWater": "Temiz su besleme sistemleri",
+    "hotWater": "Kullanım sıcak suyu sistemleri",
+    "coldWater": "Soğuk su sistemleri",
+    "wastewater": "Atık su sistemleri",
+    "rainwater": "Yağmur suyu sistemleri",
+    "sewer": "Kanalizasyon sistemleri",
+    "drainage": "Drenaj sistemleri",
+    "pump": "Pompa ve hidrofor sistemleri",
+    "storage": "Su depolama ve dağıtım sistemleri",
+    "pressurization": "Su basınçlandırma sistemleri",
+    "calculations": "Boru çapı, debi ve basınç hesaplamaları",
+    "application": "Sıhhi tesisat uygulama ve detay projeleri"
   },
+
+  "reliableTitle": "Güvenli ve Hijyenik Sıhhi Tesisat Sistemleri",
+
+  "reliableText1": "Sıhhi tesisat sistemleri, binaların günlük kullanımında doğrudan ihtiyaç duyulan temel mekanik sistemler arasında yer alır. Bu nedenle doğru sistem tasarımı ve kaliteli malzemelerle yapılan uygulama büyük önem taşır.",
+
+  "reliableText2": "TACH MEKANİK, sistemlerin uzun yıllar güvenilir şekilde çalışmasını sağlamak amacıyla uygun malzeme ve ekipmanları seçer. Su kayıplarını, basınç problemlerini ve olası teknik sorunları önceden değerlendirerek sürdürülebilir çözümler sunar.",
+
+  "finalTitle": "Sağlıklı Yapılar İçin Güvenilir Sıhhi Tesisat",
+
+  "finalText": "Doğru mühendislik, kaliteli malzemeler ve profesyonel uygulama ile uzun ömürlü sıhhi tesisat sistemleri oluşturuyoruz."
+},
 
   "FirePage": {
     "title": "YANGIN KORUMA SİSTEMLERİ",
