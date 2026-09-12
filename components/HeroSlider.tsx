@@ -39,7 +39,8 @@ export default function HeroSlider() {
   }, []);
 
   return (
-    <section className="relative w-full mt-22 h-[420px] md:h-[550px] lg:h-[650px] overflow-hidden">
+    <section className="relative w-full mt-0 md:mt-24 h-[420px] md:h-[550px] lg:h-[650px] overflow-hidden">
+
       <img
         src={images[current]}
         alt={`Slide ${current + 1}`}
