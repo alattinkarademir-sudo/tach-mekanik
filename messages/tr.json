@@ -185,36 +185,73 @@
     "quoteButton": "TEKLİF AL"
   },
 
-  "Projects": {
-    "ongoingTitle": "Devam Eden Projeler",
-    "ongoingDescription": "Devam eden projelerimiz burada yer alacaktır.",
-    "completedTitle": "Tamamlanan Projeler",
-    "completedDescription": "Başarıyla tamamladığımız projelerden bazıları.",
-    "labels": {
-      "location": "Lokasyon",
-      "startDate": "Proje Başlangıcı",
-      "endDate": "Proje Bitişi",
-      "scope": "Proje Kapsamı"
-    },
-    "gokdere": {
-      "title": "Gökdere Çocuk Yaşam Merkezi",
-      "location": "Gökdere, Aşkabat, Türkmenistan",
-      "startDate": "2012",
-      "endDate": "2023",
-      "desc1": "Türkmenistan’ın Aşkabat şehrinde, Gökdere mevkiinde gerçekleştirilen 300 öğrenci kapasiteli Çocuk Yaşam Merkezi projesinde; kapalı ve açık yüzme havuzları, yatakhaneler, tiyatro salonu, idari bina, yemekhane ve amfi tiyatro gibi farklı kullanım alanlarının tüm mekanik tesisat sistemleri tarafımızca gerçekleştirilmiştir.",
-      "desc2": "Proje kapsamında mekanik tesisat uygulamaları ve saha çalışmaları titizlikle yürütülmüş, kompleksin ihtiyaç duyduğu mekanik sistemlerin güvenilir ve bütünleşik şekilde çalışması sağlanmıştır.",
-      "scopeItems": {
-        "indoorPool": "Kapalı yüzme havuzu",
-        "outdoorPool": "Açık yüzme havuzu",
-        "dormitories": "Yatakhaneler",
-        "theater": "Tiyatro salonu",
-        "adminBuilding": "İdari bina",
-        "diningHall": "Yemekhane",
-        "amphitheater": "Amfi tiyatro",
-        "allMechanical": "Tüm mekanik tesisat sistemleri"
-      }
-    }
+
+"Projects": {
+  "ongoingTitle": "Devam Eden Projeler",
+
+  "ongoingDescription": "Devam eden projelerimiz burada yer alacaktır.",
+
+  "completedTitle": "Tamamlanan Projeler",
+
+  "completedDescription": "Başarıyla tamamladığımız projelerden bazıları.",
+
+  "labels": {
+    "location": "Lokasyon",
+    "startDate": "Proje Başlangıcı",
+    "endDate": "Proje Bitişi",
+    "scope": "Proje Kapsamı"
   },
+
+  "narhoz": {
+    "title": "NARHOZ İKTİSADİ VE İDARİ BİLİMLER ENSTİTÜSÜ",
+
+    "employerLabel": "İşveren",
+    "employer": "Türkmenistan Merkez Bankası",
+
+    "contractorLabel": "Ana Müteahhit",
+    "contractor": "Belda İnşaat Taahhüt ve Tic. Ltd. Şti.",
+
+    "location": "Türkmenistan / Aşkabat",
+
+    "startDate": "Eylül 2009",
+    "endDate": "Ağustos 2011",
+
+    "indoorAreaLabel": "Kapalı İnşaat Alanı",
+    "indoorArea": "126.116,05 m²",
+
+    "landAreaLabel": "Arazi Alanı",
+    "landArea": "280.000 m²",
+
+    "description": "300 öğrenci kapasiteli üniversite, 216 dairelik konut grubu, 600 öğrenci kapasiteli ortaokul, 160 öğrenci kapasiteli kreş, 2 alışveriş merkezi, spor kompleksi, yemekhane-kütüphane, 828 kişilik yurtlar ve çevre düzenlemesi dahil anahtar teslimi inşaatı mekanik tesisat işleri."
+  },
+
+  "gokdere": {
+    "title": "Gökdere Çocuk Yaşam Merkezi",
+
+    "location": "Gökdere, Aşkabat, Türkmenistan",
+
+    "startDate": "2012",
+
+    "endDate": "2023",
+
+    "desc1": "Türkmenistan’ın Aşkabat şehrinde, Gökdere mevkiinde gerçekleştirilen 300 öğrenci kapasiteli Çocuk Yaşam Merkezi projesinde; kapalı ve açık yüzme havuzları, yatakhaneler, tiyatro salonu, idari bina, yemekhane ve amfi tiyatro gibi farklı kullanım alanlarının tüm mekanik tesisat sistemleri tarafımızca gerçekleştirilmiştir.",
+
+    "desc2": "Proje kapsamında mekanik tesisat uygulamaları ve saha çalışmaları titizlikle yürütülmüş, kompleksin ihtiyaç duyduğu mekanik sistemlerin güvenilir ve bütünleşik şekilde çalışması sağlanmıştır.",
+
+    "scopeItems": {
+      "indoorPool": "Kapalı yüzme havuzu",
+      "outdoorPool": "Açık yüzme havuzu",
+      "dormitories": "Yatakhaneler",
+      "theater": "Tiyatro salonu",
+      "adminBuilding": "İdari bina",
+      "diningHall": "Yemekhane",
+      "amphitheater": "Amfi tiyatro",
+      "allMechanical": "Tüm mekanik tesisat sistemleri"
+    }
+  }
+},
+
+
 
   "QuotePage": {
     "brand": "TACH MEKANİK",

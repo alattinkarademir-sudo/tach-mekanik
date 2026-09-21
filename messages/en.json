@@ -240,24 +240,53 @@
     "website": "Website"
   },
 
+ 
   "Projects": {
     "ongoingTitle": "Ongoing Projects",
-    "ongoingDescription": "Our ongoing projects will be listed here.",
+    "ongoingDescription": "Our ongoing projects are presented here.",
     "completedTitle": "Completed Projects",
-    "completedDescription": "Some of our successfully completed projects.",
+    "completedDescription": "Some of the projects successfully completed by our company.",
+
     "labels": {
       "location": "Location",
       "startDate": "Project Start",
       "endDate": "Project Completion",
-      "scope": "Project Scope"
+      "scope": "Scope of Work"
     },
+
+    "narhoz": {
+      "title": "NARHOZ INSTITUTE OF ECONOMICS AND ADMINISTRATIVE SCIENCES",
+
+      "employerLabel": "Employer",
+      "employer": "Central Bank of Turkmenistan",
+
+      "contractorLabel": "Main Contractor",
+      "contractor": "Belda Construction Contracting and Trade Ltd. Co.",
+
+      "location": "Ashgabat, Turkmenistan",
+
+      "startDate": "September 2009",
+      "endDate": "August 2011",
+
+      "indoorAreaLabel": "Enclosed Construction Area",
+      "indoorArea": "126,116.05 m²",
+
+      "landAreaLabel": "Land Area",
+      "landArea": "280,000 m²",
+
+      "description": "Mechanical installation works for the turnkey construction of a university with a capacity of 300 students, a residential complex consisting of 216 apartments, a secondary school with a capacity of 600 students, a kindergarten with a capacity of 160 students, 2 shopping centers, a sports complex, a dining hall and library, dormitories with a capacity of 828 students, and landscaping works."
+    },
+
     "gokdere": {
       "title": "Gökdere Children's Life Center",
       "location": "Gökdere, Ashgabat, Turkmenistan",
       "startDate": "2012",
       "endDate": "2023",
-      "desc1": "The Gökdere Children's Life Center project, located in the Gökdere area of Ashgabat, Turkmenistan, has a capacity of 300 students. All mechanical installation systems for various facilities, including indoor and outdoor swimming pools, dormitories, a theater hall, an administrative building, a dining hall and an amphitheater, were carried out by our team.",
-      "desc2": "Throughout the project, mechanical installation works and field operations were carried out meticulously, ensuring that the mechanical systems required by the complex operated reliably and as an integrated system.",
+
+      "desc1": "Within the scope of the Gökdere Children's Life Center project in Gökdere, Ashgabat, Turkmenistan, designed for 300 students, our company completed all mechanical engineering systems for various functional areas including indoor and outdoor swimming pools, dormitories, a theater hall, an administrative building, a dining hall and an amphitheater.",
+
+      "desc2": "The installation of mechanical engineering systems and construction site works were carried out meticulously, ensuring reliable and comprehensive operation of all mechanical systems required for the project.",
+
       "scopeItems": {
         "indoorPool": "Indoor swimming pool",
         "outdoorPool": "Outdoor swimming pool",
@@ -266,10 +295,12 @@
         "adminBuilding": "Administrative building",
         "diningHall": "Dining hall",
         "amphitheater": "Amphitheater",
-        "allMechanical": "All mechanical installation systems"
+        "allMechanical": "All mechanical engineering systems"
       }
     }
   },
+
+
 
   "ProjectPage": {
     "brand": "TACH MECHANICAL",

@@ -1,10 +1,28 @@
+
 "use client";
 
 import { useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-const projeGorselleri = [
+// ==========================================
+// NARHOZ PROJESİ FOTOĞRAFLARI
+// ==========================================
+const narhozGorselleri = [
+  "/projeler/narhoz1.png",
+  "/projeler/narhoz2.png",
+  "/projeler/narhoz3.png",
+  "/projeler/narhoz4.png",
+  "/projeler/narhoz5.png",
+  "/projeler/narhoz6.png",
+  "/projeler/narhoz7.png",
+  "/projeler/narhoz8.png",
+];
+
+// ==========================================
+// GÖKDERE PROJESİ FOTOĞRAFLARI
+// ==========================================
+const gokdereGorselleri = [
   "/projeler/gokdere1.png",
   "/projeler/gokdere2.png",
   "/projeler/gokdere3.png",
@@ -22,15 +40,23 @@ const projeGorselleri = [
 export default function TamamlananProjeler() {
   const t = useTranslations("Projects");
 
-  const [secilenGorsel, setSecilenGorsel] = useState(
-    projeGorselleri[0]
+  // NARHOZ seçili fotoğraf
+  const [narhozSecilenGorsel, setNarhozSecilenGorsel] = useState(
+    narhozGorselleri[0]
+  );
+
+  // GÖKDERE seçili fotoğraf
+  const [gokdereSecilenGorsel, setGokdereSecilenGorsel] = useState(
+    gokdereGorselleri[0]
   );
 
   return (
     <main className="min-h-screen bg-[#DCDCDC] px-6 pt-36 pb-20">
       <div className="mx-auto max-w-7xl">
 
-        {/* SAYFA BAŞLIĞI */}
+        {/* ==========================================
+            SAYFA BAŞLIĞI
+        ========================================== */}
         <div className="mb-14 text-center">
           <h1 className="text-4xl font-bold text-[#242424] md:text-5xl">
             {t("completedTitle")}
@@ -41,7 +67,132 @@ export default function TamamlananProjeler() {
           </p>
         </div>
 
-        {/* PROJE DETAY KARTI */}
+        {/* ==========================================================
+            1. PROJE - NARHOZ
+            EYLÜL 2009 - AĞUSTOS 2011
+        ========================================================== */}
+        <div className="mx-auto mb-16 max-w-6xl overflow-hidden rounded-2xl bg-[#242424] shadow-2xl">
+          <div className="flex flex-col lg:flex-row">
+
+            {/* SOL TARAF - PROJE FOTOĞRAFLARI */}
+            <div className="w-full p-5 md:p-6 lg:w-[42%]">
+
+              {/* ANA FOTOĞRAF */}
+              <div className="relative h-[300px] w-full overflow-hidden rounded-xl bg-black md:h-[420px]">
+                <Image
+                  src={narhozSecilenGorsel}
+                  alt={t("narhoz.title")}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+
+              {/* KÜÇÜK FOTOĞRAFLAR */}
+              <div className="mt-4 grid grid-cols-4 gap-2">
+                {narhozGorselleri.map((gorsel, index) => (
+                  <button
+                    key={gorsel}
+                    type="button"
+                    onClick={() => setNarhozSecilenGorsel(gorsel)}
+                    className={`relative h-20 overflow-hidden rounded-lg border-2 transition-all md:h-24 ${
+                      narhozSecilenGorsel === gorsel
+                        ? "scale-[1.02] border-white"
+                        : "border-transparent hover:border-gray-400"
+                    }`}
+                  >
+                    <Image
+                      src={gorsel}
+                      alt={`${t("narhoz.title")} ${index + 1}`}
+                      fill
+                      className="object-cover"
+                    />
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* SAĞ TARAF - PROJE BİLGİLERİ */}
+            <div className="w-full p-7 md:p-10 lg:w-[58%]">
+
+              {/* PROJE ADI */}
+              <h2 className="text-3xl font-bold text-white md:text-4xl">
+                {t("narhoz.title")}
+              </h2>
+
+              {/* PROJE BİLGİLERİ */}
+              <div className="mt-6 space-y-3 text-gray-300">
+
+                <p>
+                  <span className="font-semibold text-white">
+                    {t("narhoz.employerLabel")}:
+                  </span>{" "}
+                  {t("narhoz.employer")}
+                </p>
+
+                <p>
+                  <span className="font-semibold text-white">
+                    {t("narhoz.contractorLabel")}:
+                  </span>{" "}
+                  {t("narhoz.contractor")}
+                </p>
+
+                <p>
+                  <span className="font-semibold text-white">
+                    {t("labels.location")}:
+                  </span>{" "}
+                  {t("narhoz.location")}
+                </p>
+
+                <p>
+                  <span className="font-semibold text-white">
+                    {t("labels.startDate")}:
+                  </span>{" "}
+                  {t("narhoz.startDate")}
+                </p>
+
+                <p>
+                  <span className="font-semibold text-white">
+                    {t("labels.endDate")}:
+                  </span>{" "}
+                  {t("narhoz.endDate")}
+                </p>
+
+                <p>
+                  <span className="font-semibold text-white">
+                    {t("narhoz.indoorAreaLabel")}:
+                  </span>{" "}
+                  {t("narhoz.indoorArea")}
+                </p>
+
+                <p>
+                  <span className="font-semibold text-white">
+                    {t("narhoz.landAreaLabel")}:
+                  </span>{" "}
+                  {t("narhoz.landArea")}
+                </p>
+              </div>
+
+              {/* PROJE KAPSAMI */}
+              <div className="mt-8 border-t border-gray-600 pt-6">
+
+                <h3 className="mb-5 text-xl font-semibold text-white">
+                  {t("labels.scope")}
+                </h3>
+
+                <div className="text-base leading-7 text-gray-300 md:text-lg">
+                  <p>{t("narhoz.description")}</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ==========================================================
+            2. PROJE - GÖKDERE
+            2012 - 2023
+        ========================================================== */}
         <div className="mx-auto max-w-6xl overflow-hidden rounded-2xl bg-[#242424] shadow-2xl">
           <div className="flex flex-col lg:flex-row">
 
@@ -51,7 +202,7 @@ export default function TamamlananProjeler() {
               {/* ANA FOTOĞRAF */}
               <div className="relative h-[300px] w-full overflow-hidden rounded-xl bg-black md:h-[420px]">
                 <Image
-                  src={secilenGorsel}
+                  src={gokdereSecilenGorsel}
                   alt={t("gokdere.title")}
                   fill
                   className="object-cover"
@@ -61,13 +212,13 @@ export default function TamamlananProjeler() {
 
               {/* KÜÇÜK FOTOĞRAFLAR */}
               <div className="mt-4 grid grid-cols-4 gap-2">
-                {projeGorselleri.map((gorsel, index) => (
+                {gokdereGorselleri.map((gorsel, index) => (
                   <button
                     key={gorsel}
                     type="button"
-                    onClick={() => setSecilenGorsel(gorsel)}
+                    onClick={() => setGokdereSecilenGorsel(gorsel)}
                     className={`relative h-20 overflow-hidden rounded-lg border-2 transition-all md:h-24 ${
-                      secilenGorsel === gorsel
+                      gokdereSecilenGorsel === gorsel
                         ? "scale-[1.02] border-white"
                         : "border-transparent hover:border-gray-400"
                     }`}
@@ -81,7 +232,6 @@ export default function TamamlananProjeler() {
                   </button>
                 ))}
               </div>
-
             </div>
 
             {/* SAĞ TARAF - PROJE BİLGİLERİ */}
@@ -115,15 +265,12 @@ export default function TamamlananProjeler() {
                   </span>{" "}
                   {t("gokdere.endDate")}
                 </p>
-
               </div>
 
               {/* PROJE AÇIKLAMASI */}
               <div className="mt-8 text-base leading-7 text-gray-300 md:text-lg">
 
-                <p>
-                  {t("gokdere.desc1")}
-                </p>
+                <p>{t("gokdere.desc1")}</p>
 
                 <p className="mt-5">
                   {t("gokdere.desc2")}
@@ -176,7 +323,6 @@ export default function TamamlananProjeler() {
               </div>
 
             </div>
-
           </div>
         </div>
 
