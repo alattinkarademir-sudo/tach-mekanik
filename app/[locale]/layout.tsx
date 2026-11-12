@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BackgroundMusic from "@/components/BackgroundMusic";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -25,6 +26,7 @@ export default async function LocaleLayout({
       <Navbar />
       <BackgroundMusic />
       {children}
+      <WhatsAppButton />
       <Footer />
     </NextIntlClientProvider>
   );
