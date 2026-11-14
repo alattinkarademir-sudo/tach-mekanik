@@ -1,7 +1,7 @@
+
 "use client";
 
 import { useTranslations } from "next-intl";
-import altyapiImage from "./altyapi-sistemleri.png";
 
 export default function AltyapiSistemleriPage() {
   const t = useTranslations("InfrastructurePage");
@@ -23,14 +23,14 @@ export default function AltyapiSistemleriPage() {
 
   return (
     <main
-      className="min-h-screen px-6 py-32 md:px-10 lg:px-16"
+      className="min-h-screen px-6 pb-16 pt-32 md:px-10 lg:px-16"
       style={{ backgroundColor: "#DCDCDC" }}
     >
       <div className="mx-auto max-w-[1400px]">
 
-        {/* Başlık */}
+        {/* SAYFA BAŞLIĞI */}
         <header className="mb-20">
-          <p className="font-semibold uppercase tracking-[0.35em] text-cyan-400">
+          <p className="font-semibold uppercase tracking-[0.35em] text-black">
             TACH MEKANİK
           </p>
 
@@ -38,10 +38,10 @@ export default function AltyapiSistemleriPage() {
             {t("title")}
           </h1>
 
-          <div className="mt-6 h-1 w-24 bg-cyan-400" />
+          <div className="mt-6 h-1 w-24 bg-black" />
         </header>
 
-        {/* Ana açıklama */}
+        {/* ANA AÇIKLAMA */}
         <section>
           <h2 className="text-3xl font-bold text-black md:text-4xl lg:text-5xl">
             {t("mainTitle")}
@@ -54,18 +54,9 @@ export default function AltyapiSistemleriPage() {
           <p className="mt-6 max-w-[1350px] text-lg leading-9 text-black md:text-xl">
             {t("mainDescription2")}
           </p>
-
-          {/* Altyapı görseli */}
-          <div className="mt-12 overflow-hidden rounded-2xl">
-            <img
-              src={altyapiImage.src}
-              alt="TACH MEKANİK Altyapı Sistemleri"
-              className="h-auto w-full object-cover"
-            />
-          </div>
         </section>
 
-        {/* Kapsam */}
+        {/* ALTYAPI SİSTEMLERİ */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-black md:text-4xl lg:text-5xl">
             {t("scopeTitle")}
@@ -82,7 +73,7 @@ export default function AltyapiSistemleriPage() {
                 className="border-b border-black/10 pb-7"
               >
                 <div className="flex items-start gap-5">
-                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-cyan-400/10 font-bold text-cyan-400">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-black/10 font-bold text-black">
                     {index + 1}
                   </span>
 
@@ -95,7 +86,7 @@ export default function AltyapiSistemleriPage() {
           </div>
         </section>
 
-        {/* Güvenilir altyapı */}
+        {/* GÜVENİLİR ALTYAPI */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold text-black md:text-4xl lg:text-5xl">
             {t("reliabilityTitle")}
@@ -110,9 +101,9 @@ export default function AltyapiSistemleriPage() {
           </p>
         </section>
 
-        {/* Son bölüm */}
-        <section className="mt-24 border-t border-black/10 pb-16 pt-12">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
+        {/* SON BÖLÜM */}
+        <section className="mt-24 border-t border-black/10 pt-12">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-black">
             TACH MEKANİK
           </p>
 
