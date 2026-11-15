@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useEffect, useState } from "react";
@@ -39,12 +40,12 @@ export default function HeroSlider() {
   }, []);
 
   return (
-    <section className="relative w-full mt-0 md:mt-24 h-[420px] md:h-[550px] lg:h-[650px] overflow-hidden">
+    <section className="relative w-full mt-0 h-[420px] md:h-[550px] lg:h-[650px] overflow-hidden">
 
       <img
         src={images[current]}
         alt={`Slide ${current + 1}`}
-        className="absolute inset-0 w-full h-full object-cover object-center"
+        className="absolute inset-0 w-full h-full object-cover object-top"
       />
 
       <div className="absolute inset-0 bg-black/40"></div>
@@ -58,9 +59,7 @@ export default function HeroSlider() {
           {t("subtitle")}
         </p>
 
-        <button className="mt-8 px-8 py-3 bg-orange-500 hover:bg-orange-600 rounded-lg font-semibold">
-          {t("button")}
-        </button>
+        
       </div>
 
       <div className="absolute bottom-8 left-0 right-0 flex justify-center gap-3">

@@ -4,11 +4,16 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const t = useTranslations("menu");
   const locale = useLocale();
+  const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const isHomePage = pathname === `/${locale}`;
+  const textColor = isHomePage ? "text-white" : "text-black";
 
   const closeMobileMenu = () => setMobileMenuOpen(false);
 
@@ -33,21 +38,27 @@ export default function Navbar() {
     ["tamamlanan-projeler", "completedProjects"],
   ];
 
-  const linkClass =
-    "whitespace-nowrap py-3 text-sm font-semibold text-black transition hover:text-cyan-700";
+  const linkClass = `whitespace-nowrap py-3 text-base font-semibold ${textColor} transition hover:text-cyan-400`;
 
   const dropdownLinkClass =
-    "block rounded-lg px-4 py-1.5 text-sm text-black transition hover:bg-black/5 hover:text-cyan-700";
+    "block rounded-lg px-4 py-1.5 text-base text-black transition hover:bg-black/5 hover:text-cyan-700";
 
   const mobileLinkClass =
-    "block rounded-lg px-3 py-2 text-sm text-gray-800 transition hover:bg-black/5 hover:text-cyan-700";
+    "block rounded-lg px-3 py-2 text-base text-gray-800 transition hover:bg-black/5 hover:text-cyan-700";
 
   return (
     <header
-      style={{ backgroundColor: "#DCDCDC" }}
-      className="fixed top-0 z-50 w-full border-b border-gray-400/30 backdrop-blur-xl"
+      style={{
+        backgroundColor: isHomePage ? "transparent" : "#DCDCDC",
+      }}
+      className={`fixed top-0 z-50 w-full ${
+        isHomePage
+          ? "border-b-0"
+          : "border-b border-gray-400/30 backdrop-blur-xl"
+      }`}
     >
       <div className="mx-auto flex h-16 max-w-screen-2xl items-center justify-between px-4 sm:h-20 sm:px-5 lg:h-24 lg:px-10">
+
         {/* LOGO */}
         <Link
           href={`/${locale}`}
@@ -64,6 +75,7 @@ export default function Navbar() {
 
         {/* MASAÜSTÜ MENÜ */}
         <nav className="hidden items-center gap-5 lg:flex xl:gap-8">
+
           <Link href={`/${locale}`} className={linkClass}>
             {t("home")}
           </Link>
@@ -74,7 +86,7 @@ export default function Navbar() {
 
           {/* HİZMETLER */}
           <div className="group relative">
-            <div className="flex cursor-default items-center gap-1 whitespace-nowrap py-3 text-sm font-semibold text-black transition hover:text-cyan-700">
+            <div className={`flex cursor-default items-center gap-1 whitespace-nowrap py-3 text-base font-semibold ${textColor} transition hover:text-cyan-400`}>
               {t("services")}
               <span className="text-xs transition-transform duration-300 group-hover:rotate-180">
                 ▾
@@ -103,7 +115,7 @@ export default function Navbar() {
 
           {/* PROJELER */}
           <div className="group relative">
-            <div className="flex cursor-default items-center gap-1 whitespace-nowrap py-3 text-sm font-semibold text-black transition hover:text-cyan-700">
+            <div className={`flex cursor-default items-center gap-1 whitespace-nowrap py-3 text-base font-semibold ${textColor} transition hover:text-cyan-400`}>
               {t("projects")}
               <span className="text-xs transition-transform duration-300 group-hover:rotate-180">
                 ▾
@@ -118,7 +130,7 @@ export default function Navbar() {
                 <Link
                   key={path}
                   href={`/${locale}/${path}`}
-                  className="block rounded-lg px-4 py-2 text-sm text-black transition hover:bg-black/5 hover:text-cyan-700"
+                  className="block rounded-lg px-4 py-2 text-base text-black transition hover:bg-black/5 hover:text-cyan-700"
                 >
                   {t(key)}
                 </Link>
@@ -128,14 +140,18 @@ export default function Navbar() {
 
           <Link
             href={`/${locale}/iletisim`}
-            className="whitespace-nowrap rounded-lg border border-black/30 px-4 py-2 text-sm font-semibold text-black transition hover:border-cyan-700 hover:bg-black/5 hover:text-cyan-800"
+            className={`whitespace-nowrap rounded-lg border px-4 py-2 text-base font-semibold transition ${
+              isHomePage
+                ? "border-white/70 text-white hover:bg-white/10"
+                : "border-black/30 text-black hover:border-cyan-700 hover:bg-black/5 hover:text-cyan-800"
+            }`}
           >
             {t("contact")}
           </Link>
 
           <Link
             href={`/${locale}/teklif-al`}
-            className="whitespace-nowrap rounded-lg bg-cyan-600 px-4 py-2 text-sm font-bold text-white transition hover:scale-105 hover:bg-cyan-700"
+            className="whitespace-nowrap rounded-lg bg-cyan-600 px-4 py-2 text-base font-bold text-white transition hover:scale-105 hover:bg-cyan-700"
           >
             {t("quote")}
           </Link>
@@ -143,6 +159,7 @@ export default function Navbar() {
 
         {/* SAĞ TARAF */}
         <div className="flex items-center gap-2 sm:gap-3 lg:gap-5">
+
           {/* DİL SEÇİMİ */}
           <div className="flex items-center gap-1 sm:gap-2">
             {[
@@ -164,7 +181,7 @@ export default function Navbar() {
                   alt={alt}
                   className="h-5 w-5 rounded-full object-cover"
                 />
-                <span className="hidden text-xs font-semibold text-black sm:inline">
+                <span className={`hidden text-sm font-semibold ${textColor} sm:inline`}>
                   {label}
                 </span>
               </Link>
@@ -175,7 +192,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setMobileMenuOpen((prev) => !prev)}
-            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-black/10 bg-black/5 text-xl text-black transition hover:border-cyan-700/50 hover:bg-black/10 lg:hidden"
+            className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-black/10 bg-black/5 text-xl transition hover:bg-black/10 lg:hidden ${textColor}`}
             aria-label="Mobil menüyü aç/kapat"
             aria-expanded={mobileMenuOpen}
           >
@@ -194,10 +211,11 @@ export default function Navbar() {
         }`}
       >
         <nav className="mx-auto flex max-w-screen-2xl flex-col px-3 py-2 sm:px-5">
+
           <Link
             href={`/${locale}`}
             onClick={closeMobileMenu}
-            className="rounded-lg px-3 py-3 font-medium text-black transition hover:bg-black/5 hover:text-cyan-700"
+            className="rounded-lg px-3 py-3 text-base font-medium text-black transition hover:bg-black/5 hover:text-cyan-700"
           >
             {t("home")}
           </Link>
@@ -205,14 +223,14 @@ export default function Navbar() {
           <Link
             href={`/${locale}/hakkimizda`}
             onClick={closeMobileMenu}
-            className="rounded-lg px-3 py-3 font-medium text-black transition hover:bg-black/5 hover:text-cyan-700"
+            className="rounded-lg px-3 py-3 text-base font-medium text-black transition hover:bg-black/5 hover:text-cyan-700"
           >
             {t("about")}
           </Link>
 
           {/* MOBİL HİZMETLER */}
           <div className="border-t border-black/10 pt-1">
-            <div className="rounded-lg px-3 py-2 font-medium text-black">
+            <div className="rounded-lg px-3 py-2 text-base font-medium text-black">
               {t("services")}
             </div>
 
@@ -233,14 +251,14 @@ export default function Navbar() {
           <Link
             href={`/${locale}/galeri`}
             onClick={closeMobileMenu}
-            className="rounded-lg px-3 py-3 font-medium text-black transition hover:bg-black/5 hover:text-cyan-700"
+            className="rounded-lg px-3 py-3 text-base font-medium text-black transition hover:bg-black/5 hover:text-cyan-700"
           >
             {t("gallery")}
           </Link>
 
           {/* MOBİL PROJELER */}
           <div className="border-t border-black/10 pt-1">
-            <div className="rounded-lg px-3 py-2 font-medium text-black">
+            <div className="rounded-lg px-3 py-2 text-base font-medium text-black">
               {t("projects")}
             </div>
 
@@ -261,7 +279,7 @@ export default function Navbar() {
           <Link
             href={`/${locale}/iletisim`}
             onClick={closeMobileMenu}
-            className="mt-2 rounded-lg border border-black/30 px-3 py-2.5 text-center font-semibold text-black transition hover:bg-black/5 hover:text-cyan-800"
+            className="mt-2 rounded-lg border border-black/30 px-3 py-2.5 text-center text-base font-semibold text-black transition hover:bg-black/5 hover:text-cyan-800"
           >
             {t("contact")}
           </Link>
@@ -269,7 +287,7 @@ export default function Navbar() {
           <Link
             href={`/${locale}/teklif-al`}
             onClick={closeMobileMenu}
-            className="mt-2 rounded-lg bg-cyan-600 px-3 py-3 text-center font-bold text-white transition hover:bg-cyan-700"
+            className="mt-2 rounded-lg bg-cyan-600 px-3 py-3 text-center text-base font-bold text-white transition hover:bg-cyan-700"
           >
             {t("quote")}
           </Link>
