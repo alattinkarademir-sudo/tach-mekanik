@@ -40,13 +40,13 @@ export default function HeroSlider() {
   }, []);
 
   return (
-    <section className="relative w-full mt-0 h-[420px] md:h-[550px] lg:h-[650px] overflow-hidden">
+    <section className="relative w-full mt-0 h-screen min-h-[650px] overflow-hidden">
 
       <img
-        src={images[current]}
-        alt={`Slide ${current + 1}`}
-        className="absolute inset-0 w-full h-full object-cover object-top"
-      />
+  src={images[current]}
+  alt={`Slide ${current + 1}`}
+  className="absolute inset-0 block w-full h-full object-cover object-center"
+/>
 
       <div className="absolute inset-0 bg-black/40"></div>
 
@@ -58,8 +58,6 @@ export default function HeroSlider() {
         <p className="mt-4 text-base sm:text-lg md:text-xl lg:text-2xl max-w-3xl">
           {t("subtitle")}
         </p>
-
-        
       </div>
 
       <div className="absolute bottom-8 left-0 right-0 flex justify-center gap-3">
@@ -73,6 +71,7 @@ export default function HeroSlider() {
           />
         ))}
       </div>
+
     </section>
   );
 }
