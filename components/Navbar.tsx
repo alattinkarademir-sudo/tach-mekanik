@@ -68,7 +68,7 @@ export default function Navbar() {
           <img
             src="/logo.png"
             alt="TACH MEKANİK"
-            className="h-11 w-auto object-contain sm:h-14 lg:h-[76px]"
+            className="h-12 w-auto object-contain sm:h-14 lg:h-[90px]"
             draggable={false}
           />
         </Link>
